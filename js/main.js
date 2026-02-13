@@ -1,3 +1,11 @@
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/safar-uzbekistan/sw.js')
+            .then(reg => console.log('SW ro\'yxatdan o\'tdi!', reg))
+            .catch(err => console.log('SW xatosi:', err));
+    });
+}
+
 "use strict";
 
 Object.defineProperty(String.prototype, 'ucfirst', {
@@ -125,7 +133,7 @@ const translations = {
         "more_resource_item_namaz": "🕔 <strong>Namozi vaqtlari</strong> «Al Adhan Service» tarmog‘i ma’lumotlari asosida tayyorlandi <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
         "more_notice": "O‘zbekiston Respublikasi Din ishlari bo‘yicha qo‘mitasining <br>2025-yil 18-dekabrdagi 03-07/8139 sonli xulosasi asosida tayyorlandi",
         "btn_install_pwa": "Ilovani o‘rnatish (PWA)",
-        
+
         "btn_fatvo": "Fatvo markazi",
         "btn_vaqf": "Vaqf fondi",
         "footer_note": "O‘zbekiston Respublikasi Din ishlari bo‘yicha qo‘mitasining xulosasi asosida tayyorlandi.",
