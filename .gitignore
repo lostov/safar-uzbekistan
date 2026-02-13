@@ -17,3 +17,5 @@ dist/
 build/
 .env
 *.local
+localhost.pem
+localhost.key
