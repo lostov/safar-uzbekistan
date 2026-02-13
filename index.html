@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="uz">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Safar - Mas'uliyatli Sayohat</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="shortcut icon" href="icons/favicon.ico">
+
+        <!-- Apple Touch Icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+        <!-- PWA Manifest -->
+        <link rel="manifest" href="manifest.json">
+
+        <!-- Theme Color -->
+        <meta name="theme-color" content="#1b1b1b">
+        <meta name="msapplication-TileColor" content="#1b1b1b">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/Montserrat/montserrat.css">
+        <style>
+            .nav-bottom {
+                position: fixed;
+                bottom: 1.5rem;
+                width: 100%;
+                z-index: 1000;
+            }
+            .nav-bottom > .container {
+                background: var(--accent-gold);
+                border-top: 1px solid #dee2e6;
+                border-radius: 2rem;
+                padding-top: 5px;
+            }
+            .nav-bottom .nav-link { text-align: center; font-size: 12px; color: #7e7e7e; color: rgba(0, 0, 0, 0.5); figure svg {opacity: 0.5;}}
+            .nav-bottom .nav-link.active { color: var(--bg-dark); figure svg {opacity: 1;} }
+            .nav-bottom i { display: block; font-size: 20px; }
+            .tab-content { display: none; padding: 20px; }
+            .tab-content.active { display: block; }
+            .card-custom { border-radius: 15px; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 15px; }
+            .btn-official { border-radius: 10px; margin-bottom: 10px; text-align: left; }
+            .lang-switcher { font-size: 14px; }
+        </style>
+        <style>
+            :root {
+                --bg-dark: #121212;
+                --card-bg: #1b1b1b;
+                --accent-gold: #D4AF37; 
+                --text-main: #E0E0E0;
+                --text-muted: #A0A0A0;
+                --danger-red: #ff4d4d;
+            }
+
+            body {
+                background-color: var(--bg-dark);
+                background-image: url('images/blue_pattern.jpg');
+                background-repeat: repeat;
+                background-size: 150px;
+                background-attachment: fixed;
+                color: var(--text-main);
+                font-family: 'Montserrat', sans-serif;
+                margin: 0;
+                padding-bottom: 80px;
+            }
+
+            body::before {
+                content: "";
+                position: fixed;
+                top: 0; left: 0; width: 100%; height: 100%;
+                background: rgba(18, 18, 18, 0.85);
+                z-index: -1;
+            }
+
+            .navbar-brand {
+                background-image: url('images/favicon-96x96.png');
+                min-height: 60px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-inline-start: 60px !important;
+            }
+
+            .no-bg-c {
+                background-color: unset !important;
+            }
+
+            .no-bg {
+                background: unset !important;
+            }
+
+            .section-title-box {
+                display: flex; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: flex-end;
+                padding: 50px;
+                margin-bottom: 25px;
+                border-radius: 15px;
+                background-image: linear-gradient(135deg, rgba(127, 178, 127, 0.9), rgba(19, 167, 149, 0.9)), url('images/case.png');
+                background-size: cover, 300px auto;
+                background-repeat: no-repeat;
+                background-position: center, left 35px; 
+                background-blend-mode: multiply;            
+                min-height: 400px;
+                background-origin: border-box;
+            }
+            .section-title-text {
+                display: flex;
+                text-align: right;
+                width: 67%;
+                font-size: 2.5rem;
+                font-weight: 900;
+                color: var(--accent-gold);
+                line-height: 1.4;
+                text-transform: uppercase;
+                letter-spacing: 2.5px;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .main-navbar {
+                background-color: var(--card-bg);
+                border-bottom: 1px solid var(--accent-gold);
+            }
+
+            .section-blockquote {
+                background-color: var(--card-bg);
+                background-image: url('images/sheik.png');
+                background-position: right, right bottom 20px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-origin: border-box;
+                padding: 50px;
+
+
+                figcaption {
+                    margin: 0;
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                    color: var(--accent-gold);
+                }
+
+            }
+
+            .section-goverment {
+                background-color: var(--card-bg);
+                font-size: 1.1rem;
+                line-height: 2rem;
+                color: var(--text-main);
+                font-family: 'Montserrat', sans-serif;
+                text-align: justify;
+                figure {
+                    margin: 0;
+                    figcaption {
+                        display: flex;
+                        justify-content: flex-start;
+                        margin: 0;
+                        a {
+                            text-decoration: none;
+                            font-size: 2rem;
+                            letter-spacing: 2px;
+                            color: var(--accent-gold);
+                        }
+                    }
+                }
+            }
+
+            .section-official-links {
+                background-color: var(--card-bg);
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.1rem;
+                line-height: 2rem;
+                
+                color: var(--text-main) !important;
+
+                .accordion-item {
+                    background: unset !important;
+                    color: var(--text-main) !important;
+                    border-color: var(--accent-gold) !important;
+
+                    button {
+                        background: unset !important;
+                        color: var(--accent-gold) !important;
+                    }
+                }
+
+                .accordion-body {
+                    border-color: var(--accent-gold) !important ;
+                }
+            }
+
+
+            .section-not-allowed {
+                background-color: var(--card-bg);
+                font-size: 1.1rem;
+                line-height: 2rem;
+                color: var(--danger-red);
+                font-family: 'Montserrat', sans-serif;
+                
+                font-size: 1.1rem;
+                line-height: 2rem;
+                
+                .accordion-item {
+                    background: unset !important;
+                    color: var(--text-main) !important;
+                    border-color: var(--danger-red) !important;
+
+                    button {
+                        background: unset !important;
+                        color: var(--danger-red) !important;
+                    }
+                }
+
+                .accordion-body {
+                    border-color: var(--danger-red) !important ;
+                }
+            }
+
+            .section-embassy-box {
+                position: relative;
+                display: flex; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: flex-end;
+                padding: 50px;
+                margin-bottom: 25px;
+                border-radius: 15px;
+                background: linear-gradient(135deg, rgba(0, 182, 232, 0.9), rgba(0, 114, 211, 0.9));
+                background-size: cover, 300px auto;
+                background-repeat: no-repeat;
+                background-position: center, left 35px; 
+                background-blend-mode: multiply;            
+                min-height: 400px;
+                background-origin: border-box;
+                overflow: hidden;
+            }
+            .section-embassy-text {
+                display: flex;
+                text-align: right;
+                width: 75%;
+                font-size: 2.5rem;
+                font-weight: 900;
+                color: var(--text-main);
+                line-height: 1.4;
+                text-transform: uppercase;
+                letter-spacing: 3.5px;
+                font-family: 'Montserrat', sans-serif;
+                z-index: 2;
+                text-shadow: 1px -1px 0 #D4AF37, -3px -3px 2px black, 2px 1px 3px rgba(193, 94, 221, 0.5);
+                flex-direction: column;
+
+                button {
+                    justify-content: right;
+                    align-items: center;
+                    display: flex;
+                    text-decoration: none;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.5rem;
+                    color: var(--text-muted) !important;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                }
+
+                button svg {
+                    margin-left: 5px;
+                    margin-bottom: 1px;
+                }
+                
+                button:hover svg {
+                    fill: var(--accent-gold) !important; /* Agar SVG fill ishlatgan bo'lsa */
+                    stroke: var(--accent-gold) !important; /* Agar SVG stroke ishlatgan bo'lsa */
+                    color: var(--accent-gold) !important;
+                }
+
+                button:hover, button:focus, button:active {
+                    color: var(--accent-gold) !important;
+                    text-shadow: 1px -1px 0 #D4AF37, -3px -3px 2px black, 2px 1px 3px rgba(193, 94, 221, 0.5);
+                }
+            }
+
+            .section-embassy-picture {
+                position: absolute;
+                left: -5px;
+                bottom: -15px;
+                max-height: 400px;
+                user-select: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                z-index: 1;
+                opacity: 0.75;
+            }
+
+            
+
+            .section-charity-box {
+                position: relative;
+                display: flex; 
+                flex-direction: row-reverse; 
+                justify-content: center; 
+                align-items: center;
+                padding: 50px;
+                margin-bottom: 25px;
+                border-radius: 15px;
+                background: url('images/vaqf_bg.jpg');
+                background-size: cover, 300px auto;
+                background-repeat: no-repeat;
+                background-position: center, left 35px; 
+                background-blend-mode: multiply;            
+                min-height: 400px;
+                background-origin: border-box;
+                overflow: hidden;
+            }
+            .section-charity-picture {
+                display: flex;
+            }
+            .section-charity-text {
+                display: flex;
+                text-align: center;
+                width: 50%;
+                font-size: 2.5rem;
+                font-weight: 900;
+                color: var(--text-main);
+                text-transform: uppercase;
+                letter-spacing: 3.5px;
+                font-family: 'Montserrat', sans-serif;
+                z-index: 2;
+                text-shadow: 1px -1px 0 #D4AF37, -3px -3px 2px black, 2px 1px 3px rgba(193, 94, 221, 0.5);
+            }
+
+            #safarModalEmbassy {
+                .modal-dialog {
+                    .modal-body {
+                        
+
+                        .phone-code {
+                            padding-bottom: 0.75rem !important;
+                            text-align: left;
+                        }
+
+                        table {
+                            tr {
+                                td {
+                                    background-color: #1b1b1b !important;
+                                    color: var(--accent-gold);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 768px) {
+                .main-navbar {
+                    border-bottom-left-radius: 2rem;
+                    border-bottom-right-radius: 2rem;
+                }
+
+                .nav-bottom {
+                    padding-top: 5px;
+                    border-radius: 2rem;
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                    padding-bottom: 1rem;
+                    padding-top: 1rem;
+                    bottom: 0;
+                }
+                .nav-bottom > .container {
+                    background: var(--accent-gold);
+                    background: unset !important;
+                    backdrop-filter: blur(2.5px) brightness(1.5);
+                    border-top: 1px solid #dee2e6;
+                }
+
+                .nav-bottom .nav-link { 
+                    color: var(--text-main);
+                }
+
+                .nav-bottom .nav-link.active { 
+                    color: var(--accent-gold);
+                }
+
+                .section-title-box {
+                    padding: 30px 20px;
+                    background-position: center, left bottom 0px; /* Rasm pastga tushadi */
+                    background-size: cover, 200px auto;
+                    min-height: 350px;
+                    justify-content: flex-start;
+                }
+                
+                .section-title-text {
+                    width: 100%; 
+                    font-size: 1.6rem; 
+                    justify-content: center;
+                    letter-spacing: 1.5px;
+                    line-height: 1.8;
+                }
+
+                .section-blockquote {
+                    background-origin: border-box;
+                    padding: 30px 60px 60px 20px;
+                    background-position-x: right;
+                    background-size: 120px;
+                    background-position-y: 120px;
+
+                    figcaption {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .section-goverment {
+                    padding: 10px;
+                }
+
+                .section-not-allowed {
+                    padding: 10px;
+                    font-size: 1rem;
+                    blockquote {
+                        font-size: 1rem;
+
+                        img {
+                            width: 50px !important;
+                        }
+                    }
+                }
+
+                .section-embassy-box {
+                    padding: 30px 20px;
+                    background-position: center, left bottom 0px; /* Rasm pastga tushadi */
+                    background-size: cover, 200px auto;
+                    min-height: 350px;
+                    justify-content: flex-start;
+                }
+                .section-embassy-picture {
+                    max-height: 300px;
+                    left: -10px;
+                    bottom: -10px;
+                }
+                .section-embassy-text {
+                    width: 100%; 
+                    font-size: 1.6rem; 
+                    justify-content: center;
+                    letter-spacing: 1.5px;
+                    line-height: 1.8;
+
+                    button {
+                        margin-top: 10px;
+                        color: var(--accent-gold) !important;
+                        text-shadow: 1px -1px 0 #D4AF37, -3px -3px 2px black, 2px 1px 3px rgba(193, 94, 221, 0.5);
+                        border: 2px solid var(--accent-gold);
+                        justify-content: center;
+                    }
+
+                    button svg {
+                        margin-bottom: 2px;
+                        fill: var(--accent-gold) !important; /* Agar SVG fill ishlatgan bo'lsa */
+                        stroke: var(--accent-gold) !important; /* Agar SVG stroke ishlatgan bo'lsa */
+                        color: var(--accent-gold) !important;
+                    }
+                }
+                
+                #safarModalEmbassy {
+                    .modal-dialog {
+                        .modal-body {
+                            padding: 0 !important;
+                            .phone-code {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                .section-charity-box {
+                    flex-wrap: wrap;
+                    padding: 1rem;
+
+                    .section-charity-picture {
+                        max-width: 100%;
+                        margin-bottom: 20px;
+                    }
+
+                    .section-charity-text {
+                        width: 100%;
+                        font-size: 1.6rem;
+                        letter-spacing: 3.5px;
+                        line-height: 1.8;
+                        font-weight: 700;
+                    }
+                }
+
+                .nav-bottom .nav-link {
+                    figure svg {
+                        
+                        [fill="#1C274C"] {
+                            fill: #fff !important;
+                        }
+                    }
+                }
+
+                
+                .nav-bottom .nav-link.active {
+                    figure svg {
+                        
+                        [fill="#1C274C"] {
+                            fill: var(--accent-gold) !important;
+                        }
+                    }
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar main-navbar shadow-sm sticky-top">
+            <div class="container">
+                <span onclick="showTab(tabHome, mainHome)" class="navbar-brand mb-0 h1 fw-bold ps-md-4 ps-4" style="color: var(--accent-gold); font-weight: 900; font-family: 'Montserrat', sans-serif;">Safar Uzbekistan</span>
+                <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle lang-switcher d-flex align-items-center" type="button" data-bs-toggle="dropdown">
+                        <img src="images/lang_oz.png" alt="OZ" class="lang-icon me-1" id="current-lang-img"> 
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end shadow">
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLang('oz', 'images/lang_uz.png')">
+                                <img src="images/lang_uz.png" class="lang-icon me-2" alt="O‘zbekcha"> O‘zbekcha
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLang('uz', 'images/lang_uz.png')">
+                                <img src="images/lang_uz.png" class="lang-icon me-2" alt="Ўзбекча"> Ўзбекча
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLang('ru', 'images/lang_ru.png')">
+                                <img src="images/lang_ru.png" class="lang-icon me-2" alt="Русский"> Русский
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLang('en', 'images/lang_en.png')">
+                                <img src="images/lang_en.png" class="lang-icon me-2" alt="English"> English
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-4">
+            
+            <div id="home" class="tab-content active">
+                <div class="section section-title-box shadow-lg rounded-5">
+                    <div class="section-title-text" data-i18n="brand_title"></div>
+                </div>
+
+                <div class="section section-blockquote mb-4 shadow-lg rounded-5">
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p data-i18n="brand_quote"></p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer" data-i18n="brand_quote_author"></figcaption>
+                    </figure>
+                </div>
+
+                <div class="section section-goverment mb-4 shadow-lg rounded-5">
+                    <div class="content p-md-5 p-3">
+                        <figure class="text-justify">
+                            <blockquote class="blockquote">
+                                <p data-i18n="main_annotation"></p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <a data-i18n="main_annotation_url" data-i18n-attr="href" target="_blank" target="_blank">lex.uz</a>
+                                <button class="btn btn-icon" data-safar-action="copy" data-i18n="main_annotation_url" data-i18n-attr="data-copy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                </button>
+                                <button class="btn btn-icon" data-safar-action="qrcode" data-i18n="main_annotation_url" data-i18n-attr="data-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                </button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="section section-official-links mb-4 shadow-lg rounded-5">
+                    <div class="content p-md-5 p-4">
+                        <div class="content-header text-center mb-md-4 mb-4">
+                            <span class="image">
+                                <svg width="80px" height="80px" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M725.333333 362.666667c0 117.824-95.509333 64.021333-213.333333 64.021333S298.666667 480.490667 298.666667 362.666667 512 149.333333 512 149.333333s213.333333 95.509333 213.333333 213.333334zM128 192.021333C128 156.672 192 128 192 128s64 28.672 64 64.021333a64 64 0 1 1-128 0zM768 192.021333C768 156.672 832 128 832 128s64 28.672 64 64.021333a64 64 0 0 1-128 0z" fill="#A1887F" /><path d="M149.333333 234.666667h85.333334v341.333333H149.333333zM789.333333 234.666667h85.333334v341.333333h-85.333334z" fill="#A1887F" /><path d="M106.666667 576h810.666666v320H106.666667z" fill="#BCAAA4" /><path d="M320 426.666667h384v469.333333H320z" fill="#D7CCC8" /><path d="M384 682.666667c0-70.677333 128-128 128-128s128 57.322667 128 128a128 128 0 0 1-256 0z" fill="#8D6E63" /><path d="M384 682.666667h256v213.333333H384z" fill="#8D6E63" /><path d="M448 746.666667c0-35.328 64-64 64-64s64 28.672 64 64a64.021333 64.021333 0 0 1-128 0z" fill="#3E2723" /><path d="M448 746.666667h128v149.333333h-128z" fill="#3E2723" /><path d="M896 277.333333v-21.333333a21.333333 21.333333 0 0 0-21.333333-21.333333h-85.333334a21.333333 21.333333 0 0 0-21.333333 21.333333v21.333333h128zM256 277.354667v-21.333334a21.333333 21.333333 0 0 0-21.333333-21.333333H149.333333a21.333333 21.333333 0 0 0-21.333333 21.333333v21.333334h128z" fill="#6D4C41" /><path d="M746.666667 746.666667c0-35.328 64-64 64-64s64 28.672 64 64-28.672 64-64 64-64-28.672-64-64z" fill="#5D4037" /><path d="M746.666667 746.666667h128v149.333333h-128zM149.333333 746.666667c0-35.328 64-64 64-64s64 28.672 64 64a64 64 0 0 1-128 0z" fill="#5D4037" /><path d="M149.333333 746.666667h128v149.333333H149.333333zM362.666667 469.333333h42.666666v42.666667h-42.666666zM448 469.333333h42.666667v42.666667h-42.666667zM533.333333 469.333333h42.666667v42.666667h-42.666667zM618.666667 469.333333h42.666666v42.666667h-42.666666z" fill="#5D4037" /></svg>
+                            </span>
+                            <h3 class="mt-2 mb-0" data-i18n="official_links_title"></h3>
+                        </div>
+                        <div class="content-body">
+                            <div class="accordion rounded-5" id="officialLinks">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="officialLinkHead1">
+                                        <button data-i18n="official_links_item1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#officialLinkCollapse1" aria-expanded="true" aria-controls="officialLinkCollapse1"></button>
+                                    </h2>
+                                    <div id="officialLinkCollapse1" class="accordion-collapse collapse" aria-labelledby="officialLinkHead1" data-bs-parent="#officialLinks">
+                                        <div class="accordion-body">
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text btn bg-success" id="officialLinkCollapse1-addon1" data-safar-action="qrcode" data-i18n="main_annotation_url" data-i18n-attr="data-link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse1-input" class="form-control no-bg text-warning is-valid" value="https://taplink.cc/dinqumita" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse1-helper">
+                                                <span class="input-group-text btn bg-success" id="officialLinkCollapse1-addon2" ata-safar-action="copy" data-i18n="main_annotation_url" data-i18n-attr="data-copy">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                                <div data-i18n="double_tap_link_note" id="officialLinkCollapse1-helper" class="valid-feedback d-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="officialLinkHead2">
+                                        <button data-i18n="official_links_item2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#officialLinkCollapse2" aria-expanded="false" aria-controls="officialLinkCollapse2"></button>
+                                    </h2>
+                                    <div id="officialLinkCollapse2" class="accordion-collapse collapse" aria-labelledby="officialLinkHead2" data-bs-parent="#officialLinks">
+                                        <div class="accordion-body">
+                                            <label data-i18n="official_links_item2_label1" for="officialLinkCollapse2-input1"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse2-addon1" data-safar-action="qrcode" data-i18n="official_links_item2_link1" data-i18n-attr="data-link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse2-input1" class="form-control no-bg text-warning is-valid" value="https://taplink.cc/kanallar" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse2-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse2-addon2" data-safar-action="copy" data-i18n="official_links_item2_link1" data-i18n-attr="data-copy">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+                                            
+                                            <label data-i18n="official_links_item2_label2" for="officialLinkCollapse2-input2"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse2-addon3">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse2-input2" class="form-control no-bg text-warning is-valid" value="https://taplink.cc/muslimuz" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse2-helper2">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse2-addon4">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                                <div data-i18n="double_tap_link_note" id="officialLinkCollapse2-helper2" class="valid-feedback d-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="officialLinkHead3">
+                                        <button data-i18n="official_links_item3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#officialLinkCollapse3" aria-expanded="false" aria-controls="officialLinkCollapse3">                                    </button>
+                                    </h2>
+                                    <div id="officialLinkCollapse3" class="accordion-collapse collapse" aria-labelledby="officialLinkHead3" data-bs-parent="#officialLinks">
+                                        <div class="accordion-body">
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse3-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse3-input" class="form-control no-bg text-warning is-valid" value="https://taplink.cc/diniysavollar" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse3-helper">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse3-addon2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                                <div data-i18n="double_tap_link_note" id="officialLinkCollapse3-helper" class="valid-feedback d-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="officialLinkHead4">
+                                        <button data-i18n="official_links_item4" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#officialLinkCollapse4" aria-expanded="false" aria-controls="officialLinkCollapse4">                                    </button>
+                                    </h2>
+                                    <div id="officialLinkCollapse4" class="accordion-collapse collapse" aria-labelledby="officialLinkHead4" data-bs-parent="#officialLinks">
+                                        <div class="accordion-body">
+                                            <label data-i18n="official_links_item4_label1" for="officialLinkCollapse4-input1"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse4-input1" class="form-control no-bg text-warning is-valid" value="https://t.me/iiau_official" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse4-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+
+                                            <label data-i18n="official_links_item4_label2" for="officialLinkCollapse4-input2"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon3">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse4-input2" class="form-control no-bg text-warning is-valid" value="https://t.me/oliymahad" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse4-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon4">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+
+                                            <label data-i18n="official_links_item4_label3" for="officialLinkCollapse4-input3"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon5">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse4-input3" class="form-control no-bg text-warning is-valid" value="https://t.me/oliymahad" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse4-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon6">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+
+                                            <label data-i18n="official_links_item4_label4" for="officialLinkCollapse4-input4"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon7">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse4-input4" class="form-control no-bg text-warning is-valid" value="https://t.me/Mirarabuz" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse4-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse4-addon8">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                                <div data-i18n="double_tap_link_note" id="officialLinkCollapse4-helper1" class="valid-feedback d-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="officialLinkHead5">
+                                        <button data-i18n="official_links_item5" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#officialLinkCollapse5" aria-expanded="false" aria-controls="officialLinkCollapse5">                                    </button>
+                                    </h2>
+                                    <div id="officialLinkCollapse5" class="accordion-collapse collapse" aria-labelledby="officialLinkHead5" data-bs-parent="#officialLinks">
+                                        <div class="accordion-body">
+                                            
+                                            <label data-i18n="official_links_item5_label1" for="officialLinkCollapse5-input1"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse5-input1" class="form-control no-bg text-warning is-valid" value="https://t.me/bukhariuz" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse5-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+
+                                            <label data-i18n="official_links_item5_label2" for="officialLinkCollapse5-input2"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon3">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse5-input2" class="form-control no-bg text-warning is-valid" value="https://t.me/moturidiyuz" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse5-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon4">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+
+                                            <label data-i18n="official_links_item5_label3" for="officialLinkCollapse5-input3"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon5">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse5-input3" class="form-control no-bg text-warning is-valid" value="https://t.me/termiziylar_uz" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse5-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon6">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+
+                                            <label data-i18n="official_links_item5_label4" for="officialLinkCollapse5-input4"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon7">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="officialLinkCollapse5-input4" class="form-control no-bg text-warning is-valid" value="https://t.me/islommarkazi" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="officialLinkCollapse5-helper1">
+                                                <span class="input-group-text bg-success" id="officialLinkCollapse5-addon8">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                                <div data-i18n="double_tap_link_note" id="officialLinkCollapse5-helper1" class="valid-feedback d-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section section-not-allowed mb-4 shadow-lg rounded-5">
+                    <div class="content p-md-5 p-3">
+                        <div class="content-header">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                    <img src="images/stop.png" alt="stop" class="mb-4" style="width: 75px; opacity: 0.5;">
+                                    <p data-i18n="not_allowed_title"></p>
+                                </blockquote>
+                                <figcaption data-i18n="not_allowed_title_lastdate" class="blockquote-footer"></figcaption>
+                            </figure>    
+                        </div>
+                        
+                        <div class="content-body">
+                            <div class="accordion rounded-5" id="notAlloweds">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="notAllowedHead1">
+                                        <button data-i18n="not_allowed_item1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#notAllowedCollapse1" aria-expanded="true" aria-controls="notAllowedCollapse1"></button>
+                                    </h2>
+                                    <div id="notAllowedCollapse1" class="accordion-collapse collapse" aria-labelledby="notAllowedHead1" data-bs-parent="#notAlloweds">
+                                        <div class="accordion-body">
+                                            <label data-i18n="not_allowed_item1_label1" for="notAllowedCollapse1-input1"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse1-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="notAllowedCollapse1-input1" class="form-control no-bg text-danger rounded-0" value="https://sud.uz/wp-content/uploads/2026/01/10_01_2026_ҳолатига_сайт_учун_диний_таъқиқланган_саҳифалар_kuchirish_yopilgan.pdf" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="notAllowedCollapse1-helper1">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse1-addon2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <hr>
+
+                                            <label data-i18n="not_allowed_item1_label2" for="notAllowedCollapse1-input2"></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse1-addon3">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="notAllowedCollapse1-input2" class="form-control no-bg text-danger rounded-0" value="https://t.me/oliysuduz/47047" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="notAllowedCollapse1-helper1">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse1-addon4">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                                <div data-i18n="double_tap_link_note" id="notAllowedCollapse1-helper1" class="invalid-feedback d-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="notAllowedHead2">
+                                        <button data-i18n="not_allowed_item2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#notAllowedCollapse2" aria-expanded="false" aria-controls="notAllowedCollapse2"></button>
+                                    </h2>
+                                    <div id="notAllowedCollapse2" class="accordion-collapse collapse" aria-labelledby="notAllowedHead2" data-bs-parent="#notAlloweds">
+                                        <div class="accordion-body">
+                                            <label data-i18n="not_allowed_item2_label1" for="notAllowedCollapse2-input1"></label>
+                                            <div class="input-group">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse2-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="notAllowedCollapse2-input1" class="form-control no-bg text-danger rounded-0" value="https://lex.uz/docs/111453#2965836" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="notAllowedCollapse2-helper1">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse2-addon2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <div class="input-group mt-3">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse2-addon3">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="notAllowedCollapse2-input2" class="form-control no-bg text-danger rounded-0" value="https://t.me/toshkentshaharsudlari/13424" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="notAllowedCollapse2-helper1">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse2-addon4">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                            </div>
+                                            <div class="input-group mt-3">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse2-addon5">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="var(--accent-gold)" viewBox="0 0 16 16"> <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/> <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/> <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/> <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/> <path d="M12 9h2V8h-2z"/> </svg>
+                                                </span>
+                                                <input type="text" id="notAllowedCollapse2-input3" class="form-control no-bg text-danger rounded-0" value="https://youtu.be/IYnjzmPvTvo" readonly aria-label="link" data-safar-action="double-tap" aria-describedby="notAllowedCollapse2-helper1">
+                                                <span class="input-group-text bg-danger" id="notAllowedCollapse2-addon6">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--accent-gold)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>
+                                                </span>
+                                                <div data-i18n="double_tap_link_note" id="notAllowedCollapse2-helper1" class="invalid-feedback d-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section section-embassy-box shadow-lg rounded-5">
+                    <img class="section-embassy-picture" data-i18n="brand_embassy_picture" data-i18n-attr="src">
+                    <div class="section-embassy-text" data-i18n="brand_embassy"></div>
+                </div>
+                
+                <div class="section section-charity-box shadow-lg rounded-5" onclick="openCharity()">
+                    <img class="section-charity-picture" src="images/vaqf.png" alt="charity">
+                    <div class="section-charity-text" data-i18n="vaqf_charity_text"></div>
+                </div>
+            </div>
+
+            <div id="weather" class="tab-content">
+                <style>
+                    .weather-icon {
+                        font-size: 5rem;
+                    }
+                    /* Konteyner strukturasi */
+                    .weather-responsive-grid {
+                        display: grid;
+                        gap: 15px;
+                        grid-template-columns: 1fr; /* Mobil uchun 1 ustun */
+                    }
+
+                    /* Desktop uchun: Ekran 992px dan katta bo'lsa 5 ta ustun qilamiz */
+                    @media (min-width: 992px) {
+                        .weather-responsive-grid {
+                            grid-template-columns: repeat(5, 1fr); /* 5 kun yonma-yon */
+                            width: 100%;
+                        }
+                        
+                        .day-times-row {
+                            flex-direction: column; /* Desktopda vaqtlar ustun bo'lib tushadi (karta sig'ishi uchun) */
+                            gap: 10px;
+                        }
+                        
+                        .time-block {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            border-bottom: 1px dashed #eee;
+                            padding-bottom: 5px;
+                        }
+                        
+                        .time-block:last-child { border-bottom: none; }
+                    }
+
+                    /* Mobil uchun qo'shimcha stil */
+                    @media (max-width: 991px) {
+                        .weather-day-card {
+                            margin-bottom: 10px;
+                        }
+                        .time-block {
+                            flex: 1;
+                        }
+                    }
+
+                    .weather-day-card {
+                        transition: all 0.3s ease;
+                    }
+
+                    .weather-day-card:hover {
+                        border-color: #ffc107 !important;
+                        transform: translateY(-3px);
+                    }
+                </style>
+
+                <div class="card border-0 shadow-sm rounded-4">
+                    <div class="card-body">
+                        <h6 class="card-title d-flex justify-content-between">
+                            <span data-i18n="weather_title"></span>
+                            📍
+                        </h6>
+                        <hr>
+                        <div id="weekly-weather">
+                            <div class="text-center py-3">
+                                <div class="spinner-border spinner-border-sm text-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-custom p-4 text-center d-flex flex-column align-items-center justify-content-center mt-4" id="weather-permission-request">
+                    <span class="weather-icon fw-bolder">⛅️</span>
+                    <h3 data-i18n="weather_permission_title"></h3>
+                    <button onclick="checkWeatherWithPermission()" class="btn btn-sm btn-primary d-flex align-items-center justify-content-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 12C19 15.866 15.866 19 12 19M19 12C19 8.13401 15.866 5 12 5M19 12H21M12 19C8.13401 19 5 15.866 5 12M12 19V21M5 12C5 8.13401 8.13401 5 12 5M5 12H3M12 5V3M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg> 
+                        <span class="ps-1" data-i18n="weather_permission_button"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="namaz" class="tab-content">
+                <h5 class="fw-bold">Namoz vaqtlariva Qibla</h5>
+                <style>
+                    .namaz-card {
+                        background: #fff;
+                        transition: all 0.3s ease;
+                    }
+
+                    .namaz-card.active-day {
+                        background: #212529; /* To'q rangli ajratib ko'rsatish */
+                        color: #fff;
+                        border-color: #212529;
+                    }
+
+                    .active-day .t-val {
+                        color: #ffc107; /* Bugungi vaqtlar oltin rangda */
+                    }
+
+                    .namaz-times-row {
+                        gap: 5px;
+                    }
+
+                    .time-item {
+                        flex: 1;
+                    }
+
+                    .t-label {
+                        font-size: 10px;
+                        color: #6c757d;
+                        margin-bottom: 2px;
+                    }
+
+                    .active-day .t-label {
+                        color: #adb5bd;
+                    }
+
+                    .t-val {
+                        font-size: 13px;
+                        font-weight: 700;
+                    }
+
+                    @media (min-width: 768px) {
+                        .t-val { font-size: 16px; }
+                    }
+                </style>
+                <style>
+                    #namazDaysTab {
+                        border-bottom: 1px solid #dee2e6;
+                        flex-wrap: nowrap;
+                        overflow-x: auto;
+                        overflow-y: hidden;
+                        scrollbar-width: none; /* Firefox */
+                    }
+                    #namazDaysTab::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+
+                    #namazDaysTab .nav-link {
+                        border: none;
+                        color: #6c757d;
+                        white-space: nowrap;
+                    }
+
+                    #namazDaysTab .nav-link.active {
+                        color: #1b1b1b;
+                        border-bottom: 2px solid #1b1b1b;
+                        background: transparent;
+                    }
+
+                    #namazDaysTabContent {
+                        display: unset;
+                    }
+                </style>
+                <div class="card card-custom p-3">
+                    <div id="namaz-list-container">
+                        <div class="text-center p-5">
+                            <div class="spinner-border text-dark" role="status"></div>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <a class="btn btn-primary btn-sm" href="https://qiblafinder.withgoogle.com" target="_blank"><i class="fa-solid fa-compass me-1"></i> Qiblani aniqlash</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="more" class="tab-content">
+                <h5 class="fw-bold d-none">Loyiha haqida</h5>
+                <style>
+                    #owner_content > p {
+                        margin-bottom: 0 !important;
+                    }
+                </style>
+                <div class="card border-0 shadow-sm rounded-4 mb-4" id="owner">
+                    <div class="card-body">
+                        <h6 class="card-title d-flex justify-content-between flex-row align-items-center">
+                            <span data-i18n="owner_title">Safar Uzbekistan loyihasi haqida</span>
+                            <figure class="m-0">
+                                <img src="icons/favicon.ico" alt="Favicon rasm" width="32" height="32">
+                            </figure>
+                        </h6>
+                        <hr>
+                        <div class="card-text" id="owner_content">
+                            <div class="text-center py-3 fw-bolder">
+                                Рақамли дунёда маънавий хавфсизлик: Нималарга эътибор бериш керак?
+                            </div>
+                            <p>
+                                Интернет — фақат ахборот майдони эмас, балки катта масъулият майдони ҳамдир. Бугунги кунда "диний ниқоб" остидаги ноқонуний контентлар миллий сегментимизга кириб келиб, ёшлар онгини заҳарлашга уринмоқда.
+                            </p>
+                            <p>
+                                Билишингиз шарт:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li><strong>Манбанинг расмийлиги:</strong> Диний маълумотларни фақат Ўзбекистон мусулмонлари идораси томонидан тасдиқланган ва давлат рўйхатидан ўтган расмий сайт ҳамда каналлардан олинг.</li>
+                                    <li><strong>Шубҳали чорловлар:</strong> Сизни жамиятдан ажралишга, низо чиқаришга ёки номаълум шахсларга эргашишга чорловчи аудио ва видео материаллар ноқонуний контент белгисидир.</li>
+                                    <li><strong>Илмий асос:</strong> Ҳар қандай диний фатво ёки кўрсатма жонли илм ва расмий ижозатга эга бўлиши керак. Виртуал оламдаги "номаълум устозлар"дан эҳтиёт бўлинг!</li>
+                                </ul>
+                            </p>
+                            <p>
+                                Ушбу платформадаги хавфсизлик бўйича тавсиялар бевосита қуйидаги илмий иш доирасида ишлаб чиқилган ва тақдим этилган:
+                            </p>
+                            <p>
+                                Илмий иш мавзуси: <strong>"Интернетнинг миллий сегментида ноқонуний контентларга қарши кураш механизмларини такомиллаштириш"</strong>
+                                <ul>
+                                    <li>Илмий тадқиқотчи: Мустақил изланувчи <strong>(PhD) Отақўзиев Маъмуржон Мунавваржон</strong>.</li>
+                                    <li>Илмий раҳбар: <strong>П.ф.ф.д (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li>
+                                </ul>
+                                Тадқиқотнинг мақсади — миллий интернет ҳудудимизни ёт ва зарарли ғоялардан ҳимоя қилишнинг замонавий ва технологик усулларини жорий этиш орқали жамият барқарорлигини таъминлашдир.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group shadow-sm border-0 rounded-4">
+                    <a href="https://t.me/oliysuduz/47047" target="_blank" class="list-group-item list-group-item-action py-3">
+                        ⚠️ <strong>Тақиқланган ресурслар рўйхати</strong> (Олий суд қарорига кўра) <button class="badge bg-dark d-block mt-1">🔗 ҳавола</button>
+                    </a>
+                    <a href="https://data.egov.uz/uzbKr/data/6107cb7d2a2e256d868e86ac" target="_blank" class="list-group-item list-group-item-action py-3">
+                        ⚖️ <strong>Дипломатик ваколатхоналар</strong> (Очиқ маълумотлар портали) <button class="badge bg-dark d-block mt-1">🔗 ҳавола</button>
+                    </a>
+                    <a href="https://vaqf.uz/uz/payment-qr" target="_blank" class="list-group-item list-group-item-action py-3">
+                        🕋 <strong>«Вақф» хайрия жамоат фондига</strong> эҳсон қилиш <button class="badge bg-dark d-block mt-1">🔗 ҳавола</button>
+                    </a>
+                    <a href="https://openweathermap.org/api" target="_blank" class="list-group-item list-group-item-action py-3">
+                        ⛅️ <strong>«Об-ҳаво»</strong> маълумотлари «OpenWeatherMap» хизмати томонидан тақдим этилмоқда <button class="badge bg-dark d-block mt-1">🔗 ҳавола</button>
+                    </a>
+                    <a href="https://aladhan.com/prayer-times-api#get-/timings/-date-" target="_blank" class="list-group-item list-group-item-action py-3">
+                        🕔 <strong>Намоз вақтлари</strong> «Al Adhan Service» тармоғи маълумотлари асосида тайёрланди <button class="badge bg-dark d-block mt-1">🔗 ҳавола</button>
+                    </a>
+                </div>
+                <div class="card card-custom text-center d-flex flex-column align-items-center justify-content-center mt-4">
+                    <div class="card-body text-uppercase fw-600"> 
+                        Ўзбекистон Республикаси Дин ишлари бўйича қўмитасининг <br>2025 йил 18 декабрдаги 03-07/8139 сонли хулосаси асосида тайёрланди
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="modal fade" id="safarModal" tabindex="-1" aria-labelledby="safarModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="safarModalLabel">QR:</h5>
+                        <button type="button" class="btn-close d-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="qrcode" class="d-flex justify-content-center bg-white"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="safarModalEmbassy" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+                <div class="modal-content" style="background-color: var(--bs-body-color);">
+                    <div class="modal-header">
+                        <h5 class="modal-title w-100 text-center" id="safarModalEmbassyLabel" data-i18n="brand_embassy_modal_title"></h5>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table" id="embassyTableBody"></table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-i18n="brand_embassy_modal_close">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-bottom shadow">
+            <div class="container">
+                <div class="main-bottom-navbar d-flex justify-content-around py-2">
+                    <a href="#" class="nav-link active" onclick="showTab(tabHome, this)">
+                        <figure class="p-0 m-0">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" d="M2 12.2039C2 9.91549 2 8.77128 2.5192 7.82274C3.0384 6.87421 3.98695 6.28551 5.88403 5.10813L7.88403 3.86687C9.88939 2.62229 10.8921 2 12 2C13.1079 2 14.1106 2.62229 16.116 3.86687L18.116 5.10812C20.0131 6.28551 20.9616 6.87421 21.4808 7.82274C22 8.77128 22 9.91549 22 12.2039V13.725C22 17.6258 22 19.5763 20.8284 20.7881C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.7881C2 19.5763 2 17.6258 2 13.725V12.2039Z" fill="#1C274C"/><path d="M9 17.25C8.58579 17.25 8.25 17.5858 8.25 18C8.25 18.4142 8.58579 18.75 9 18.75H15C15.4142 18.75 15.75 18.4142 15.75 18C15.75 17.5858 15.4142 17.25 15 17.25H9Z" fill="#1C274C"/></svg>
+                        </figure>
+                        <span class="d-block" data-i18n="nav_home"></span>
+                    </a>
+                    <a href="#" class="nav-link" onclick="showTab(tabWeather, this)">
+                        <figure class="p-0 m-0">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" d="M16.2857 18C19.4416 18 22 15.4717 22 12.3529C22 9.88113 20.393 7.78024 18.1551 7.01498C17.8371 4.19371 15.4159 2 12.4762 2C9.32028 2 6.7619 4.52827 6.7619 7.64706C6.7619 8.33687 6.88706 8.9978 7.11616 9.60887C6.8475 9.55673 6.56983 9.52941 6.28571 9.52941C3.91878 9.52941 2 11.4256 2 13.7647C2 16.1038 3.91878 18 6.28571 18H16.2857Z" fill="#1C274C"/><path d="M18.2857 22C20.3371 22 22 20.4198 22 18.4706C22 16.9257 20.9554 15.6126 19.5008 15.1344C19.2941 13.3711 17.7203 12 15.8095 12C13.7582 12 12.0952 13.5802 12.0952 15.5294C12.0952 15.9605 12.1766 16.3736 12.3255 16.7555C12.1509 16.723 11.9704 16.7059 11.7857 16.7059C10.2472 16.7059 9 17.891 9 19.3529C9 20.8149 10.2472 22 11.7857 22H18.2857Z" fill="#1C274C"/></svg>
+                        </figure>
+                        <span class="d-block" data-i18n="nav_weather"></span>
+                    </a>
+                    <a href="#" class="nav-link" onclick="showTab(tabNamaz, this)">
+                        <figure class="p-0 m-0">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#1C274C"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 7.25C12.4142 7.25 12.75 7.58579 12.75 8V11.6893L15.0303 13.9697C15.3232 14.2626 15.3232 14.7374 15.0303 15.0303C14.7374 15.3232 14.2626 15.3232 13.9697 15.0303L11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12V8C11.25 7.58579 11.5858 7.25 12 7.25Z" fill="#1C274C"/></svg>
+                        </figure>
+                        <span class="d-block" data-i18n="nav_namaz"></span>
+                    </a>
+                    <a href="#" class="nav-link" onclick="showTab(tabMore, this)">
+                        <figure class="p-0 m-0">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12Z" fill="#1C274C"/><path d="M21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12Z" fill="#1C274C"/><path opacity="0.5" d="M14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12Z" fill="#1C274C"/></svg>
+                        </figure>
+                        <span class="d-block" data-i18n="nav_more"></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <script src="js/qrcode.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
