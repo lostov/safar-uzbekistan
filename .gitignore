@@ -19,3 +19,5 @@ build/
 *.local
 localhost.pem
 localhost.key
+images/sheik.png
+images/quote_image1.png

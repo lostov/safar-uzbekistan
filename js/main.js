@@ -110,6 +110,22 @@ const translations = {
         "monday": "Dushanba", "tuesday": "Seshanba", "wednesday": "Chorshanba", "thursday": "Payshanba", "friday": "Juma", "saturday": "Shanba", "sunday": "Yakshanba",
         "jan": "Yan", "feb": "Fev", "mar": "Mar", "apr": "Apr", "may": "May", "jun": "Iyun", "jul": "Iyul", "aug": "Avg", "sep": "Sen", "oct": "Okt", "nov": "Noy", "dec": "Dek", 
 
+        "owner_title": "«Safar Uzbekistan» loyihasi haqida",
+        "owner_content_title": "Raqamli dunyoda ma’naviy xavfsizlik: Nimalarga e’tibor berish kerak?",
+        "owner_content_intro": "Internet — faqat axborot maydoni emas, balki katta mas’uliyat maydoni hamdir. Bugungi kunda «diniy niqob» ostidagi noqonuniy kontentlar milliy segmentimizga kirib kelib, yoshlar ongini zaharlashga urinmoqda.",
+        "owner_content_pre_list": "Bilishingiz shart:",
+        "owner_content_list": "<ul><li><strong>Manbaning rasmiyligi:</strong> Diniy ma’lumotlarni faqat O‘zbekiston musulmonlari idorasi tomonidan tasdiqlangan va davlat ro‘yxatidan o‘tgan rasmiy sayt hamda kanallardan oling.</li><li><strong>Shubhali chorlovlar:</strong> Sizni jamiyatdan ajralishga, nizo chiqarishga yoki noma’lum shaxslarga ergashishga chorlovchi audio va video materiallar noqonuniy kontent belgisidir.</li><li><strong>Ilmiy asos:</strong> Har qanday diniy fatvo yoki ko‘rsatma jonli ilm va rasmiy ijozatga ega bo‘lishi kerak. Virtual olamdagi «noma’lum ustozlar»dan ehtiyot bo‘ling!</li></ul>",
+        "owner_content_about": "Ushbu platformadagi xavfsizlik bo‘yicha tavsiyalar bevosita quyidagi ilmiy ish doirasida ishlab chiqilgan va taqdim etilgan:",
+        "owner_content_about_list": "<ul><li>Ilmiy ish mavzusi: <strong>«Internetning milliy segmentida noqonuniy kontentlarga qarshi kurash mexanizmlarini takomillashtirish»</strong></li><li>Ilmiy tadqiqotchi: Mustaqil izlanuvchi <strong>(PhD) Otaqo‘ziyev Ma’murjon Munavvarjon</strong>.</li><li>Ilmiy rahbar: <strong>P.f.f.d (PhD), dotsent Tuxtamatov Xasan Rixsibayevich</strong>.</li></ul>",
+        "owner_content_about_after": "Tadqiqotning maqsadi — milliy internet hududimizni yot va zararli g‘oyalardan himoya qilishning zamonaviy va texnologik usullarini joriy etish orqali jamiyat barqarorligini ta’minlashdir.",
+        "more_resource_item_not_allow": "⚠️ <strong>Taqiqlangan resurslar ro‘yxati</strong> (Oliy sud qaroriga ko‘ra) <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
+        "more_resource_item_embassy": "⚖️ <strong>Diplomatik vakolatxonalar</strong> (Ochiq ma’lumotlar portali) <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
+        "more_resource_item_vaqf": "🕋 <strong>«Vaqf» xayriya jamoat fondiga</strong> ehson qilish <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
+        "more_resource_item_weather": "⛅️ <strong>«Ob-havo»</strong> ma’lumotlari «OpenWeatherMap» xizmati tomonidan taqdim etilmoqda <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
+        "more_resource_item_namaz": "🕔 <strong>Namozi vaqtlari</strong> «Al Adhan Service» tarmog‘i ma’lumotlari asosida tayyorlandi <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
+        "more_notice": "O‘zbekiston Respublikasi Din ishlari bo‘yicha qo‘mitasining <br>2025-yil 18-dekabrdagi 03-07/8139 sonli xulosasi asosida tayyorlandi",
+        "btn_install_pwa": "Ilovani o‘rnatish (PWA)",
+        
         "btn_fatvo": "Fatvo markazi",
         "btn_vaqf": "Vaqf fondi",
         "footer_note": "O‘zbekiston Respublikasi Din ishlari bo‘yicha qo‘mitasining xulosasi asosida tayyorlandi.",
@@ -176,6 +192,22 @@ const translations = {
         "monday": "Душанба", "tuesday": "Сешанба", "wednesday": "Чоршанба", "thursday": "Пайшанба", "friday": "Жума", "saturday": "Шанба", "sunday": "Якшанба",
         "jan": "Янв", "feb": "Фев", "mar": "Мар", "apr": "Апр", "may": "Май", "jun": "Июн", "jul": "Июл", "aug": "Авг", "sep": "Сент", "oct": "Окт", "nov": "Ноя", "dec": "Дек",
 
+        "owner_title": "«Safar Uzbekistan» лойиҳаси ҳақида",
+        "owner_content_title": "Рақамли дунёда маънавий хавфсизлик: Нималарга эътибор бериш керак?",
+        "owner_content_intro": "Интернет — фақат ахборот майдони эмас, балки катта масъулият майдони ҳамдир. Бугунги кунда «диний ниқоб» остидаги ноқонуний контентлар миллий сегментимизга кириб келиб, ёшлар онгини заҳарлашга уринмоқда.",
+        "owner_content_pre_list": "Билишингиз шарт:",
+        "owner_content_list": "<ul><li><strong>Манбанинг расмийлиги:</strong> Диний маълумотларни фақат Ўзбекистон мусулмонлари идораси томонидан тасдиқланган ва давлат рўйхатидан ўтган расмий сайт ҳамда каналлардан олинг.</li><li><strong>Шубҳали чорловлар:</strong> Сизни жамиятдан ажралишга, низо чиқаришга ёки номаълум шахсларга эргашишга чорловчи аудио ва видео материаллар ноқонуний контент белгисидир.</li><li><strong>Илмий асос:</strong> Ҳар қандай диний фатво ёки кўрсатма жонли илм ва расмий ижозатга эга бўлиши керак. Виртуал оламдаги «номаълум устозлар»дан эҳтиёт бўлинг!</li></ul>",
+        "owner_content_about": "Ушбу платформадаги хавфсизлик бўйича тавсиялар бевосита қуйидаги илмий иш доирасида ишлаб чиқилган ва тақдим этилган:",
+        "owner_content_about_list": "<ul><li>Илмий иш мавзуси: <strong>«Интернетнинг миллий сегментида ноқонуний контентларга қарши кураш механизмларини такомиллаштириш»</strong></li><li>Илмий тадқиқотчи: Мустақил изланувчи <strong>(PhD) Отақўзиев Маъмуржон Мунавваржон</strong>.</li><li>Илмий раҳбар: <strong>П.ф.ф.д (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
+        "owner_content_about_after": "Тадқиқотнинг мақсади — миллий интернет ҳудудимизни ёт ва зарарли ғоялардан ҳимоя қилишнинг замонавий ва технологик усулларини жорий этиш орқали жамият барқарорлигини таъминлашдир.",
+        "more_resource_item_not_allow": "⚠️ <strong>Тақиқланган ресурслар рўйхати</strong> (Олий суд қарорига кўра) <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
+        "more_resource_item_embassy": "⚖️ <strong>Дипломатик ваколатхоналар</strong> (Очиқ маълумотлар портали) <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
+        "more_resource_item_vaqf": "🕋 <strong>«Вақф» хайрия жамоат фондига</strong> эҳсон қилиш <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
+        "more_resource_item_weather": "⛅️ <strong>«Об-ҳаво»</strong> маълумотлари «OpenWeatherMap» хизмати томонидан тақдим этилмоқда <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
+        "more_resource_item_namaz": "🕔 <strong>Намоз вақтлари</strong> «Al Adhan Service» тармоғи маълумотлари асосида тайёрланди <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
+        "more_notice": "Ўзбекистон Республикаси Дин ишлари бўйича қўмитасининг <br>2025 йил 18 декабрдаги 03-07/8139 сонли хулосаси асосида тайёрланди",
+        "btn_install_pwa": "Иловани ўрнатиш (PWA)",
+
         "btn_fatvo": "Фатво маркази",
         "btn_vaqf": "Вақф фонди",
         "footer_note": "Ўзбекистон Республикаси Дин ишлари бўйича қўмитасининг хулосаси асосида тайёрланди.",
@@ -241,6 +273,22 @@ const translations = {
         "monday": "Понедельник", "tuesday": "Вторник", "wednesday": "Среда", "thursday": "Четверг", "friday": "Пятница", "saturday": "Суббота", "sunday": "Воскресенье",
         "jan": "янв.", "feb": "февр.", "mar": "март", "apr": "апр.", "may": "май", "jun": "июнь", "jul": "июль", "aug": "авг.", "sep": "сент.", "oct": "окт.", "nov": "нояб.", "dec": "дек.", 
         
+        "owner_title": "О проекте «Safar Uzbekistan»",
+        "owner_content_title": "Духовная безопасность в цифровом мире: на что обратить внимание?",
+        "owner_content_intro": "Интернет — это не только информационное пространство, но и сфера большой ответственности. Сегодня незаконный контент под «религиозной маской» проникает в наш национальный сегмент, пытаясь отравить сознание молодежи.",
+        "owner_content_pre_list": "Вы должны знать:",
+        "owner_content_list": "<ul><li><strong>Официальность источника:</strong> Получайте религиозную информацию только с официальных сайтов и каналов, утвержденных Управлением мусульман Узбекистана.</li><li><strong>Подозрительные призывы:</strong> Аудио- и видеоматериалы, призывающие к изоляции от общества, разжиганию конфликтов или следованию за неизвестными лицами, являются признаками незаконного контента.</li><li><strong>Научная основа:</strong> Любое религиозное наставление должно иметь официальное разрешение. Остерегайтесь «неизвестных учителей» в виртуальном мире!</li></ul>",
+        "owner_content_about": "Рекомендации по безопасности на этой платформе разработаны в рамках следующей научной работы:",
+        "owner_content_about_list": "<ul><li>Тема научной работы: <strong>«Совершенствование механизмов борьбы с незаконным контентом в национальном сегменте Интернета»</strong></li><li>Исследователь: Независимый соискатель <strong>(PhD) Отакузиев Маъмуржон Мунавваржон</strong>.</li><li>Научный руководитель: <strong>д.ф.п.н (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
+        "owner_content_about_after": "Цель исследования — обеспечение стабильности общества путем внедрения современных технологических методов защиты нашего национального интернет-пространства от чуждых и вредных идей.",
+        "more_resource_item_not_allow": "⚠️ <strong>Список запрещенных ресурсов</strong> (По решению Верховного суда) <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
+        "more_resource_item_embassy": "⚖️ <strong>Дипломатические миссии</strong> (Портал открытых данных) <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
+        "more_resource_item_vaqf": "🕋 <strong>Благотворительный фонд «Vaqf»</strong> внести пожертвование <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
+        "more_resource_item_weather": "⛅️ <strong>«Погода»</strong> предоставлено сервисом «OpenWeatherMap» <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
+        "more_resource_item_namaz": "🕔 <strong>Время намаза</strong> подготовлено на основе данных «Al Adhan Service» <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
+        "more_notice": "Подготовлено на основании заключения Комитета по делам религий Республики Узбекистан <br>№ 03-07/8139 от 18 декабря 2025 года",
+        "btn_install_pwa": "Установить приложение (PWA)",
+
         "btn_fatvo": "Центр Фатвы",
         "btn_vaqf": "Фонд Вакф",
         "footer_note": "Подготовлено на основании заключения Комитета по делам религий РУз.",
@@ -303,6 +351,22 @@ const translations = {
         
         "monday": "Monday", "tuesday": "Tuesday", "wednesday": "Wednesday", "thursday": "Thursday", "friday": "Friday", "saturday": "Saturday", "sunday": "Sunday",
         "jan": "Jan", "feb": "Feb", "mar": "Mar", "apr": "Apr", "may": "May", "jun": "Jun", "jul": "Jul", "aug": "Aug", "sep": "Sep", "oct": "Oct", "nov": "Nov", "dec": "Dec",
+
+        "owner_title": "About «Safar Uzbekistan» Project",
+        "owner_content_title": "Spiritual Security in the Digital World: What to Watch Out For?",
+        "owner_content_intro": "The Internet is not just an information space, but a sphere of great responsibility. Today, illegal content under a 'religious mask' is infiltrating our national segment, attempting to poison the minds of youth.",
+        "owner_content_pre_list": "What you must know:",
+        "owner_content_list": "<ul><li><strong>Source Authenticity:</strong> Obtain religious information only from official websites and channels approved by the Muslim Board of Uzbekistan.</li><li><strong>Suspicious Calls:</strong> Audio and video materials calling for social isolation, inciting conflict, or following unknown individuals are signs of illegal content.</li><li><strong>Scientific Basis:</strong> Any religious guidance must have official authorization. Beware of 'unknown teachers' in the virtual world!</li></ul>",
+        "owner_content_about": "Security recommendations on this platform have been developed as part of the following research work:",
+        "owner_content_about_list": "<ul><li>Research Topic: <strong>«Improving mechanisms for combating illegal content in the national segment of the Internet»</strong></li><li>Researcher: Independent Researcher <strong>(PhD) Mamurjon Munavvarjon Otakuziev</strong>.</li><li>Scientific Supervisor: <strong>PhD, Associate Professor Khasan Rikhsibaevich Tukhtamatov</strong>.</li></ul>",
+        "owner_content_about_after": "The goal of the research is to ensure social stability by implementing modern technological methods to protect our national internet space from alien and harmful ideas.",
+        "more_resource_item_not_allow": "⚠️ <strong>List of Prohibited Resources</strong> (By Supreme Court decision) <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
+        "more_resource_item_embassy": "⚖️ <strong>Diplomatic Missions</strong> (Open Data Portal) <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
+        "more_resource_item_vaqf": "🕋 <strong>«Vaqf» Charitable Foundation</strong> make a donation <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
+        "more_resource_item_weather": "⛅️ <strong>«Weather»</strong> data provided by «OpenWeatherMap» service <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
+        "more_resource_item_namaz": "🕔 <strong>Prayer Times</strong> based on «Al Adhan Service» data <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
+        "more_notice": "Prepared based on the conclusion of the Committee for Religious Affairs of the Republic of Uzbekistan <br>No. 03-07/8139 dated December 18, 2025",
+        "btn_install_pwa": "Install App (PWA)",
 
         "btn_fatvo": "Fatwa Center",
         "btn_vaqf": "Vaqf Foundation",
@@ -961,6 +1025,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // QR-kod generatori uchun global o'zgaruvchi (eski kodni o'chirish uchun)
 let safarQrInstance = null;
+let deferredPrompt;
+const installContainer = document.getElementById('install-container');
+const btnInstall = document.getElementById('btnInstall');
+
+// Brauzer ilovani o'rnatishga tayyor bo'lganda ishga tushadi
+window.addEventListener('beforeinstallprompt', (e) => {
+    // Brauzerning standart oynasini to'xtatib turamiz
+    e.preventDefault();
+    // Hodisani keyinroq ishlatish uchun saqlab qo'yamiz
+    deferredPrompt = e;
+    // O'rnatish tugmasini foydalanuvchiga ko'rsatamiz
+    installContainer.style.display = 'block';
+});
+
+btnInstall.addEventListener('click', async () => {
+    if (deferredPrompt) {
+        // O'rnatish oynasini ko'rsatamiz
+        deferredPrompt.prompt();
+        // Foydalanuvchi nima deb javob berganini tekshiramiz
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`Foydalanuvchi javobi: ${outcome}`);
+        // deferredPrompt'ni tozalaymiz (u faqat bir marta ishlatiladi)
+        deferredPrompt = null;
+        // Tugmani yana yashiramiz
+        installContainer.style.display = 'none';
+    }
+});
+
+window.addEventListener('appinstalled', () => {
+    console.log('SafarUz ilovasi muvaffaqiyatli o\'rnatildi!');
+    installContainer.style.display = 'none';
+});
+
 document.addEventListener('click', function (e) {
 
     const copyBtn = e.target.closest('[data-safar-action="copy"]');

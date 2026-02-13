@@ -53,7 +53,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/safar-uzbekistan/",
+  "scope": "/safar-uzbekistan/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000"
