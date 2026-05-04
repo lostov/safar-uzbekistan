@@ -1,4 +1,4 @@
-const CACHE_NAME = 'safaruz-v1';
+const CACHE_NAME = 'safaruz-v2-2026-05-04'; // Kesh nomi, versiyani yangilash uchun o'zgartiring
 const APP_PREFIX = '/safar-uzbekistan'; // GitHub Pages papka nomi
 
 // Oflayn ishlashi uchun barcha asosiy fayllar
@@ -58,10 +58,10 @@ const cacheUrls = [
 ];
 
 self.addEventListener('install', (event) => {
+    self.skipWaiting(); 
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
-            console.log('Fayllar keshga olinmoqda...');
-            return cache.addAll(cacheUrls);
+            return cache.addAll(ASSETS);
         })
     );
 });
@@ -70,12 +70,15 @@ self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys().then((cacheNames) => {
             return Promise.all(
-                cacheNames
-                    .filter((name) => name !== CACHE_NAME)
-                    .map((name) => caches.delete(name))
+                cacheNames.map((cache) => {
+                    if (cache !== CACHE_NAME) {
+                        return caches.delete(cache);
+                    }
+                })
             );
         })
     );
+    return self.clients.claim();
 });
 
 // "Network First, falling back to cache" strategiyasi
