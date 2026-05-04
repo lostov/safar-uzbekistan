@@ -67,7 +67,7 @@ const translations = {
         "brand_quote": "Кim ogoh bo‘lsa, najot topadi. Kim g‘ofil bo‘lsa, halok bo‘ladi.",
         "brand_quote_author": "Abdulloh ibn <cite title=\"Muborak\">Muborak</cite>",
 
-        "main_annotation": "Muhojirlarda uchraydigan diniy-ma’rifiy savollarga javob topish, turli radikal g‘oyalar ta’siriga tushib qolishning oldini olish, “Vaqf” xayriya jamoat fondiga ehson qilish, shuningdek xorijdagi diplomatik vakolatxonalar bilan bog‘lanish imkoniyatini beradi. Unda O‘zbekiston musulmonlar idorasi tasarrufidagi butunjahon Internet tarmog‘ida faoliyat olib boruvchi rasmiy veb-sayt va ijtimoiy tarmoqlar sahifalari hamda ularning elektron havolalari foydalanuvchilarga yengillik yaratish maqsadida ilova qilinmoqda.",
+        "main_annotation": "Xorijda vaqtincha yashab mehnat qilayotgan fuqarolar hamda talabalarda uchraydigan diniy-ma’rifiy savollarga javob topish, turli radikal g‘oyalar ta’siriga tushib qolishning oldini olish, «Vaqf» xayriya jamoat fondiga ehson qilish, shuningdek xorijdagi diplomatik vakolatxonalar bilan bog‘lanish imkoniyatini beradi. Unda O‘zbekiston musulmonlar idorasi tasarrufidagi butunjahon Internet tarmog‘ida faoliyat olib boruvchi rasmiy veb-sayt va ijtimoiy tarmoqlar sahifalari hamda ularning elektron havolalari foydalanuvchilarga yengillik yaratish maqsadida ilova qilinmoqda.",
         "main_annotation_url": "https://lex.uz/docs/-5491534",
 
         "official_links_title": "Rasmiy veb-sayt va kanallar",
@@ -90,7 +90,7 @@ const translations = {
         "double_tap_link_note": "Havolani ikki marta bosing, u yangi oynada ochiladi",
 
         "not_allowed_title": "⚖️ O‘zbekiston Respublikasi Oliy sudi tomonidan internet jahon tarmog‘idagi diniy ekstremistik, terroristik va aqidaparastlik g‘oyalari bilan yo‘g‘rilgan deb topilgan hamda Respublika hududiga olib kirish, tayyorlash, saqlash, tarqatish va namoyish etilishi taqiqlangan manba va kontentlar (materiallar) ro‘yxati",
-        "not_allowed_title_lastdate": "📆 <cite title=\"2026-yil 10-yanvar\">2026-yil 10-yanvar</cite> holatiga ko‘ra",
+        "not_allowed_title_lastdate": "📆 <cite title=\"2026-yil 6-aprel\">2026-yil 6-aprel</cite> holatiga ko‘ra",
         "not_allowed_item1": "Internet manbalar ro‘yxati",
         "not_allowed_item1_label1": "<strong>PDF</strong> fayl",
         "not_allowed_item1_label2": "<strong>Telegram</strong> havola",
@@ -124,7 +124,7 @@ const translations = {
         "owner_content_pre_list": "Bilishingiz shart:",
         "owner_content_list": "<ul><li><strong>Manbaning rasmiyligi:</strong> Diniy ma’lumotlarni faqat O‘zbekiston musulmonlari idorasi tomonidan tasdiqlangan va davlat ro‘yxatidan o‘tgan rasmiy sayt hamda kanallardan oling.</li><li><strong>Shubhali chorlovlar:</strong> Sizni jamiyatdan ajralishga, nizo chiqarishga yoki noma’lum shaxslarga ergashishga chorlovchi audio va video materiallar noqonuniy kontent belgisidir.</li><li><strong>Ilmiy asos:</strong> Har qanday diniy fatvo yoki ko‘rsatma jonli ilm va rasmiy ijozatga ega bo‘lishi kerak. Virtual olamdagi «noma’lum ustozlar»dan ehtiyot bo‘ling!</li></ul>",
         "owner_content_about": "Ushbu platformadagi xavfsizlik bo‘yicha tavsiyalar bevosita quyidagi ilmiy ish doirasida ishlab chiqilgan va taqdim etilgan:",
-        "owner_content_about_list": "<ul><li>Ilmiy ish mavzusi: <strong>«Internetning milliy segmentida noqonuniy kontentlarga qarshi kurash mexanizmlarini takomillashtirish»</strong></li><li>Ilmiy tadqiqotchi: Mustaqil izlanuvchi <strong>(PhD) Otaqo‘ziyev Ma’murjon Munavvarjon</strong>.</li><li>Ilmiy rahbar: <strong>P.f.f.d (PhD), dotsent Tuxtamatov Xasan Rixsibayevich</strong>.</li></ul>",
+        "owner_content_about_list": "<ul><li>Ilmiy ish mavzusi: <strong>«Internetning milliy segmentida noqonuniy kontentlarga qarshi kurash mexanizmlarini takomillashtirish»</strong></li><li>Ilmiy maslahatchi: <strong>Iqtisodiyot fanlari doktori (DSc), Professor Zoxidov Azamatjon A’zamovich</strong></li><li>Ilmiy tadqiqotchi: Mustaqil izlanuvchi <strong>(PhD) Otaqo‘ziyev Ma’murjon Munavvarjon</strong>.</li><li>Ilmiy rahbar: <strong>P.f.f.d (PhD), dotsent Tuxtamatov Xasan Rixsibayevich</strong>.</li></ul>",
         "owner_content_about_after": "Tadqiqotning maqsadi — milliy internet hududimizni yot va zararli g‘oyalardan himoya qilishning zamonaviy va texnologik usullarini joriy etish orqali jamiyat barqarorligini ta’minlashdir.",
         "more_resource_item_not_allow": "⚠️ <strong>Taqiqlangan resurslar ro‘yxati</strong> (Oliy sud qaroriga ko‘ra) <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
         "more_resource_item_embassy": "⚖️ <strong>Diplomatik vakolatxonalar</strong> (Ochiq ma’lumotlar portali) <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
@@ -137,7 +137,7 @@ const translations = {
         "btn_fatvo": "Fatvo markazi",
         "btn_vaqf": "Vaqf fondi",
         "footer_note": "O‘zbekiston Respublikasi Din ishlari bo‘yicha qo‘mitasining xulosasi asosida tayyorlandi.",
-        "footer_date": "Ma’lumotlar 2026-yil 10-yanvar holatiga ko‘ra yangilangan."
+        "footer_date": "Ma’lumotlar 2026-yil 6-aprel holatiga ko‘ra yangilangan."
     },
     "uz": { // O'zbek kirill
         "nav_home": "Бош саҳифа",
@@ -149,7 +149,7 @@ const translations = {
         "brand_quote": "Ким огоҳ бўлса, нажот топади. Ким ғофил бўлса, ҳалок бўлади.",
         "brand_quote_author": "Абдуллоҳ ибн <cite title=\"Муборак\">Муборак</cite>",
 
-        "main_annotation": "Муҳожирларда учрайдиган диний-маърифий саволларга жавоб топиш, турли радикал ғоялар таъсирига тушиб қолишнинг олдини олиш, “Вақф” хайрия жамоат фондига эҳсон қилиш, шунингдек хориждаги дипломатик ваколатхоналар билан боғланиш имкониятини беради. Унда Ўзбекистон мусулмонлар идораси тасарруфидаги бутунжаҳон Интернет тармоғида фаолият олиб борувчи расмий веб-сайт ва ижтимоий тармоқлар саҳифалари ҳамда уларнинг электрон ҳаволалари фойдаланувчиларга енгиллик яратиш мақсадида илова қилинмоқда.",
+        "main_annotation": "Хорижда вақтинча яшаб меҳнат қилаётган фуқаролар ҳамда талабаларда учрайдиган диний-маърифий саволларга жавоб топиш, турли радикал ғоялар таъсирига тушиб қолишнинг олдини олиш, «Vaqf» хайрия жамоат фондига эҳсон қилиш, шунингдек хориждаги дипломатик ваколатхоналар билан боғланиш имкониятини беради. Унда Ўзбекистон мусулмонлар идораси тасарруфидаги бутунжаҳон Интернет тармоғида фаолият олиб борувчи расмий веб-сайт ва ижтимоий тармоқлар саҳифалари ҳамда уларнинг электрон ҳаволалари фойдаланувчиларга енгиллик яратиш мақсадида илова қилинмоқда.",
         "main_annotation_url": "https://lex.uz/docs/5491534",
 
         "official_links_title": "Расмий веб-сайт ва каналлар",
@@ -172,7 +172,7 @@ const translations = {
         "double_tap_link_note": "Ҳаволани икки марта босинг, у янги ойнада очилади",
 
         "not_allowed_title": "⚖️ Ўзбекистон Республикаси Олий суди томонидан интернет жаҳон тармоғидаги диний экстремистик, террористик ва ақидапарастлик ғоялари билан йўғрилган деб топилган ҳамда Республика ҳудудига олиб кириш, тайёрлаш, сақлаш, тарқатиш ва намойиш этилиши тақиқланган манба ва контентлар (материаллар) рўйхати",
-        "not_allowed_title_lastdate": "📆 <cite title=\"2026-yil 10-yanvar\">2026-йил 10 январь</cite> ҳолатига кўра",
+        "not_allowed_title_lastdate": "📆 <cite title=\"2026-yil 6-aprel\">2026-йил 6 апрель</cite> ҳолатига кўра",
         "not_allowed_item1": "Интернет манбалар рўйхати",
         "not_allowed_item1_label1": "<strong>PDF</strong> файл",
         "not_allowed_item1_label2": "<strong>Telegram</strong> ҳавола",
@@ -206,7 +206,7 @@ const translations = {
         "owner_content_pre_list": "Билишингиз шарт:",
         "owner_content_list": "<ul><li><strong>Манбанинг расмийлиги:</strong> Диний маълумотларни фақат Ўзбекистон мусулмонлари идораси томонидан тасдиқланган ва давлат рўйхатидан ўтган расмий сайт ҳамда каналлардан олинг.</li><li><strong>Шубҳали чорловлар:</strong> Сизни жамиятдан ажралишга, низо чиқаришга ёки номаълум шахсларга эргашишга чорловчи аудио ва видео материаллар ноқонуний контент белгисидир.</li><li><strong>Илмий асос:</strong> Ҳар қандай диний фатво ёки кўрсатма жонли илм ва расмий ижозатга эга бўлиши керак. Виртуал оламдаги «номаълум устозлар»дан эҳтиёт бўлинг!</li></ul>",
         "owner_content_about": "Ушбу платформадаги хавфсизлик бўйича тавсиялар бевосита қуйидаги илмий иш доирасида ишлаб чиқилган ва тақдим этилган:",
-        "owner_content_about_list": "<ul><li>Илмий иш мавзуси: <strong>«Интернетнинг миллий сегментида ноқонуний контентларга қарши кураш механизмларини такомиллаштириш»</strong></li><li>Илмий тадқиқотчи: Мустақил изланувчи <strong>(PhD) Отақўзиев Маъмуржон Мунавваржон</strong>.</li><li>Илмий раҳбар: <strong>П.ф.ф.д (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
+        "owner_content_about_list": "<ul><li>Илмий иш мавзуси: <strong>«Интернетнинг миллий сегментида ноқонуний контентларга қарши кураш механизмларини такомиллаштириш»</strong></li><li>Илмий маслаҳатчи: <strong>Иқтисодиёт фанлари доктори (DSc), Профессор Зохидов Азаматжон Аъзамович</strong></li><li>Илмий тадқиқотчи: Мустақил изланувчи <strong>(PhD) Отақўзиев Маъмуржон Мунавваржон</strong>.</li><li>Илмий раҳбар: <strong>П.ф.ф.д (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
         "owner_content_about_after": "Тадқиқотнинг мақсади — миллий интернет ҳудудимизни ёт ва зарарли ғоялардан ҳимоя қилишнинг замонавий ва технологик усулларини жорий этиш орқали жамият барқарорлигини таъминлашдир.",
         "more_resource_item_not_allow": "⚠️ <strong>Тақиқланган ресурслар рўйхати</strong> (Олий суд қарорига кўра) <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
         "more_resource_item_embassy": "⚖️ <strong>Дипломатик ваколатхоналар</strong> (Очиқ маълумотлар портали) <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
@@ -219,7 +219,7 @@ const translations = {
         "btn_fatvo": "Фатво маркази",
         "btn_vaqf": "Вақф фонди",
         "footer_note": "Ўзбекистон Республикаси Дин ишлари бўйича қўмитасининг хулосаси асосида тайёрланди.",
-        "footer_date": "Маълумотлар 2026 йил 10 январ ҳолатига кўра янгиланган."
+        "footer_date": "Маълумотлар 2026 йил 6 апрель ҳолатига кўра янгиланган."
     },
     "ru": { // Rus tili
         "nav_home": "Главная",
@@ -231,7 +231,7 @@ const translations = {
         "brand_quote": "Кто бдителен, тот найдет спасение. Кто небрежен, тот погибнет.",
         "brand_quote_author": "Абдуллах ибн <cite title=\"Мубарак\">Мубарак</cite>",
 
-        "main_annotation": "Это дает возможность найти ответы на религиозно-просветительские вопросы, возникающие у мигрантов, предотвратить попадание под влияние различных радикальных идей, пожертвовать в благотворительный общественный фонд “Вакф”, а также связаться с дипломатическими представительствами за рубежом. В нем прилагаются официальные веб-сайты и страницы социальных сетей, работающих во всемирной сети Интернет под управлением Духовного управления мусульман Узбекистана, а также их электронные ссылки для удобства пользователей.",
+        "main_annotation": "Это приложение предоставляет возможность гражданам и студентам, временно проживающим и работающим за рубежом, находить ответы на религиозно-просветительские вопросы, предотвращать влияние различных радикальных идей, вносить пожертвования в благотворительный общественный фонд «Vaqf», а также связываться с дипломатическими представительствами за рубежом. Для удобства пользователей в приложении представлены официальные веб-сайты и страницы в социальных сетях Управления мусульман Узбекистана, функционирующие во всемирной сети Интернет, а также их электронные ссылки.",
         "main_annotation_url": "https://lex.uz/docs/5491541",
 
         "official_links_title": "Официальные сайты и каналы",
@@ -254,7 +254,7 @@ const translations = {
         "double_tap_link_note": "Дважды нажмите на ссылку, она откроется в новом окне",
 
         "not_allowed_title": "⚖️ Перечень источников и контента (материалов) во всемирной сети Интернет, признанных Верховным судом Республики Узбекистан содержащими идеи религиозного экстремизма, терроризма и фундаментализма, запрещенных к ввозу, изготовлению, хранению, распространению и демонстрации на территории Республики",
-        "not_allowed_title_lastdate": "По состоянию на <cite title=\"10 января 2026 года\">10 января 2026 года</cite>","not_allowed_item1": "Список интернет-ресурсов",
+        "not_allowed_title_lastdate": "По состоянию на <cite title=\"6 апреля 2026 года\">6 апреля 2026 года</cite>","not_allowed_item1": "Список интернет-ресурсов",
         "not_allowed_item1_label1": "Файл <strong>PDF</strong>",
         "not_allowed_item1_label2": "Ссылка в <strong>Telegram</strong>",
         "not_allowed_item2": "Юридические последствия",
@@ -287,7 +287,7 @@ const translations = {
         "owner_content_pre_list": "Вы должны знать:",
         "owner_content_list": "<ul><li><strong>Официальность источника:</strong> Получайте религиозную информацию только с официальных сайтов и каналов, утвержденных Управлением мусульман Узбекистана.</li><li><strong>Подозрительные призывы:</strong> Аудио- и видеоматериалы, призывающие к изоляции от общества, разжиганию конфликтов или следованию за неизвестными лицами, являются признаками незаконного контента.</li><li><strong>Научная основа:</strong> Любое религиозное наставление должно иметь официальное разрешение. Остерегайтесь «неизвестных учителей» в виртуальном мире!</li></ul>",
         "owner_content_about": "Рекомендации по безопасности на этой платформе разработаны в рамках следующей научной работы:",
-        "owner_content_about_list": "<ul><li>Тема научной работы: <strong>«Совершенствование механизмов борьбы с незаконным контентом в национальном сегменте Интернета»</strong></li><li>Исследователь: Независимый соискатель <strong>(PhD) Отакузиев Маъмуржон Мунавваржон</strong>.</li><li>Научный руководитель: <strong>д.ф.п.н (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
+        "owner_content_about_list": "<ul><li>Тема научной работы: <strong>«Совершенствование механизмов борьбы с незаконным контентом в национальном сегменте Интернета»</strong></li><li>Научный консультант: <strong>Доктор экономических наук (DSc), профессор Захидов Азаматжон Азамович</strong></li><li>Исследователь: Независимый соискатель <strong>(PhD) Отакузиев Маъмуржон Мунавваржон</strong>.</li><li>Научный руководитель: <strong>д.ф.п.н (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
         "owner_content_about_after": "Цель исследования — обеспечение стабильности общества путем внедрения современных технологических методов защиты нашего национального интернет-пространства от чуждых и вредных идей.",
         "more_resource_item_not_allow": "⚠️ <strong>Список запрещенных ресурсов</strong> (По решению Верховного суда) <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
         "more_resource_item_embassy": "⚖️ <strong>Дипломатические миссии</strong> (Портал открытых данных) <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
@@ -300,7 +300,7 @@ const translations = {
         "btn_fatvo": "Центр Фатвы",
         "btn_vaqf": "Фонд Вакф",
         "footer_note": "Подготовлено на основании заключения Комитета по делам религий РУз.",
-        "footer_date": "Информация обновлена по состоянию на 10 января 2026 года."
+        "footer_date": "Информация обновлена по состоянию на 6 апреля 2026 года."
     },
     "en": { // Ingliz tili
         "nav_home": "Home",
@@ -310,7 +310,7 @@ const translations = {
         "brand_title": "Religious and educational recommendations <br> for citizens traveling abroad",
         "brand_quote": "Whoever is aware will find salvation. He who is heedless will perish.",
         "brand_quote_author": "Abdullah ibn <cite title=\"Mubarak\">Mubarak</cite>",
-        "main_annotation": "It provides an opportunity to find answers to religious and educational questions encountered by migrants, prevent falling under the influence of various radical ideas, donate to the “Waqf” charitable public foundation, and contact diplomatic missions abroad. It includes the official website and social media pages operating on the worldwide Internet under the jurisdiction of the Muslim Board of Uzbekistan, as well as their electronic links, being attached to create convenience for users.",
+        "main_annotation": "The application enables citizens and students temporarily living and working abroad to find answers to religious and educational questions, prevents them from falling under the influence of various radical ideas, facilitates donations to the «Vaqf» Charity Public Fund, and provides a direct connection to diplomatic missions abroad. For user convenience, it also includes links to official websites and social media pages of the Muslim Board of Uzbekistan operating within the global internet network.",
         "main_annotation_url": "https://lex.uz/docs/6117508",
         "official_links_title": "Official websites and channels",
         "official_links_item1": "Social networks of the Committee for Religious Affairs of the Republic of Uzbekistan",
@@ -332,7 +332,7 @@ const translations = {
         "double_tap_link_note": "Double-tap the link, it will open in the new window",
 
         "not_allowed_title": "⚖️ List of sources and contents (materials) on the World Wide Web, recognized by the Supreme Court of the Republic of Uzbekistan as contaminated with religious extremist, terrorist, and fanatical ideas, and prohibited for import, production, storage, distribution, and display on the territory of the Republic",
-        "not_allowed_title_lastdate": "Accessed <cite title=\"January 10, 2026\">as of January 10, 2026</cite>",
+        "not_allowed_title_lastdate": "Accessed <cite title=\"April 6, 2026\">as of April 6, 2026</cite>",
         "not_allowed_item1": "List of Internet resources",
         "not_allowed_item1_label1": "<strong>PDF</strong> file",
         "not_allowed_item1_label2": "<strong>Telegram</strong> link",
@@ -366,7 +366,7 @@ const translations = {
         "owner_content_pre_list": "What you must know:",
         "owner_content_list": "<ul><li><strong>Source Authenticity:</strong> Obtain religious information only from official websites and channels approved by the Muslim Board of Uzbekistan.</li><li><strong>Suspicious Calls:</strong> Audio and video materials calling for social isolation, inciting conflict, or following unknown individuals are signs of illegal content.</li><li><strong>Scientific Basis:</strong> Any religious guidance must have official authorization. Beware of 'unknown teachers' in the virtual world!</li></ul>",
         "owner_content_about": "Security recommendations on this platform have been developed as part of the following research work:",
-        "owner_content_about_list": "<ul><li>Research Topic: <strong>«Improving mechanisms for combating illegal content in the national segment of the Internet»</strong></li><li>Researcher: Independent Researcher <strong>(PhD) Mamurjon Munavvarjon Otakuziev</strong>.</li><li>Scientific Supervisor: <strong>PhD, Associate Professor Khasan Rikhsibaevich Tukhtamatov</strong>.</li></ul>",
+        "owner_content_about_list": "<ul><li>Research Topic: <strong>«Improving mechanisms for combating illegal content in the national segment of the Internet»</strong></li><li>Scientific Consultant: <strong>Doctor of Science (DSc) in Economics, Professor Azamatjon Azamovich Zoxidov</strong></li><li>Researcher: Independent Researcher <strong>(PhD) Mamurjon Munavvarjon Otakuziev</strong>.</li><li>Scientific Supervisor: <strong>PhD, Associate Professor Khasan Rikhsibaevich Tukhtamatov</strong>.</li></ul>",
         "owner_content_about_after": "The goal of the research is to ensure social stability by implementing modern technological methods to protect our national internet space from alien and harmful ideas.",
         "more_resource_item_not_allow": "⚠️ <strong>List of Prohibited Resources</strong> (By Supreme Court decision) <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
         "more_resource_item_embassy": "⚖️ <strong>Diplomatic Missions</strong> (Open Data Portal) <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
@@ -379,7 +379,7 @@ const translations = {
         "btn_fatvo": "Fatwa Center",
         "btn_vaqf": "Vaqf Foundation",
         "footer_note": "Prepared based on the conclusion of the Committee for Religious Affairs.",
-        "footer_date": "Information updated as of January 10, 2026."
+        "footer_date": "Information updated as of April 6, 2026."
     }
 };
 
