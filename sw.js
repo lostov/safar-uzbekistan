@@ -1,4 +1,4 @@
-const CACHE_NAME = 'safaruz-v2-2026-05-04'; // Kesh nomi, versiyani yangilash uchun o'zgartiring
+const CACHE_NAME = 'safaruz-v3-2026-05-04'; // Kesh nomi, versiyani yangilash uchun o'zgartiring
 const APP_PREFIX = '/safar-uzbekistan'; // GitHub Pages papka nomi
 
 // Oflayn ishlashi uchun barcha asosiy fayllar
