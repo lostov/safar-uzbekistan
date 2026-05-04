@@ -1,8 +1,37 @@
-if ('serviceWorker' in navigator) {
+/*if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/safar-uzbekistan/sw.js')
             .then(reg => console.log('SW ro\'yxatdan o\'tdi!', reg))
             .catch(err => console.log('SW xatosi:', err));
+    });
+}*/
+
+if ('serviceWorker' in navigator) {
+    let refreshing = false;
+    
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!refreshing) {
+            window.location.reload();
+            refreshing = true;
+        }
+    });
+
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then(reg => {
+                console.log('SW ro\'yxatdan o\'tdi');
+                reg.onupdatefound = () => {
+                    const installingWorker = reg.installing;
+                    installingWorker.onstatechange = () => {
+                        if (installingWorker.state === 'installed') {
+                            if (navigator.serviceWorker.controller) {
+                                console.log('Yangi versiya tayyor, sahifa yangilanmoqda...');
+                            }
+                        }
+                    };
+                };
+            })
+            .catch(err => console.error('SW xatosi:', err));
     });
 }
 
