@@ -119,7 +119,7 @@ const translations = {
         "double_tap_link_note": "Havolani ikki marta bosing, u yangi oynada ochiladi",
 
         "not_allowed_title": "⚖️ O‘zbekiston Respublikasi Oliy sudi tomonidan internet jahon tarmog‘idagi diniy ekstremistik, terroristik va aqidaparastlik g‘oyalari bilan yo‘g‘rilgan deb topilgan hamda Respublika hududiga olib kirish, tayyorlash, saqlash, tarqatish va namoyish etilishi taqiqlangan manba va kontentlar (materiallar) ro‘yxati",
-        "not_allowed_title_lastdate": "📆 <cite title=\"2026-yil 6-aprel\">2026-yil 6-aprel</cite> holatiga ko‘ra",
+        "not_allowed_title_lastdate": "📆 <cite title=\"2026-yil 3-noyabr\">2026-yil 3-noyabr</cite> holatiga ko‘ra",
         "not_allowed_item1": "Internet manbalar ro‘yxati",
         "not_allowed_item1_label1": "<strong>PDF</strong> fayl",
         "not_allowed_item1_label2": "<strong>Telegram</strong> havola",
@@ -154,8 +154,8 @@ const translations = {
         "owner_content_list": "<ul><li><strong>Manbaning rasmiyligi:</strong> Diniy ma’lumotlarni faqat O‘zbekiston musulmonlari idorasi tomonidan tasdiqlangan va davlat ro‘yxatidan o‘tgan rasmiy sayt hamda kanallardan oling.</li><li><strong>Shubhali chorlovlar:</strong> Sizni jamiyatdan ajralishga, nizo chiqarishga yoki noma’lum shaxslarga ergashishga chorlovchi audio va video materiallar noqonuniy kontent belgisidir.</li><li><strong>Ilmiy asos:</strong> Har qanday diniy fatvo yoki ko‘rsatma jonli ilm va rasmiy ijozatga ega bo‘lishi kerak. Virtual olamdagi «noma’lum ustozlar»dan ehtiyot bo‘ling!</li></ul>",
         "owner_content_about": "Ushbu platformadagi xavfsizlik bo‘yicha tavsiyalar bevosita quyidagi ilmiy ish doirasida ishlab chiqilgan va taqdim etilgan:",
         "owner_content_about_list": "<ul><li>Ilmiy ish mavzusi: <strong>«Internetning milliy segmentida noqonuniy kontentlarga qarshi kurash mexanizmlarini takomillashtirish»</strong></li><li>Ilmiy maslahatchi: <strong>Iqtisodiyot fanlari doktori (DSc), Professor Zoxidov Azamatjon A’zamovich</strong></li><li>Ilmiy tadqiqotchi: Mustaqil izlanuvchi <strong>(PhD) Otaqo‘ziyev Ma’murjon Munavvarjon</strong>.</li><li>Ilmiy rahbar: <strong>P.f.f.d (PhD), dotsent Tuxtamatov Xasan Rixsibayevich</strong>.</li></ul>",
-        "owner_content_about_after": "Tadqiqotning maqsadi — milliy internet hududimizni yot va zararli g‘oyalardan himoya qilishning zamonaviy va texnologik usullarini joriy etish orqali jamiyat barqarorligini ta’minlashdir.",
-        "more_resource_item_not_allow": "⚠️ <strong>Taqiqlangan resurslar ro‘yxati</strong> (Oliy sud qaroriga ko‘ra - <cite title=\"2026-yil 6-aprel\">2026-yil 6-aprel</cite>) <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
+        "owner_content_about_after": "Tadqiqotning maqsadi — milliy internet hududimizни yot va zararli g‘oyalardan himoya qilishning zamonaviy va texnologik usullarini joriy etish orqali jamiyat barqarorligini ta’minlashdir.",
+        "more_resource_item_not_allow": "⚠️ <strong>Taqiqlangan resurslar ro‘yxati</strong> (Oliy sud qaroriga ko‘ra - <cite title=\"2026-yil 3-noyabr\">2026-yil 3-noyabr</cite>) <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
         "more_resource_item_embassy": "⚖️ <strong>Diplomatik vakolatxonalar</strong> (Ochiq ma’lumotlar portali) <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
         "more_resource_item_vaqf": "🕋 <strong>«Vaqf» xayriya jamoat fondiga</strong> ehson qilish <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
         "more_resource_item_weather": "⛅️ <strong>«Ob-havo»</strong> ma’lumotlari «OpenWeatherMap» xizmati tomonidan taqdim etilmoqda <button class='badge bg-dark d-block mt-1'>🔗 havola</button>",
@@ -166,7 +166,7 @@ const translations = {
         "btn_fatvo": "Fatvo markazi",
         "btn_vaqf": "Vaqf fondi",
         "footer_note": "O‘zbekiston Respublikasi Din ishlari bo‘yicha qo‘mitasining xulosasi asosida tayyorlandi.",
-        "footer_date": "Ma’lumotlar 2026-yil 6-aprel holatiga ko‘ra yangilangan."
+        "footer_date": "Ma’lumotlar 2026-yil 3-noyabr holatiga ko‘ra yangilangan."
     },
     "uz": { // O'zbek kirill
         "nav_home": "Бош саҳифа",
@@ -201,7 +201,7 @@ const translations = {
         "double_tap_link_note": "Ҳаволани икки марта босинг, у янги ойнада очилади",
 
         "not_allowed_title": "⚖️ Ўзбекистон Республикаси Олий суди томонидан интернет жаҳон тармоғидаги диний экстремистик, террористик ва ақидапарастлик ғоялари билан йўғрилган деб топилган ҳамда Республика ҳудудига олиб кириш, тайёрлаш, сақлаш, тарқатиш ва намойиш этилиши тақиқланган манба ва контентлар (материаллар) рўйхати",
-        "not_allowed_title_lastdate": "📆 <cite title=\"2026-yil 6-aprel\">2026-йил 6 апрель</cite> ҳолатига кўра",
+        "not_allowed_title_lastdate": "📆 <cite title=\"2026-йил 3 ноябрь\"></cite> ҳолатига кўра",
         "not_allowed_item1": "Интернет манбалар рўйхати",
         "not_allowed_item1_label1": "<strong>PDF</strong> файл",
         "not_allowed_item1_label2": "<strong>Telegram</strong> ҳавола",
@@ -237,7 +237,7 @@ const translations = {
         "owner_content_about": "Ушбу платформадаги хавфсизлик бўйича тавсиялар бевосита қуйидаги илмий иш доирасида ишлаб чиқилган ва тақдим этилган:",
         "owner_content_about_list": "<ul><li>Илмий иш мавзуси: <strong>«Интернетнинг миллий сегментида ноқонуний контентларга қарши кураш механизмларини такомиллаштириш»</strong></li><li>Илмий маслаҳатчи: <strong>Иқтисодиёт фанлари доктори (DSc), Профессор Зохидов Азаматжон Аъзамович</strong></li><li>Илмий тадқиқотчи: Мустақил изланувчи <strong>(PhD) Отақўзиев Маъмуржон Мунавваржон</strong>.</li><li>Илмий раҳбар: <strong>П.ф.ф.д (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
         "owner_content_about_after": "Тадқиқотнинг мақсади — миллий интернет ҳудудимизни ёт ва зарарли ғоялардан ҳимоя қилишнинг замонавий ва технологик усулларини жорий этиш орқали жамият барқарорлигини таъминлашдир.",
-        "more_resource_item_not_allow": "⚠️ <strong>Тақиқланган ресурслар рўйхати</strong> (Олий суд қарорига кўра - <cite title=\"2026-йил 6 апрель\">2026-йил 6 апрель</cite>) <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
+        "more_resource_item_not_allow": "⚠️ <strong>Тақиқланган ресурслар рўйхати</strong> (Олий суд қарорига кўра - <cite title=\"2026-йил 3 ноябрь\">2026-йил 3 ноябрь</cite>) <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
         "more_resource_item_embassy": "⚖️ <strong>Дипломатик ваколатхоналар</strong> (Очиқ маълумотлар портали) <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
         "more_resource_item_vaqf": "🕋 <strong>«Вақф» хайрия жамоат фондига</strong> эҳсон қилиш <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
         "more_resource_item_weather": "⛅️ <strong>«Об-ҳаво»</strong> маълумотлари «OpenWeatherMap» хизмати томонидан тақдим этилмоқда <button class='badge bg-dark d-block mt-1'>🔗 ҳавола</button>",
@@ -248,7 +248,7 @@ const translations = {
         "btn_fatvo": "Фатво маркази",
         "btn_vaqf": "Вақф фонди",
         "footer_note": "Ўзбекистон Республикаси Дин ишлари бўйича қўмитасининг хулосаси асосида тайёрланди.",
-        "footer_date": "Маълумотлар 2026 йил 6 апрель ҳолатига кўра янгиланган."
+        "footer_date": "Маълумотлар 2026 йил 3 ноябрь ҳолатига кўра янгиланган."
     },
     "ru": { // Rus tili
         "nav_home": "Главная",
@@ -283,7 +283,7 @@ const translations = {
         "double_tap_link_note": "Дважды нажмите на ссылку, она откроется в новом окне",
 
         "not_allowed_title": "⚖️ Перечень источников и контента (материалов) во всемирной сети Интернет, признанных Верховным судом Республики Узбекистан содержащими идеи религиозного экстремизма, терроризма и фундаментализма, запрещенных к ввозу, изготовлению, хранению, распространению и демонстрации на территории Республики",
-        "not_allowed_title_lastdate": "По состоянию на <cite title=\"6 апреля 2026 года\">6 апреля 2026 года</cite>","not_allowed_item1": "Список интернет-ресурсов",
+        "not_allowed_title_lastdate": "По состоянию на <cite title=\"3 ноября 2026 года\">3 ноября 2026 года</cite>","not_allowed_item1": "Список интернет-ресурсов",
         "not_allowed_item1_label1": "Файл <strong>PDF</strong>",
         "not_allowed_item1_label2": "Ссылка в <strong>Telegram</strong>",
         "not_allowed_item2": "Юридические последствия",
@@ -318,7 +318,7 @@ const translations = {
         "owner_content_about": "Рекомендации по безопасности на этой платформе разработаны в рамках следующей научной работы:",
         "owner_content_about_list": "<ul><li>Тема научной работы: <strong>«Совершенствование механизмов борьбы с незаконным контентом в национальном сегменте Интернета»</strong></li><li>Научный консультант: <strong>Доктор экономических наук (DSc), профессор Захидов Азаматжон Азамович</strong></li><li>Исследователь: Независимый соискатель <strong>(PhD) Отакузиев Маъмуржон Мунавваржон</strong>.</li><li>Научный руководитель: <strong>д.ф.п.н (PhD), доцент Тухтаматов Хасан Рихсибаевич</strong>.</li></ul>",
         "owner_content_about_after": "Цель исследования — обеспечение стабильности общества путем внедрения современных технологических методов защиты нашего национального интернет-пространства от чуждых и вредных идей.",
-        "more_resource_item_not_allow": "⚠️ <strong>Список запрещенных ресурсов</strong> (По решению Верховного суда - <cite title=\"6 апреля 2026 года\">6 апреля 2026 года</cite>) <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
+        "more_resource_item_not_allow": "⚠️ <strong>Список запрещенных ресурсов</strong> (По решению Верховного суда - <cite title=\"3 ноября 2026 года\">3 ноября 2026 года</cite>) <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
         "more_resource_item_embassy": "⚖️ <strong>Дипломатические миссии</strong> (Портал открытых данных) <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
         "more_resource_item_vaqf": "🕋 <strong>Благотворительный фонд «Vaqf»</strong> внести пожертвование <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
         "more_resource_item_weather": "⛅️ <strong>«Погода»</strong> предоставлено сервисом «OpenWeatherMap» <button class='badge bg-dark d-block mt-1'>🔗 ссылка</button>",
@@ -329,7 +329,7 @@ const translations = {
         "btn_fatvo": "Центр Фатвы",
         "btn_vaqf": "Фонд Вакф",
         "footer_note": "Подготовлено на основании заключения Комитета по делам религий РУз.",
-        "footer_date": "Информация обновлена по состоянию на 6 апреля 2026 года."
+        "footer_date": "Информация обновлена по состоянию на 3 ноября 2026 года."
     },
     "en": { // Ingliz tili
         "nav_home": "Home",
@@ -361,7 +361,7 @@ const translations = {
         "double_tap_link_note": "Double-tap the link, it will open in the new window",
 
         "not_allowed_title": "⚖️ List of sources and contents (materials) on the World Wide Web, recognized by the Supreme Court of the Republic of Uzbekistan as contaminated with religious extremist, terrorist, and fanatical ideas, and prohibited for import, production, storage, distribution, and display on the territory of the Republic",
-        "not_allowed_title_lastdate": "Accessed <cite title=\"April 6, 2026\">as of April 6, 2026</cite>",
+        "not_allowed_title_lastdate": "Accessed <cite title=\"November 3, 2026\">as of November 3, 2026</cite>",
         "not_allowed_item1": "List of Internet resources",
         "not_allowed_item1_label1": "<strong>PDF</strong> file",
         "not_allowed_item1_label2": "<strong>Telegram</strong> link",
@@ -397,7 +397,7 @@ const translations = {
         "owner_content_about": "Security recommendations on this platform have been developed as part of the following research work:",
         "owner_content_about_list": "<ul><li>Research Topic: <strong>«Improving mechanisms for combating illegal content in the national segment of the Internet»</strong></li><li>Scientific Consultant: <strong>Doctor of Science (DSc) in Economics, Professor Azamatjon Azamovich Zoxidov</strong></li><li>Researcher: Independent Researcher <strong>(PhD) Mamurjon Munavvarjon Otakuziev</strong>.</li><li>Scientific Supervisor: <strong>PhD, Associate Professor Khasan Rikhsibaevich Tukhtamatov</strong>.</li></ul>",
         "owner_content_about_after": "The goal of the research is to ensure social stability by implementing modern technological methods to protect our national internet space from alien and harmful ideas.",
-        "more_resource_item_not_allow": "⚠️ <strong>List of Prohibited Resources</strong> (By Supreme Court decision - <cite title=\"of April 6, 2026\">of April 6, 2026</cite>) <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
+        "more_resource_item_not_allow": "⚠️ <strong>List of Prohibited Resources</strong> (By Supreme Court decision - <cite title=\"of November 3, 2026\">of November 3, 2026</cite>) <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
         "more_resource_item_embassy": "⚖️ <strong>Diplomatic Missions</strong> (Open Data Portal) <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
         "more_resource_item_vaqf": "🕋 <strong>«Vaqf» Charitable Foundation</strong> make a donation <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
         "more_resource_item_weather": "⛅️ <strong>«Weather»</strong> data provided by «OpenWeatherMap» service <button class='badge bg-dark d-block mt-1'>🔗 link</button>",
@@ -408,7 +408,7 @@ const translations = {
         "btn_fatvo": "Fatwa Center",
         "btn_vaqf": "Vaqf Foundation",
         "footer_note": "Prepared based on the conclusion of the Committee for Religious Affairs.",
-        "footer_date": "Information updated as of April 6, 2026."
+        "footer_date": "Information updated as of November 3, 2026."
     }
 };
 
