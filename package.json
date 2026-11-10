@@ -1,0 +1,29 @@
+{
+  "name": "safar-uzbekistan",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Safar Uzbekistan 2.0 — xorijdagi O‘zbekiston fuqarolari uchun PWA qo‘llanma",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "i18n": "node scripts/i18n-check.mjs",
+    "i18n:yangi": "node scripts/i18n-check.mjs --write-yangi",
+    "data": "node scripts/fetch-data.mjs"
+  },
+  "dependencies": {
+    "@fontsource/lora": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@fontsource/nunito-sans": "^5.3.0",
+    "preact": "^11.2.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.9.0",
+    "vite": "^8.0.0",
+    "vite-plugin-pwa": "^2.0.0"
+  }
+}

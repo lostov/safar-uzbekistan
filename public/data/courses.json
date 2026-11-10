@@ -1,0 +1,172 @@
+{
+ "fetched": "2026-11-10",
+ "source": "https://xorijdaish.uz",
+ "language": [
+  {
+   "id": 7,
+   "format": "offline",
+   "months": 3,
+   "phone": "+998710259977",
+   "regions": [
+    "BU",
+    "AN",
+    "TK",
+    "SU",
+    "JI",
+    "QR",
+    "TO",
+    "NW",
+    "SA",
+    "FA",
+    "XO",
+    "NG",
+    "QA",
+    "SI"
+   ],
+   "name": "«Skill-test» ga tayyorlov kursi",
+   "lang": {
+    "uz-latn": "Koreys",
+    "uz-cyrl": "Корейс",
+    "ru": "Корейский",
+    "en": "Korean"
+   }
+  },
+  {
+   "id": 6,
+   "format": "online",
+   "months": 6,
+   "phone": "+998710259977",
+   "regions": [],
+   "name": "«Oliy hamshiralik ishi» diplomiga ega hamshiralarni Italyan tiliga tayyorlash kursi",
+   "lang": {
+    "uz-latn": "Italyan",
+    "uz-cyrl": "Италян",
+    "ru": "Итальянский",
+    "en": "Italian"
+   }
+  },
+  {
+   "id": 5,
+   "format": "offline",
+   "months": 9,
+   "phone": "+998712023355",
+   "regions": [
+    "JI",
+    "TO",
+    "SA"
+   ],
+   "name": "Xalqaro nemis tili darajasini tasdiqlovchi sertifikatga tayyorlov kursi",
+   "lang": {
+    "uz-latn": "Nemis",
+    "uz-cyrl": "Немис",
+    "ru": "Немецкий",
+    "en": "German"
+   }
+  }
+ ],
+ "profession": [
+  {
+   "id": 8,
+   "format": "offline",
+   "months": 3,
+   "phone": "+998712023355",
+   "regions": [
+    "BU",
+    "AN",
+    "TK",
+    "SU",
+    "JI",
+    "QR",
+    "TO",
+    "NW",
+    "SA",
+    "FA",
+    "XO",
+    "NG",
+    "QA",
+    "SI"
+   ],
+   "name": "Qurilish ishlari ustasi"
+  },
+  {
+   "id": 7,
+   "format": "offline",
+   "months": 3,
+   "phone": "+998712023355",
+   "regions": [
+    "BU",
+    "AN",
+    "TK",
+    "SU",
+    "JI",
+    "QR",
+    "TO",
+    "NW",
+    "SA",
+    "FA",
+    "XO",
+    "NG",
+    "QA",
+    "SI"
+   ],
+   "name": "Santexnik"
+  },
+  {
+   "id": 6,
+   "format": "offline",
+   "months": 6,
+   "phone": "+998710259977",
+   "regions": [
+    "BU",
+    "AN",
+    "TK",
+    "SA"
+   ],
+   "name": "Italiyada ishlash istagidagi fuqarolar uchun «Oliy hamshiralik ishi» bakalavriyat taʼlim dasturi"
+  },
+  {
+   "id": 5,
+   "format": "offline",
+   "months": 3,
+   "phone": "+998710259977",
+   "regions": [
+    "BU",
+    "AN",
+    "TK",
+    "SU",
+    "JI",
+    "QR",
+    "TO",
+    "NW",
+    "SA",
+    "FA",
+    "XO",
+    "NG",
+    "QA",
+    "SI"
+   ],
+   "name": "Elektromontyor"
+  },
+  {
+   "id": 4,
+   "format": "offline",
+   "months": 6,
+   "phone": "+998710259977",
+   "regions": [
+    "TO"
+   ],
+   "name": "Haydovchilik (BC) - Proud partners"
+  },
+  {
+   "id": 3,
+   "format": "offline",
+   "months": 3,
+   "phone": "+998710259977",
+   "regions": [
+    "TO"
+   ],
+   "name": "Payvandlovchi (ISO-9606)"
+  }
+ ],
+ "predeparture": []
+}

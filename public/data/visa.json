@@ -1,0 +1,725 @@
+{
+ "fetched": "2026-11-10",
+ "updated": "2025-12-29",
+ "source": {
+  "uz-latn": "https://gov.uz/oz/mfa/pages/o-zbekiston-respublikasi-fuqarolari-uchun-viza-talablari",
+  "uz-cyrl": "https://gov.uz/oz/mfa/pages/o-zbekiston-respublikasi-fuqarolari-uchun-viza-talablari",
+  "ru": "https://gov.uz/ru/mfa/pages/o-zbekiston-respublikasi-fuqarolari-uchun-viza-talablari",
+  "en": "https://gov.uz/ru/mfa/pages/o-zbekiston-respublikasi-fuqarolari-uchun-viza-talablari"
+ },
+ "groups": [
+  {
+   "id": "free",
+   "countries": [
+    {
+     "iso": "AG",
+     "name": {
+      "uz-latn": "Antigua va Barbuda",
+      "uz-cyrl": "Антигуа ва Барбуда",
+      "ru": "Антигуа и Барбуда",
+      "en": "Antigua and Barbuda"
+     }
+    },
+    {
+     "iso": "AM",
+     "name": {
+      "uz-latn": "Armaniston",
+      "uz-cyrl": "Арманистон",
+      "ru": "Армения",
+      "en": "Armenia"
+     }
+    },
+    {
+     "iso": "AZ",
+     "name": {
+      "uz-latn": "Ozarbayjon",
+      "uz-cyrl": "Озарбайжон",
+      "ru": "Азербайджан",
+      "en": "Azerbaijan"
+     }
+    },
+    {
+     "iso": "BB",
+     "name": {
+      "uz-latn": "Barbados",
+      "uz-cyrl": "Барбадос",
+      "ru": "Барбадос",
+      "en": "Barbados"
+     }
+    },
+    {
+     "iso": "BY",
+     "name": {
+      "uz-latn": "Belarus",
+      "uz-cyrl": "Беларус",
+      "ru": "Беларусь",
+      "en": "Belarus"
+     }
+    },
+    {
+     "iso": "DM",
+     "name": {
+      "uz-latn": "Dominika",
+      "uz-cyrl": "Доминика",
+      "ru": "Доминика",
+      "en": "Dominica"
+     }
+    },
+    {
+     "iso": "GM",
+     "name": {
+      "uz-latn": "Gambiya",
+      "uz-cyrl": "Гамбия",
+      "ru": "Гамбия",
+      "en": "Gambia"
+     }
+    },
+    {
+     "iso": "GE",
+     "name": {
+      "uz-latn": "Gruziya",
+      "uz-cyrl": "Грузия",
+      "ru": "Грузия",
+      "en": "Georgia"
+     }
+    },
+    {
+     "iso": "HT",
+     "name": {
+      "uz-latn": "Gaiti",
+      "uz-cyrl": "Гаити",
+      "ru": "Гаити",
+      "en": "Haiti"
+     }
+    },
+    {
+     "iso": "GD",
+     "name": {
+      "uz-latn": "Grenada",
+      "uz-cyrl": "Гренада",
+      "ru": "Гренада",
+      "en": "Grenada"
+     }
+    },
+    {
+     "iso": "JO",
+     "name": {
+      "uz-latn": "Iordaniya",
+      "uz-cyrl": "Иордания",
+      "ru": "Иордания",
+      "en": "Jordan"
+     }
+    },
+    {
+     "iso": "IR",
+     "name": {
+      "uz-latn": "Eron",
+      "uz-cyrl": "Эрон",
+      "ru": "Иран",
+      "en": "Iran"
+     }
+    },
+    {
+     "iso": "KZ",
+     "name": {
+      "uz-latn": "Qozogʻiston",
+      "uz-cyrl": "Қозоғистон",
+      "ru": "Казахстан",
+      "en": "Kazakhstan"
+     }
+    },
+    {
+     "iso": "KG",
+     "name": {
+      "uz-latn": "Qirgʻiziston",
+      "uz-cyrl": "Қирғизистон",
+      "ru": "Киргизия",
+      "en": "Kyrgyzstan"
+     }
+    },
+    {
+     "iso": "MY",
+     "name": {
+      "uz-latn": "Malayziya",
+      "uz-cyrl": "Малайзия",
+      "ru": "Малайзия",
+      "en": "Malaysia"
+     }
+    },
+    {
+     "iso": "FM",
+     "name": {
+      "uz-latn": "Mikroneziya",
+      "uz-cyrl": "Микронезия",
+      "ru": "Микронезия",
+      "en": "Micronesia"
+     }
+    },
+    {
+     "iso": "MD",
+     "name": {
+      "uz-latn": "Moldova",
+      "uz-cyrl": "Молдова",
+      "ru": "Молдова",
+      "en": "Moldova"
+     }
+    },
+    {
+     "iso": "CN",
+     "name": {
+      "uz-latn": "Xitoy",
+      "uz-cyrl": "Хитой",
+      "ru": "Китай",
+      "en": "China"
+     }
+    },
+    {
+     "iso": "MN",
+     "name": {
+      "uz-latn": "Moʻgʻuliston",
+      "uz-cyrl": "Мўғулистон",
+      "ru": "Монголия",
+      "en": "Mongolia"
+     }
+    },
+    {
+     "iso": "NA",
+     "name": {
+      "uz-latn": "Namibiya",
+      "uz-cyrl": "Намибия",
+      "ru": "Намибия",
+      "en": "Namibia"
+     }
+    },
+    {
+     "iso": "AE",
+     "name": {
+      "uz-latn": "Birlashgan Arab Amirliklari",
+      "uz-cyrl": "Бирлашган Араб Амирликлари",
+      "ru": "Объединённые Арабские Эмираты",
+      "en": "United Arab Emirates"
+     }
+    },
+    {
+     "iso": "OM",
+     "name": {
+      "uz-latn": "Oʻmon",
+      "uz-cyrl": "Уммон",
+      "ru": "Оман",
+      "en": "Oman"
+     }
+    },
+    {
+     "iso": "PS",
+     "name": {
+      "uz-latn": "Falastin",
+      "uz-cyrl": "Фаластин",
+      "ru": "Палестина",
+      "en": "Palestine"
+     }
+    },
+    {
+     "iso": "PH",
+     "name": {
+      "uz-latn": "Filippin",
+      "uz-cyrl": "Филиппин",
+      "ru": "Филиппины",
+      "en": "Philippines"
+     }
+    },
+    {
+     "iso": "RU",
+     "name": {
+      "uz-latn": "Rossiya",
+      "uz-cyrl": "Россия",
+      "ru": "Россия",
+      "en": "Russia"
+     }
+    },
+    {
+     "iso": "VC",
+     "name": {
+      "uz-latn": "Sent-Vinsent va Grenadin orollari",
+      "uz-cyrl": "Сент-Винсент ва Гренадин",
+      "ru": "Сент-Винсент и Гренадины",
+      "en": "Saint Vincent and the Grenadines"
+     }
+    },
+    {
+     "iso": "SR",
+     "name": {
+      "uz-latn": "Surinam",
+      "uz-cyrl": "Суринам",
+      "ru": "Суринам",
+      "en": "Suriname"
+     }
+    },
+    {
+     "iso": "TJ",
+     "name": {
+      "uz-latn": "Tojikiston",
+      "uz-cyrl": "Тожикистон",
+      "ru": "Таджикистан",
+      "en": "Tajikistan"
+     }
+    },
+    {
+     "iso": "TH",
+     "name": {
+      "uz-latn": "Tailand",
+      "uz-cyrl": "Таиланд",
+      "ru": "Таиланд",
+      "en": "Thailand"
+     }
+    },
+    {
+     "iso": "TR",
+     "name": {
+      "uz-latn": "Turkiya",
+      "uz-cyrl": "Туркия",
+      "ru": "Турция",
+      "en": "Türkiye"
+     }
+    },
+    {
+     "iso": "UA",
+     "name": {
+      "uz-latn": "Ukraina",
+      "uz-cyrl": "Украина",
+      "ru": "Украина",
+      "en": "Ukraine"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tourist",
+   "countries": [
+    {
+     "iso": "KE",
+     "name": {
+      "uz-latn": "Keniya",
+      "uz-cyrl": "Кения",
+      "ru": "Кения",
+      "en": "Kenya"
+     }
+    },
+    {
+     "iso": "CI",
+     "name": {
+      "uz-latn": "Kot-dʼIvuar",
+      "uz-cyrl": "Кот-д’Ивуар",
+      "ru": "Кот-д’Ивуар",
+      "en": "Côte d’Ivoire"
+     }
+    },
+    {
+     "iso": "SC",
+     "name": {
+      "uz-latn": "Seyshel orollari",
+      "uz-cyrl": "Сейшел ороллари",
+      "ru": "Сейшельские острова",
+      "en": "Seychelles"
+     }
+    },
+    {
+     "iso": "LK",
+     "name": {
+      "uz-latn": "Shri-Lanka",
+      "uz-cyrl": "Шри-Ланка",
+      "ru": "Шри-Ланка",
+      "en": "Sri Lanka"
+     }
+    }
+   ]
+  },
+  {
+   "id": "arrival",
+   "countries": [
+    {
+     "iso": "BO",
+     "name": {
+      "uz-latn": "Boliviya",
+      "uz-cyrl": "Боливия",
+      "ru": "Боливия",
+      "en": "Bolivia"
+     }
+    },
+    {
+     "iso": "BI",
+     "name": {
+      "uz-latn": "Burundi",
+      "uz-cyrl": "Бурунди",
+      "ru": "Бурунди",
+      "en": "Burundi"
+     }
+    },
+    {
+     "iso": "KH",
+     "name": {
+      "uz-latn": "Kambodja",
+      "uz-cyrl": "Камбоджа",
+      "ru": "Камбоджа",
+      "en": "Cambodia"
+     }
+    },
+    {
+     "iso": "CV",
+     "name": {
+      "uz-latn": "Kabo-Verde",
+      "uz-cyrl": "Кабо-Верде",
+      "ru": "Кабо-Верде",
+      "en": "Cape Verde"
+     }
+    },
+    {
+     "iso": "KM",
+     "name": {
+      "uz-latn": "Komor orollari",
+      "uz-cyrl": "Комор ороллари",
+      "ru": "Коморские Острова",
+      "en": "Comoros"
+     }
+    },
+    {
+     "iso": "GW",
+     "name": {
+      "uz-latn": "Gvineya-Bisau",
+      "uz-cyrl": "Гвинея-Бисау",
+      "ru": "Гвинея-Бисау",
+      "en": "Guinea-Bissau"
+     }
+    },
+    {
+     "iso": "ID",
+     "name": {
+      "uz-latn": "Indoneziya",
+      "uz-cyrl": "Индонезия",
+      "ru": "Индонезия",
+      "en": "Indonesia"
+     }
+    },
+    {
+     "iso": "JM",
+     "name": {
+      "uz-latn": "Yamayka",
+      "uz-cyrl": "Ямайка",
+      "ru": "Ямайка",
+      "en": "Jamaica"
+     }
+    },
+    {
+     "iso": "JO",
+     "name": {
+      "uz-latn": "Iordaniya",
+      "uz-cyrl": "Иордания",
+      "ru": "Иордания",
+      "en": "Jordan"
+     }
+    },
+    {
+     "iso": "LA",
+     "name": {
+      "uz-latn": "Laos",
+      "uz-cyrl": "Лаос",
+      "ru": "Лаос",
+      "en": "Laos"
+     }
+    },
+    {
+     "iso": "LB",
+     "name": {
+      "uz-latn": "Livan",
+      "uz-cyrl": "Ливан",
+      "ru": "Ливан",
+      "en": "Lebanon"
+     }
+    },
+    {
+     "iso": "MO",
+     "name": {
+      "uz-latn": "Makao",
+      "uz-cyrl": "Макао",
+      "ru": "Макао",
+      "en": "Macao"
+     }
+    },
+    {
+     "iso": "MG",
+     "name": {
+      "uz-latn": "Madagaskar",
+      "uz-cyrl": "Мадагаскар",
+      "ru": "Мадагаскар",
+      "en": "Madagascar"
+     }
+    },
+    {
+     "iso": "MV",
+     "name": {
+      "uz-latn": "Maldiv orollari",
+      "uz-cyrl": "Мальдив ороллари",
+      "ru": "Мальдивские Острова",
+      "en": "Maldives"
+     }
+    },
+    {
+     "iso": "MR",
+     "name": {
+      "uz-latn": "Mavritaniya",
+      "uz-cyrl": "Мавритания",
+      "ru": "Мавритания",
+      "en": "Mauritania"
+     }
+    },
+    {
+     "iso": "MU",
+     "name": {
+      "uz-latn": "Mavrikiy",
+      "uz-cyrl": "Маврикий",
+      "ru": "Маврикий",
+      "en": "Mauritius"
+     }
+    },
+    {
+     "iso": "MZ",
+     "name": {
+      "uz-latn": "Mozambik",
+      "uz-cyrl": "Мозамбик",
+      "ru": "Мозамбик",
+      "en": "Mozambique"
+     }
+    },
+    {
+     "iso": "NP",
+     "name": {
+      "uz-latn": "Nepal",
+      "uz-cyrl": "Непал",
+      "ru": "Непал",
+      "en": "Nepal"
+     }
+    },
+    {
+     "iso": "NI",
+     "name": {
+      "uz-latn": "Nikaragua",
+      "uz-cyrl": "Никарагуа",
+      "ru": "Никарагуа",
+      "en": "Nicaragua"
+     }
+    },
+    {
+     "iso": "PW",
+     "name": {
+      "uz-latn": "Palau",
+      "uz-cyrl": "Палау",
+      "ru": "Палау",
+      "en": "Palau"
+     }
+    },
+    {
+     "iso": "QA",
+     "name": {
+      "uz-latn": "Qatar",
+      "uz-cyrl": "Қатар",
+      "ru": "Катар",
+      "en": "Qatar"
+     }
+    },
+    {
+     "iso": "RW",
+     "name": {
+      "uz-latn": "Ruanda",
+      "uz-cyrl": "Руанда",
+      "ru": "Руанда",
+      "en": "Rwanda"
+     }
+    },
+    {
+     "iso": "WS",
+     "name": {
+      "uz-latn": "Samoa",
+      "uz-cyrl": "Самоа",
+      "ru": "Самоа",
+      "en": "Samoa"
+     }
+    },
+    {
+     "iso": "SA",
+     "name": {
+      "uz-latn": "Saudiya Arabistoni",
+      "uz-cyrl": "Саудия Арабистони",
+      "ru": "Саудовская Аравия",
+      "en": "Saudi Arabia"
+     }
+    },
+    {
+     "iso": "SL",
+     "name": {
+      "uz-latn": "Syerra-Leone",
+      "uz-cyrl": "Сьерра-Леоне",
+      "ru": "Сьерра-Леоне",
+      "en": "Sierra Leone"
+     }
+    },
+    {
+     "iso": "TL",
+     "name": {
+      "uz-latn": "Sharqiy Timor",
+      "uz-cyrl": "Шарқий Тимор",
+      "ru": "Восточный Тимор",
+      "en": "Timor-Leste"
+     }
+    },
+    {
+     "iso": "TG",
+     "name": {
+      "uz-latn": "Togo",
+      "uz-cyrl": "Того",
+      "ru": "Того",
+      "en": "Togo"
+     }
+    },
+    {
+     "iso": "TV",
+     "name": {
+      "uz-latn": "Tuvalu",
+      "uz-cyrl": "Тувалу",
+      "ru": "Тувалу",
+      "en": "Tuvalu"
+     }
+    },
+    {
+     "iso": "ZW",
+     "name": {
+      "uz-latn": "Zimbabve",
+      "uz-cyrl": "Зимбабве",
+      "ru": "Зимбабве",
+      "en": "Zimbabwe"
+     }
+    }
+   ]
+  },
+  {
+   "id": "evisa",
+   "countries": [
+    {
+     "iso": "CD",
+     "name": {
+      "uz-latn": "Kongo Demokratik Respublikasi",
+      "uz-cyrl": "Конго Демократик Республикаси",
+      "ru": "Конго",
+      "en": "DR Congo"
+     }
+    },
+    {
+     "iso": "DJ",
+     "name": {
+      "uz-latn": "Jibuti",
+      "uz-cyrl": "Жибути",
+      "ru": "Джибути",
+      "en": "Djibouti"
+     }
+    },
+    {
+     "iso": "GQ",
+     "name": {
+      "uz-latn": "Ekvatorial Gvineya",
+      "uz-cyrl": "Экваториал Гвинея",
+      "ru": "Экваториальная Гвинея",
+      "en": "Equatorial Guinea"
+     }
+    },
+    {
+     "iso": "ET",
+     "name": {
+      "uz-latn": "Efiopiya",
+      "uz-cyrl": "Эфиопия",
+      "ru": "Эфиопия",
+      "en": "Ethiopia"
+     }
+    },
+    {
+     "iso": "GA",
+     "name": {
+      "uz-latn": "Gabon",
+      "uz-cyrl": "Габон",
+      "ru": "Габон",
+      "en": "Gabon"
+     }
+    },
+    {
+     "iso": "GN",
+     "name": {
+      "uz-latn": "Gvineya",
+      "uz-cyrl": "Гвинея",
+      "ru": "Гвинея",
+      "en": "Guinea"
+     }
+    },
+    {
+     "iso": "IN",
+     "name": {
+      "uz-latn": "Hindiston",
+      "uz-cyrl": "Ҳиндистон",
+      "ru": "Индия",
+      "en": "India"
+     }
+    },
+    {
+     "iso": "LS",
+     "name": {
+      "uz-latn": "Lesoto",
+      "uz-cyrl": "Лесото",
+      "ru": "Лесото",
+      "en": "Lesotho"
+     }
+    },
+    {
+     "iso": "MW",
+     "name": {
+      "uz-latn": "Malavi",
+      "uz-cyrl": "Малави",
+      "ru": "Малави",
+      "en": "Malawi"
+     }
+    },
+    {
+     "iso": "NG",
+     "name": {
+      "uz-latn": "Nigeriya",
+      "uz-cyrl": "Нигерия",
+      "ru": "Нигерия",
+      "en": "Nigeria"
+     }
+    },
+    {
+     "iso": "SS",
+     "name": {
+      "uz-latn": "Janubiy Sudan",
+      "uz-cyrl": "Жанубий Судан",
+      "ru": "Южный Судан",
+      "en": "South Sudan"
+     }
+    },
+    {
+     "iso": "UG",
+     "name": {
+      "uz-latn": "Uganda",
+      "uz-cyrl": "Уганда",
+      "ru": "Уганда",
+      "en": "Uganda"
+     }
+    },
+    {
+     "iso": "VN",
+     "name": {
+      "uz-latn": "Vietnam",
+      "uz-cyrl": "Вьетнам",
+      "ru": "Вьетнам",
+      "en": "Vietnam"
+     }
+    }
+   ]
+  }
+ ]
+}
