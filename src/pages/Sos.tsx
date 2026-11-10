@@ -1,7 +1,7 @@
 import { useState } from 'preact/hooks';
 import { Icon } from '../components/Icon';
 import { Chip, PageHead, Tile } from '../components/ui';
-import { useI18n, EGOV_LANG } from '../i18n';
+import { useI18n } from '../i18n';
 import { useResources, usePosition } from '../hooks';
 import { cachedEmbassies, dialNumber, nearestEmbassy } from '../lib/api';
 import type { Emergency } from '../lib/data';
@@ -25,7 +25,7 @@ export function Sos() {
   // hammasi asosiy raqamga teng bo‘lsa — alohida bloklar kerak emas
   if (services.every((s) => s.num === em.main)) services.length = 0;
   // eng yaqin vakolatxona: tanlangan tildagi, bo‘lmasa istalgan tildagi kesh
-  const list = cachedEmbassies(EGOV_LANG[lang])?.data ?? [1, 2, 3, 4].map((i) => cachedEmbassies(i)?.data).find(Boolean) ?? [];
+  const list = cachedEmbassies(lang)?.data ?? [];
   const near = pos ? nearestEmbassy(list, pos) : null;
 
   const shareLocation = () => {

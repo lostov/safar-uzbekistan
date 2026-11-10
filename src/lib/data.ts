@@ -61,7 +61,14 @@ export interface Course {
 export interface CoursesFile { fetched: string; source: string; language: Course[]; profession: Course[]; predeparture: Course[] }
 
 /** Fon rejimida oldindan yuklanadigan fayllar — sahifa ochilmasa ham oflaynda ishlaydi */
-export const WORK_FILES = ['agencies.json', 'visa.json', 'courses.json', 'guides.json'] as const;
+export const WORK_FILES = ['embassies.json', 'agencies.json', 'visa.json', 'courses.json', 'guides.json'] as const;
+
+/** embassies.json — xorijdagi vakolatxonalar (data.egov.uz, 4 til bitta faylda; scripts/fetch-data.mjs) */
+export interface EmbassyItem {
+  id: number; code: string; phones: string[]; faxes: string[]; lat: number | null; lon: number | null;
+  kind: 'embassy' | 'consulate'; name: Loc; address: Loc; head: Loc; position: Loc;
+}
+export interface EmbassiesFile { fetched: string; source: string; items: EmbassyItem[] }
 
 /** guides.json — Huquqiy va ijtimoiy qo‘llanma («Xorijda ish» → information-blog). body — tozalangan HTML */
 export interface Guide { id: number; iso: string | null; group: 'country' | 'return' | 'general'; updated: string; title: Loc; desc: Loc; body: Loc }

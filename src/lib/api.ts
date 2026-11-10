@@ -1,5 +1,6 @@
-import { EGOV_URL, OWM_KEY, TTL } from './config';
+import { OWM_KEY, TTL } from './config';
 import { load, save, isFresh, type Cached } from './store';
+import { loadDataFile, type EmbassiesFile, type Loc } from './data';
 import { distanceKm, rememberPlace, type Pos } from './geo';
 
 // ---------------- Vakolatxonalar (data.egov.uz) ----------------
@@ -16,10 +17,6 @@ export interface Embassy {
   lon: number | null;
   kind: 'embassy' | 'consulate';
 }
-
-type RawEmbassy = Record<string, string | number | null | undefined>;
-
-const cap = (s: string) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 
 /** "6734-39-42/43, 6734-39-50" → ["6734-39-42", "6734-39-43", "6734-39-50"] */
 export function splitNumbers(raw: unknown): string[] {
@@ -41,44 +38,34 @@ export function splitNumbers(raw: unknown): string[] {
 
 export const dialNumber = (code: string, num: string) => '+' + `${code}${num}`.replace(/[^\d]/g, '');
 
-function normalize(list: RawEmbassy[]): Embassy[] {
-  return list.map((r, i) => {
-    const name = String(r.Vakolatxonanomi ?? r.Vakolatnomanomi ?? '').trim();
-    const lat = Number(r.latitude), lon = Number(r.longitude);
-    const consulate = /konsul|консул|consul/i.test(name);
-    return {
-      id: i,
-      name,
-      address: String(r.Vakolatxonamanzili ?? '').trim(),
-      code: String(r.Codi ?? '').trim(),
-      phones: splitNumbers(r.Telefon),
-      faxes: splitNumbers(r.Faks),
-      head: cap(String(r.Rahbar ?? '').trim()),
-      position: cap(String(r.Lavozimi ?? '').trim()),
-      lat: Number.isFinite(lat) && lat !== 0 ? lat : null,
-      lon: Number.isFinite(lon) && lon !== 0 ? lon : null,
-      kind: consulate ? 'consulate' : 'embassy',
-    };
-  });
+// Vakolatxonalar endi data.egov.uz dan to‘g‘ridan so‘ralmaydi: scripts/fetch-data.mjs 4 tilni
+// embassies.json ga birlashtiradi → til almashtirilganda qayta yuklanmaydi, oflaynda barcha tillar ishlaydi.
+const EMB_FILE = 'embassies.json';
+type LocLang = keyof Loc;
+
+function localize(file: EmbassiesFile, lang: LocLang): Embassy[] {
+  return file.items.map((e) => ({
+    id: e.id, code: e.code, phones: e.phones, faxes: e.faxes, lat: e.lat, lon: e.lon, kind: e.kind,
+    name: e.name[lang] || e.name['uz-latn'], address: e.address[lang] || e.address['uz-latn'],
+    head: e.head[lang] || e.head['uz-latn'], position: e.position[lang] || e.position['uz-latn'],
+  }));
 }
 
-export function cachedEmbassies(langId: number): Cached<Embassy[]> | null {
-  return load<Embassy[]>('emb:' + langId);
+// v2.0 dagi tilma-til kesh (su2:emb:1…4) endi kerak emas
+try { for (let i = 1; i <= 4; i++) localStorage.removeItem('su2:emb:' + i); } catch { /* */ }
+
+/** Qurilmadagi nusxa (internet talab qilmaydi). lang: 'uz-yangi' → 'uz-latn' (UI ext() bilan o‘giradi) */
+export function cachedEmbassies(lang: string): Cached<Embassy[]> | null {
+  const c = load<EmbassiesFile>('file:' + EMB_FILE);
+  return c ? { t: c.t, data: localize(c.data, toLocLang(lang)) } : null;
 }
 
-export async function fetchEmbassies(langId: number, force = false): Promise<Cached<Embassy[]>> {
-  const cached = cachedEmbassies(langId);
-  if (!force && cached && isFresh(cached, TTL.embassies)) return cached;
-  try {
-    const res = await fetch(`${EGOV_URL}&lang=${langId}`);
-    if (!res.ok) throw new Error(String(res.status));
-    const json = (await res.json()) as RawEmbassy[];
-    return save('emb:' + langId, normalize(json));
-  } catch (e) {
-    if (cached) return cached;
-    throw e;
-  }
+export async function fetchEmbassies(lang: string): Promise<Cached<Embassy[]>> {
+  const file = await loadDataFile<EmbassiesFile>(EMB_FILE);
+  return { t: load('file:' + EMB_FILE)?.t ?? Date.now(), data: localize(file, toLocLang(lang)) };
 }
+
+const toLocLang = (lang: string): LocLang => (lang === 'uz-cyrl' || lang === 'ru' || lang === 'en' ? lang : 'uz-latn');
 
 /** Eng yaqin vakolatxona — keshdagi koordinatalar bo‘yicha, internet talab qilmaydi */
 export function nearestEmbassy(list: Embassy[], pos: Pos): { item: Embassy; km: number } | null {

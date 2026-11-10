@@ -2,6 +2,7 @@
 //   npm run data
 //
 //  agencies.json — Xususiy bandlik agentliklari reestri (Migratsiya agentligi, gov.uz) · 4 til
+//  embassies.json — Xorijdagi vakolatxonalar (data.egov.uz) · 4 til bitta faylda
 //  visa.json     — Oʻzbekiston fuqarolari uchun viza talablari (TIV, gov.uz) · davlatlar ISO kodi bilan
 //  courses.json  — Til va kasb kurslari («Xorijda ish» tizimi, lm-api.xorijdaish.uz)
 //
@@ -346,8 +347,71 @@ async function guides() {
 }
 
 // =====================================================================
+// 5. Vakolatxonalar (data.egov.uz) — 4 til bitta faylga
+// =====================================================================
+const EGOV = 'https://data.egov.uz/apiData/MainData/GetByFile?id=6107cb7d2a2e256d868e86ac&fileType=1&tableType=2&lang=';
+const EGOV_LANG = { 'uz-latn': 1, 'uz-cyrl': 2, ru: 3, en: 4 };
+// manbada kirill so‘z ichida lotin harflari uchraydi («Aвстрия») — ko‘rinishi bir xil kirill harfiga almashtiriladi
+const HOMO = { A: 'А', a: 'а', B: 'В', C: 'С', c: 'с', E: 'Е', e: 'е', H: 'Н', K: 'К', M: 'М', O: 'О', o: 'о', P: 'Р', p: 'р', T: 'Т', X: 'Х', x: 'х', y: 'у' };
+const cyrFix = (s) => s.replace(/[\p{L}]+/gu, (w) => (/[Ѐ-ӿ]/.test(w) ? w.replace(/[ABCEHKMOPTXaceopxy]/g, (ch) => HOMO[ch]) : w));
+const cap = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+
+/** "6734-39-42/43, 6734-39-50" → ["6734-39-42", "6734-39-43", "6734-39-50"] (src/lib/api.ts dagi bilan bir xil) */
+function splitNumbers(raw) {
+  const s = String(raw ?? '').trim();
+  if (!s || /^vak/i.test(s) || /^вак/i.test(s)) return [];
+  const out = [];
+  for (const group of s.split(/[,;]/)) {
+    const parts = group.split('/').map((p) => p.trim()).filter(Boolean);
+    if (!parts.length) continue;
+    const first = parts[0];
+    out.push(first);
+    for (const p of parts.slice(1)) out.push(p.length <= 3 && first.length > p.length ? first.slice(0, first.length - p.length) + p : p);
+  }
+  return out;
+}
+
+async function embassies() {
+  let raw;
+  try {
+    raw = Object.fromEntries(await Promise.all(LANGS.map(async (l) => [l, await get(EGOV + EGOV_LANG[l], 'json')])));
+  } catch (e) { return keepOld('embassies.json', e.message); }
+  const base = raw['uz-latn'];
+  if (!Array.isArray(base) || base.length < 20) return keepOld('embassies.json', `oʻzbekcha roʻyxat juda qisqa (${base?.length})`);
+  const txt = (l, r, ...keys) => {
+    const v = clean(String(keys.map((k) => r?.[k]).find((x) => x != null && String(x).trim()) ?? ''));
+    return l === 'uz-latn' ? uzLat(v) : l === 'en' ? v : cyrFix(v);
+  };
+  const items = base.map((b, i) => {
+    // tillar tartib raqami bo‘yicha birlashtiriladi; topilmasa — shu indeksdagi yozuv
+    const row = (l) => raw[l]?.find((r) => r.tartibraqami === b.tartibraqami) ?? raw[l]?.[i];
+    const loc = (f) => Object.fromEntries(LANGS.map((l) => [l, f(l, row(l)) || f('uz-latn', b)]));
+    const name = loc((l, r) => txt(l, r, 'Vakolatxonanomi', 'Vakolatnomanomi'));
+    const lat = Number(b.latitude), lon = Number(b.longitude);
+    const nums = (k) => splitNumbers(LANGS.map((l) => row(l)?.[k]).find((v) => splitNumbers(v).length) ?? '');
+    return {
+      id: i,
+      code: clean(String(b.Codi ?? '')),
+      phones: nums('Telefon'),
+      faxes: nums('Faks'),
+      lat: Number.isFinite(lat) && lat !== 0 ? lat : null,
+      lon: Number.isFinite(lon) && lon !== 0 ? lon : null,
+      kind: /konsul|консул|consul/i.test(name['uz-latn'] + name.ru) ? 'consulate' : 'embassy',
+      name,
+      address: loc((l, r) => txt(l, r, 'Vakolatxonamanzili')),
+      head: loc((l, r) => cap(txt(l, r, 'Rahbar'))),
+      position: loc((l, r) => cap(txt(l, r, 'Lavozimi'))),
+    };
+  });
+  const miss = LANGS.filter((l) => raw[l]?.length !== base.length);
+  if (miss.length) warn(`vakolatxonalar: ${miss.join(', ')} roʻyxati uzunligi farq qiladi — oʻzbekcha matn bilan toʻldirildi`);
+  console.log(`  vakolatxonalar: ${items.length} (konsullik ${items.filter((e) => e.kind === 'consulate').length})`);
+  write('embassies.json', { fetched: today, source: 'https://data.egov.uz/data/6107cb7d2a2e256d868e86ac', items });
+}
+
+// =====================================================================
 const only = process.argv.slice(2);
-const jobs = { agencies, visa, courses, guides };
+const jobs = { agencies, visa, courses, guides, embassies };
 for (const [name, fn] of Object.entries(jobs)) {
   if (only.length && !only.includes(name)) continue;
   try { await fn(); } catch (e) { warn(`${name}: ${e.message}`); }

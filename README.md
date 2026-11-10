@@ -79,7 +79,7 @@ Masalan, Oliy sud ro‘yxati yangilanganda faqat `resources.json` dagi `banned` 
 |---|---|---|
 | Sahifalar, rasmlar, JS/CSS | Service Worker (precache) | har deploy’da |
 | Tillar, havolalar | `data/*.json` | `data-version` o‘zgarganda |
-| Vakolatxonalar | data.egov.uz | 7 kunda bir |
+| Vakolatxonalar | data.egov.uz → `embassies.json` (4 til) | har deploy va har dushanba |
 | Ob-havo | OpenWeatherMap | 3 soatda bir |
 | Namoz vaqtlari | Aladhan (13-usul) | oylik jadval |
 

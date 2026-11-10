@@ -1,7 +1,7 @@
 import { useState } from 'preact/hooks';
 import { Icon } from '../components/Icon';
 import { Chip, LangList, PageHead, Tile, useInstallAction, type Tone } from '../components/ui';
-import { useI18n, EGOV_LANG } from '../i18n';
+import { useI18n } from '../i18n';
 import { cachedEmbassies, cachedWeather, cachedPrayer } from '../lib/api';
 import { APP_VERSION, DATA_VERSION } from '../lib/config';
 import { load } from '../lib/store';
@@ -13,7 +13,7 @@ export function More() {
   const inst = useInstallAction();
   const [about, setAbout] = useState(false);
   const now = new Date();
-  const emb = cachedEmbassies(EGOV_LANG[lang]);
+  const emb = cachedEmbassies(lang);
   const wx = cachedWeather();
   const pr = cachedPrayer(now.getFullYear(), now.getMonth() + 1);
   const saved = (ts?: number | null, label?: string) =>

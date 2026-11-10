@@ -1,0 +1,2006 @@
+{
+ "fetched": "2026-11-10",
+ "source": "https://data.egov.uz/data/6107cb7d2a2e256d868e86ac",
+ "items": [
+  {
+   "id": 0,
+   "code": "43-1",
+   "phones": [
+    "315-39-94",
+    "315-39-95"
+   ],
+   "faxes": [
+    "315-39-93"
+   ],
+   "lat": 48.24044,
+   "lon": 16.31287,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Avstriya Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Австрия Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Австрийской Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Austria"
+   },
+   "address": {
+    "uz-latn": "Poetzleinsdorferstrasse 49, A-1180, Wien",
+    "uz-cyrl": "Poetzleinsdorferstrasse 49, A-1180, Wien",
+    "ru": "Poetzleinsdorferstrasse 49, A-1180, Wien",
+    "en": "Poetzleinsdorferstrasse 49, A-1180, Wien"
+   },
+   "head": {
+    "uz-latn": "Ibragimov Baxtiyor Nematjanovich",
+    "uz-cyrl": "Ибрагимов Бахтиёр Нематжанович",
+    "ru": "Ибрагимов Бахтиёр Нематжанович",
+    "en": "Bakhtiyor Ibragimov"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 1,
+   "code": "994-12",
+   "phones": [
+    "497-25-49"
+   ],
+   "faxes": [
+    "497-25-48"
+   ],
+   "lat": 40.35121,
+   "lon": 49.80461,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Ozarbayjon Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Озарбайжон Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Азербайджанской Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Azerbaijan"
+   },
+   "address": {
+    "uz-latn": "Baku, Patamdar, 1st highway, passage 9, 437 apartment",
+    "uz-cyrl": "Baku, Patamdar, 1st highway, passage 9, 437 apartment",
+    "ru": "Baku, Patamdar, 1st highway, passage 9, 437 apartment",
+    "en": "Baku, Patamdar, 1st highway, passage 9, 437 apartment"
+   },
+   "head": {
+    "uz-latn": "Ashrafkhanov Bahrom Bahodirovich",
+    "uz-cyrl": "Ashrafkhanov Bahrom Bahodirovich",
+    "ru": "Ашрафханов Бахром Баходирович",
+    "en": "Ashrafkhanov Bahrom Bahodirovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 2,
+   "code": "93",
+   "phones": [
+    "20-250-04-31"
+   ],
+   "faxes": [
+    "20-250-04-31"
+   ],
+   "lat": 50.45503,
+   "lon": 30.51594,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Afgʻoniston Islom Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Афғонистон Ислом Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Исламской Республике Афганистан",
+    "en": "Embassy of the Republic of Uzbekistan in the Islamic Republic of Afghanistan"
+   },
+   "address": {
+    "uz-latn": "Karta-i-seh, Khaji Mulla Watt, Kabul",
+    "uz-cyrl": "Karta-i-seh, Khaji Mulla Watt, Kabul",
+    "ru": "Karta-i-seh, Khaji Mulla Watt, Kabul",
+    "en": "Karta-i-seh, Khaji Mulla Watt, Kabul"
+   },
+   "head": {
+    "uz-latn": "Shadmanov Yadgarkhoja Makhamatovich",
+    "uz-cyrl": "Шадманов Ядгархожа Махаматович",
+    "ru": "Шадманов Ядгархожа Махаматович",
+    "en": "Shadmanov Yadgarkhoja Makhamatovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 3,
+   "code": "37517",
+   "phones": [
+    "235-72-08"
+   ],
+   "faxes": [
+    "235-72-09"
+   ],
+   "lat": 53.93934,
+   "lon": 27.49221,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Belarus Respublikasidagi Elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Беларус Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Беларусь",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Belarus"
+   },
+   "address": {
+    "uz-latn": "Minsk city, Pokrovskaya str., 24",
+    "uz-cyrl": "Minsk city, Pokrovskaya str., 24",
+    "ru": "Minsk city, Pokrovskaya str., 24",
+    "en": "Minsk city, Pokrovskaya str., 24"
+   },
+   "head": {
+    "uz-latn": "Nazarov Rahmatulla Joʻraboyevich",
+    "uz-cyrl": "Назаров Рахматилла Журабоевич",
+    "ru": "Назаров Рахматилла Журабоевич",
+    "en": "Nazarov Rahmatulla Juraboyevich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 4,
+   "code": "322",
+   "phones": [
+    "672-88-44"
+   ],
+   "faxes": [
+    "672-39-46"
+   ],
+   "lat": 50.80305,
+   "lon": 4.38819,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Belgiya Qirolligidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Белгия Қироллигидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Королевстве Бельгия",
+    "en": "Embassy of the Republic of Uzbekistan in the Kingdom of Belgium"
+   },
+   "address": {
+    "uz-latn": "Av.F.Roosevelt, 99 B-1050 Brussels",
+    "uz-cyrl": "Av.F.Roosevelt, 99 B-1050 Brussels",
+    "ru": "Av.F.Roosevelt, 99 B-1050 Brussels",
+    "en": "Av.F.Roosevelt, 99 B-1050 Brussels"
+   },
+   "head": {
+    "uz-latn": "Fozilov Gʻayrat Gʻaniyevich",
+    "uz-cyrl": "Фозилов айрат Ганиевич",
+    "ru": "Фазылов Гайрат Ганиевич",
+    "en": "Fazilov Gayrat Ganievich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 5,
+   "code": "44",
+   "phones": [
+    "207-229-7679"
+   ],
+   "faxes": [
+    "207-229-7029"
+   ],
+   "lat": 51.50672,
+   "lon": -0.20411,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Buyuk Britaniya va Shimoliy Irlandiya Birlashgan Qirolligidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Буюк Британия ва Шимолий Ирландия Бирлашган Қироллигидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Соединённом Королевстве Великобритании и Северной Ирландии",
+    "en": "Embassy of the Republic of Uzbekistan in the United Kingdom of Great Britain and Northern Ireland"
+   },
+   "address": {
+    "uz-latn": "41 Holland Park, London W11 3RP",
+    "uz-cyrl": "41 Holland Park, London W11 3RP",
+    "ru": "41 Holland Park, London W11 3RP",
+    "en": "41 Holland Park, London W11 3RP"
+   },
+   "head": {
+    "uz-latn": "Usmanov Ravshan Abrorovich",
+    "uz-cyrl": "Усманов Равшан Аброрович",
+    "ru": "Усманов Равшан Аброрович",
+    "en": "Usmanov Ravshan Abrorovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 6,
+   "code": "202",
+   "phones": [
+    "3336-1723"
+   ],
+   "faxes": [
+    "3336-1722"
+   ],
+   "lat": 30.04354,
+   "lon": 31.21258,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Misr Arab Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Миср Араб Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Арабской Республике Египет",
+    "en": "Embassy of the Republic of Uzbekistan in the Arab Republic of Egypt"
+   },
+   "address": {
+    "uz-latn": "18, Sad El-Aali Street, Dokki, Cairo, Egypt. Postal Code: 12311",
+    "uz-cyrl": "18, Sad El-Aali Street, Dokki, Cairo, Egypt. Postal Code: 12311",
+    "ru": "18, Sad El-Aali Street, Dokki, Cairo, Egypt. Postal Code: 12311",
+    "en": "18, Sad El-Aali Street, Dokki, Cairo, Egypt. Postal Code: 12311"
+   },
+   "head": {
+    "uz-latn": "Kilichev Mansurbek Bakhtiyarovich",
+    "uz-cyrl": "Киличев Мансурбек Бахтиярович",
+    "ru": "Киличев Мансурбек Бахтиярович",
+    "en": "Kilichev Mansurbek Bakhtiyarovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 7,
+   "code": "34-91",
+   "phones": [
+    "310-16-39"
+   ],
+   "faxes": [
+    "310-31-23"
+   ],
+   "lat": 40.41619,
+   "lon": 3.69209,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Ispaniya Qirolligidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Испания Қироллигидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Королевстве Испания",
+    "en": "Embassy of the Republic of Uzbekistan in the Kingdom of Spain"
+   },
+   "address": {
+    "uz-latn": "La Plaza de la Lealtad 3, entreplanta derecha, 28014 Madrid",
+    "uz-cyrl": "La Plaza de la Lealtad 3, entreplanta derecha, 28014 Madrid",
+    "ru": "La Plaza de la Lealtad 3, entreplanta derecha, 28014 Madrid",
+    "en": "La Plaza de la Lealtad 3, entreplanta derecha, 28014 Madrid"
+   },
+   "head": {
+    "uz-latn": "Tursunov Farruh Islamdjanovich",
+    "uz-cyrl": "Турсунов Фаррух Исламджанович",
+    "ru": "Турсунов Фаррух Исламджанович",
+    "en": "Tursunov Farrukh Islamdjanovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 8,
+   "code": "39-06",
+   "phones": [
+    "87860-310"
+   ],
+   "faxes": [
+    "87860-309"
+   ],
+   "lat": 41.91123,
+   "lon": 12.47046,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Italiya Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Италия Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Итальянской Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the Italian Republic"
+   },
+   "address": {
+    "uz-latn": "Via Pompeo Magno 1, 00192 Roma, Italia",
+    "uz-cyrl": "Via Pompeo Magno 1, 00192 Roma, Italia",
+    "ru": "Via Pompeo Magno 1, 00192 Roma, Italia",
+    "en": "Via Pompeo Magno 1, 00192 Roma, Italia"
+   },
+   "head": {
+    "uz-latn": "Fayzullayev Abat Azatovich",
+    "uz-cyrl": "Файзуллаев Абат Азатович",
+    "ru": "Файзуллаев Абат Азатович",
+    "en": "Fayzullaev Abat Azatovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 9,
+   "code": "72-3",
+   "phones": [
+    "672-23-71"
+   ],
+   "faxes": [
+    "672-26-21"
+   ],
+   "lat": 32.08765,
+   "lon": 34.81747,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Isroil Davlatidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Исроил Давлатидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Государстве Израиль",
+    "en": "Embassy of the Republic of Uzbekistan in the State of Israel"
+   },
+   "address": {
+    "uz-latn": "Ramat Gan c., 52413, 31 Moshe Sharet Str.",
+    "uz-cyrl": "Ramat Gan c., 52413, 31 Moshe Sharet Str.",
+    "ru": "Ramat Gan c., 52413, 31 Moshe Sharet Str.",
+    "en": "Ramat Gan c., 52413, 31 Moshe Sharet Str."
+   },
+   "head": {
+    "uz-latn": "Aminov Jahongir Davlatovich",
+    "uz-cyrl": "Аминов Жахонгир Давлатович",
+    "ru": "Аминов Жахонгир Давлатович",
+    "en": "Aminov Jahongir Davlatovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 10,
+   "code": "9111",
+   "phones": [
+    "2467-0774"
+   ],
+   "faxes": [
+    "24670773"
+   ],
+   "lat": 28.59081,
+   "lon": 77.1771,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Hindiston Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Ҳиндистон Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Индия",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of India"
+   },
+   "address": {
+    "uz-latn": "EP-40, Dr. Radhakrishnan Marg, Chanakyapuri, New Delhi - 110 021.",
+    "uz-cyrl": "EP-40, Dr. Radhakrishnan Marg, Chanakyapuri, New Delhi - 110 021.",
+    "ru": "EP-40, Dr. Radhakrishnan Marg, Chanakyapuri, New Delhi - 110 021.",
+    "en": "EP-40, Dr. Radhakrishnan Marg, Chanakyapuri, New Delhi - 110 021."
+   },
+   "head": {
+    "uz-latn": "Rustambaev Sardor Mirzayusupovich",
+    "uz-cyrl": "Рустамбаев Сардор Мирзаюсупович",
+    "ru": "Рустамбаев Сардор Мирзаюсупович",
+    "en": "Rustambaev Sardor Mirzayusupovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 11,
+   "code": "21",
+   "phones": [
+    "722-99-18"
+   ],
+   "faxes": [
+    "7200965"
+   ],
+   "lat": 6.23414,
+   "lon": 106.8031,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Indoneziya Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Индонезия Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Индонезия",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Indonesia"
+   },
+   "address": {
+    "uz-latn": "Jl. Sriwijaya Raya 30, Kebayoran Baru, South Jakarta, 12110",
+    "uz-cyrl": "Jl. Sriwijaya Raya 30, Kebayoran Baru, South Jakarta, 12110",
+    "ru": "Jl. Sriwijaya Raya 30, Kebayoran Baru, South Jakarta, 12110",
+    "en": "Jl. Sriwijaya Raya 30, Kebayoran Baru, South Jakarta, 12110"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 12,
+   "code": "9821",
+   "phones": [
+    "228-320-71"
+   ],
+   "faxes": [
+    "222-991-58"
+   ],
+   "lat": 35.7401,
+   "lon": 51.60082,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Eron Islom Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Эрон Ислом Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Исламской Республике Иран",
+    "en": "Embassy of the Republic of Uzbekistan in the Islamic Republic of Iran"
+   },
+   "address": {
+    "uz-latn": "№21, Nastaran St. Boostan St., Aqdasieh, Tehran",
+    "uz-cyrl": "№21, Nastaran St. Boostan St., Aqdasieh, Tehran",
+    "ru": "№21, Nastaran St. Boostan St., Aqdasieh, Tehran",
+    "en": "№21, Nastaran St. Boostan St., Aqdasieh, Tehran"
+   },
+   "head": {
+    "uz-latn": "Nasriyev Fariddin Badriddinovich",
+    "uz-cyrl": "Насрийев Фариддин Бадриддинович",
+    "ru": "Насрийев Фариддин Бадриддинович",
+    "en": "Nasriyev Fariddin Badriddinovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 13,
+   "code": "717",
+   "phones": [
+    "295-42-52"
+   ],
+   "faxes": [
+    "295-42-52"
+   ],
+   "lat": 51.14526,
+   "lon": 71.40008,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Qozogʻiston Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Қозоғистон Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Казахстан",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Kazakhstan"
+   },
+   "address": {
+    "uz-latn": "010000, г.Астана, ул.Лайли-Мажнун, д.7",
+    "uz-cyrl": "010000, г.Астана, ул.Лайли-Мажнун, д.7",
+    "ru": "010000, г.Астана, ул.Лайли-Мажнун, д.7",
+    "en": "010000, г.Астана, ул.Лайли-Мажнун, д.7"
+   },
+   "head": {
+    "uz-latn": "Ibragimov Bakhtiyor Bakhodirovich",
+    "uz-cyrl": "Ибрагимов Бахтиёр Баходырович",
+    "ru": "Ибрагимов Бахтиёр Баходырович",
+    "en": "Ibragimov Bakhtiyor Bakhodirovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 14,
+   "code": "8610",
+   "phones": [
+    "653-263-05"
+   ],
+   "faxes": [
+    "653-263-04"
+   ],
+   "lat": 40.14856,
+   "lon": 116.82764,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Xitoy Xalq Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Хитой Халқ Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Китайской Народной Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the People’s Republic of China"
+   },
+   "address": {
+    "uz-latn": "11 Bei Xiao Jie San Li Tun Beijing, 100600, China",
+    "uz-cyrl": "11 Bei Xiao Jie San Li Tun Beijing, 100600, China",
+    "ru": "11 Bei Xiao Jie San Li Tun Beijing, 100600, China",
+    "en": "11 Bei Xiao Jie San Li Tun Beijing, 100600, China"
+   },
+   "head": {
+    "uz-latn": "Arziyev Farhod Nuriddinovich",
+    "uz-cyrl": "Арзиев Фарход Нуриддинович",
+    "ru": "Арзиев Фарход Нуриддинович",
+    "en": "Arziev Farhod Nuriddinovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 15,
+   "code": "82-2",
+   "phones": [
+    "574-65-54"
+   ],
+   "faxes": [
+    "578-05-76"
+   ],
+   "lat": 37.59508,
+   "lon": 127.0167,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Koreya Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Корея Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Корея",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Korea"
+   },
+   "address": {
+    "uz-latn": "27, Daesagwan-ro 11-gil, Yongsan-gu, Seoul, Republic of Korea",
+    "uz-cyrl": "27, Daesagwan-ro 11-gil, Yongsan-gu, Seoul, Republic of Korea",
+    "ru": "27, Daesagwan-ro 11-gil, Yongsan-gu, Seoul, Republic of Korea",
+    "en": "27, Daesagwan-ro 11-gil, Yongsan-gu, Seoul, Republic of Korea"
+   },
+   "head": {
+    "uz-latn": "Vakant",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 16,
+   "code": "965",
+   "phones": [
+    "2539-65-15"
+   ],
+   "faxes": [
+    "2538-47-07"
+   ],
+   "lat": 29.27905,
+   "lon": 48.06688,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Kuvayt Davlatidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Кувайт Давлатидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Государстве Кувейт",
+    "en": "Embassy of the Republic of Uzbekistan in the State of Kuwait"
+   },
+   "address": {
+    "uz-latn": "Kuvayt",
+    "uz-cyrl": "Эль-Кувейт, Мишреф, блок-1, улица- 7, дом № 4.",
+    "ru": "Эль-Кувейт, Мишреф, блок-1, улица- 7, дом № 4.",
+    "en": "Redtqn"
+   },
+   "head": {
+    "uz-latn": "Yunusov Ayubxon Lutfullo oʻgʻli",
+    "uz-cyrl": "Юнусов Аюбхон",
+    "ru": "Юнусов Аюбхон",
+    "en": "Yunusov Ayubxon Lutfullo ogli"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 17,
+   "code": "996-312",
+   "phones": [
+    "98-62-95"
+   ],
+   "faxes": [
+    "98-60-43"
+   ],
+   "lat": 42.51969,
+   "lon": 72.29812,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Qirgʻiziston Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Қирғизистон Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Кыргызской Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Kyrgyzstan"
+   },
+   "address": {
+    "uz-latn": "Ambassador Extraordinary and Plenipotentiary",
+    "uz-cyrl": "720044, г.Бишкек, ул.Чингиза Айтматова, 177.",
+    "ru": "720044, г.Бишкек, ул.Чингиза Айтматова, 177.",
+    "en": "Redtqn"
+   },
+   "head": {
+    "uz-latn": "Niyazkhodjaev Saidikram Parhatovich",
+    "uz-cyrl": "Ниязходжаев Саидикрам Пархатович",
+    "ru": "Ниязходжаев Саидикрам Пархатович",
+    "en": "Niyazkhodjaev Saidikram Parhatovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 18,
+   "code": "371",
+   "phones": [
+    "67322424"
+   ],
+   "faxes": [
+    "67322306"
+   ],
+   "lat": 56.95912,
+   "lon": 24.10236,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Latviya Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Латвия Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Латвийской Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Latvia"
+   },
+   "address": {
+    "uz-latn": "Riga, LV-1010. 11-11 Elizabetes Str.",
+    "uz-cyrl": "Riga, LV-1010. 11-11 Elizabetes Str.",
+    "ru": "Riga, LV-1010. 11-11 Elizabetes Str.",
+    "en": "Riga, LV-1010. 11-11 Elizabetes Str."
+   },
+   "head": {
+    "uz-latn": "Raxmanov Timur Yusupovich",
+    "uz-cyrl": "Рахманов Тимур Юсупович",
+    "ru": "Рахманов Тимур Юсупович",
+    "en": "Raxmanov Timur Yusupovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 19,
+   "code": "603",
+   "phones": [
+    "4253-2406"
+   ],
+   "faxes": [
+    "4253-5406"
+   ],
+   "lat": 3.15437,
+   "lon": 101.7536,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Malayziyadagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Малайзиядаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Малайзии",
+    "en": "Embassy of the Republic of Uzbekistan in Malaysia"
+   },
+   "address": {
+    "uz-latn": "No.7, Jalan 6, Ampang Utama, 68000 Ampang, Selangor, Malaysia",
+    "uz-cyrl": "No.7, Jalan 6, Ampang Utama, 68000 Ampang, Selangor, Malaysia",
+    "ru": "No.7, Jalan 6, Ampang Utama, 68000 Ampang, Selangor, Malaysia",
+    "en": "No.7, Jalan 6, Ampang Utama, 68000 Ampang, Selangor, Malaysia"
+   },
+   "head": {
+    "uz-latn": "Gadoyev Karomiddin Ibodovich",
+    "uz-cyrl": "Гадоев Каромиддин",
+    "ru": "Гадоев Каромиддин",
+    "en": "Gadoyev Karomiddin Ibodovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 20,
+   "code": "9712",
+   "phones": [
+    "448-82-15"
+   ],
+   "faxes": [
+    "448-82-16"
+   ],
+   "lat": 24.45486,
+   "lon": 54.39356,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Birlashgan Arab Amirliklaridagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Бирлашган Араб Амирликларидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Объединённых Арабских Эмиратах",
+    "en": "Embassy of the Republic of Uzbekistan in the United Arab Emirates"
+   },
+   "address": {
+    "uz-latn": "P.O.Box 111446, Zone Est 38/1, Muroor Area, Plot #10/Villa 37, Abu-Dhabi",
+    "uz-cyrl": "P.O.Box 111446, Zone Est 38/1, Muroor Area, Plot #10/Villa 37, Abu-Dhabi",
+    "ru": "P.O.Box 111446, Zone Est 38/1, Muroor Area, Plot #10/Villa 37, Abu-Dhabi",
+    "en": "P.O.Box 111446, Zone Est 38/1, Muroor Area, Plot #10/Villa 37, Abu-Dhabi"
+   },
+   "head": {
+    "uz-latn": "Aqqulov Abdulaziz Oʻrolboyevich",
+    "uz-cyrl": "Аккулов Абдулазиз",
+    "ru": "Аккулов Абдулазиз",
+    "en": "Akkulov Abdulaziz Urolboyevich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 21,
+   "code": "968",
+   "phones": [
+    "79481814"
+   ],
+   "faxes": [
+    "79481814"
+   ],
+   "lat": 23.61599,
+   "lon": 58.47028,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Oʻmon Sultonligidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Ўмон Султонлигидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Султанате Оман",
+    "en": "Embassy of the Republic of Uzbekistan in the Sultanate of Oman"
+   },
+   "address": {
+    "uz-latn": "Ambassador Extraordinary and Plenipotentiary",
+    "uz-cyrl": "г.Маскат, Шатти Курм, улица 3048, вилла 3900",
+    "ru": "г.Маскат, Шатти Курм, улица 3048, вилла 3900",
+    "en": "Maskat"
+   },
+   "head": {
+    "uz-latn": "Xatamov Abdusalom Kurbonovich",
+    "uz-cyrl": "Хатамов Абдусалом Курбонович",
+    "ru": "Хатамов Абдусалом Курбонович",
+    "en": "Xatamov Abdusalom Kurbonovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 22,
+   "code": "92-51",
+   "phones": [
+    "226-47-46"
+   ],
+   "faxes": [
+    "226-17-39"
+   ],
+   "lat": 33.72161,
+   "lon": 73.04268,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Pokiston Islom Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Покистон Ислом Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Исламской Республике Пакистан",
+    "en": "Embassy of the Republic of Uzbekistan in the Islamic Republic of Pakistan"
+   },
+   "address": {
+    "uz-latn": "House №40, Street Khayaban-e-Iqbal, Sector F-8/3, Islamabad",
+    "uz-cyrl": "House №40, Street Khayaban-e-Iqbal, Sector F-8/3, Islamabad",
+    "ru": "House №40, Street Khayaban-e-Iqbal, Sector F-8/3, Islamabad",
+    "en": "House №40, Street Khayaban-e-Iqbal, Sector F-8/3, Islamabad"
+   },
+   "head": {
+    "uz-latn": "Usmanov Oybek Arifbekovich",
+    "uz-cyrl": "Усманов Ойбек Арифбекович",
+    "ru": "Усманов Ойбек Арифбекович",
+    "en": "Usmanov Oybek Arifbekovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 23,
+   "code": "48-22",
+   "phones": [
+    "894-62-30"
+   ],
+   "faxes": [
+    "894-62-31"
+   ],
+   "lat": 52.15076,
+   "lon": 21.02392,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Polsha Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Польша Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Польша",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Poland"
+   },
+   "address": {
+    "uz-latn": "21, Kraski Str., Warsaw",
+    "uz-cyrl": "21, Kraski Str., Warsaw",
+    "ru": "21, Kraski Str., Warsaw",
+    "en": "21, Kraski Str., Warsaw"
+   },
+   "head": {
+    "uz-latn": "Agzamxodjayev Amirsaid Saidazizovich",
+    "uz-cyrl": "Агзамходжайев Амирсаид Саидазизович",
+    "ru": "Агзамходжайев Амирсаид Саидазизович",
+    "en": "Agzamxodjayev Amirsaid Saidazizovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 24,
+   "code": "7-499",
+   "phones": [
+    "230-00-78"
+   ],
+   "faxes": [
+    "238-89-18"
+   ],
+   "lat": 55.73254,
+   "lon": 37.62048,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Rossiya Federatsiyasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Россия Федерациясидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Российской Федерации",
+    "en": "Embassy of the Republic of Uzbekistan in the Russian Federation"
+   },
+   "address": {
+    "uz-latn": "1212",
+    "uz-cyrl": "11",
+    "ru": "119017, г. Москва, Погорельский переулок, д.12.",
+    "en": "Moscow"
+   },
+   "head": {
+    "uz-latn": "Asadov Botirjon Zakirovich",
+    "uz-cyrl": "Асадов Ботиржон Закирович",
+    "ru": "Асадов Ботиржон Закирович",
+    "en": "Asadov Botirjon Zakirovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 25,
+   "code": "966-11",
+   "phones": [
+    "263-52-23"
+   ],
+   "faxes": [
+    "263-51-05"
+   ],
+   "lat": 25.29745,
+   "lon": 46.54305,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Saudiya Arabistoni Podshohligidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Саудия Арабистони Подшоҳлигидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Королевстве Саудовская Аравия",
+    "en": "Embassy of the Republic of Uzbekistan in the Kingdom of Saudi Arabia"
+   },
+   "address": {
+    "uz-latn": "P.O. Box 94008 Riyadh 11693, Riyadh city, area Sulaimania, Talha bin Al Barra str. Villa №17, Saudi Arabia",
+    "uz-cyrl": "P.O. Box 94008 Riyadh 11693, Riyadh city, area Sulaimania, Talha bin Al Barra str. Villa №17, Saudi Arabia",
+    "ru": "P.O. Box 94008 Riyadh 11693, Riyadh city, area Sulaimania, Talha bin Al Barra str. Villa №17, Saudi Arabia",
+    "en": "P.O. Box 94008 Riyadh 11693, Riyadh city, area Sulaimania, Talha bin Al Barra str. Villa №17, Saudi Arabia"
+   },
+   "head": {
+    "uz-latn": "Turgʻunov Nodirjon",
+    "uz-cyrl": "Тургунов Нодиржон",
+    "ru": "Тургунов Нодиржон",
+    "en": "Turgunov Nodirjon"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 26,
+   "code": "65",
+   "phones": [
+    "6734-39-42",
+    "6734-39-43"
+   ],
+   "faxes": [
+    "6734-58-49"
+   ],
+   "lat": 1.30135,
+   "lon": 103.8424,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Singapurdagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Сингапурдаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Сингапур",
+    "en": "Embassy of the Republic of Uzbekistan in Singapore"
+   },
+   "address": {
+    "uz-latn": "20 Kramat Lane, United House # 04-01/02, Singapore 228773",
+    "uz-cyrl": "20 Kramat Lane, United House # 04-01/02, Singapore 228773",
+    "ru": "20 Kramat Lane, United House # 04-01/02, Singapore 228773",
+    "en": "20 Kramat Lane, United House # 04-01/02, Singapore 228773"
+   },
+   "head": {
+    "uz-latn": "Alisher Kayumov Bakidjanovich",
+    "uz-cyrl": "Каюмов Алишер",
+    "ru": "Каюмов Алишер",
+    "en": "Alisher Kayumov"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 27,
+   "code": "1-202",
+   "phones": [
+    "887-53-00"
+   ],
+   "faxes": [
+    "293-68-04"
+   ],
+   "lat": 38.90855,
+   "lon": 77.04044,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Amerika Qoʻshma Shtatlaridagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Америка Қўшма Штатларидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Соединённых Штатах Америки",
+    "en": "Embassy of the Republic of Uzbekistan in the United States of America"
+   },
+   "address": {
+    "uz-latn": "1746 Massachusetts Avenue, North West, Washington DC, 20036, USA",
+    "uz-cyrl": "1746 Massachusetts Avenue, North West, Washington DC, 20036, USA",
+    "ru": "1746 Massachusetts Avenue, North West, Washington DC, 20036, USA",
+    "en": "1746 Massachusetts Avenue, North West, Washington DC, 20036, USA"
+   },
+   "head": {
+    "uz-latn": "Sidikov Furqat Ahmedovich",
+    "uz-cyrl": "Сиддиков Фуркат",
+    "ru": "Сиддиков Фуркат",
+    "en": "Siddikov Furqat"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 28,
+   "code": "992-37",
+   "phones": [
+    "224-75-39"
+   ],
+   "faxes": [
+    "224-75-39"
+   ],
+   "lat": 38.6013,
+   "lon": 68.78535,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Tojikiston Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Тожикистон Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Республике Таджикистан",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Tajikistan"
+   },
+   "address": {
+    "uz-latn": "12321",
+    "uz-cyrl": "11",
+    "ru": "734003, Душанбе, ул. Санои, 30",
+    "en": "2323"
+   },
+   "head": {
+    "uz-latn": "Shaismatov Ergash Raxmatullayevich",
+    "uz-cyrl": "Шаисматов Эргаш Рахматуллаевич",
+    "ru": "Шаисматов Эргаш Рахматуллаевич",
+    "en": "Shaismatov Ergash Raxmatullayevich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 29,
+   "code": "90-312",
+   "phones": [
+    "441-38-71"
+   ],
+   "faxes": [
+    "442-70-58"
+   ],
+   "lat": 39.8724,
+   "lon": 32.86426,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Turkiya Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Туркия Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Турецкой Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the Republic of Turkey"
+   },
+   "address": {
+    "uz-latn": "06550, Sancak Mah., 549 Sokak, № 3, Yıldız - Çankaya, Ankara",
+    "uz-cyrl": "06550, Sancak Mah., 549 Sokak, № 3, Yıldız - Çankaya, Ankara",
+    "ru": "06550, Sancak Mah., 549 Sokak, № 3, Yıldız - Çankaya, Ankara",
+    "en": "06550, Sancak Mah., 549 Sokak, № 3, Yıldız - Çankaya, Ankara"
+   },
+   "head": {
+    "uz-latn": "Agzamkhodjayev Alisher Anvarovich",
+    "uz-cyrl": "Агзамходжаев Алишер Анварович",
+    "ru": "Агзамходжаев Алишер Анварович",
+    "en": "Agzamkhodjayev Alisher Anvarovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 30,
+   "code": "993-12",
+   "phones": [
+    "36-90-55"
+   ],
+   "faxes": [
+    "36-90-57"
+   ],
+   "lat": 37.92541,
+   "lon": 58.40217,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Turkmanistondagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Туркманистондаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Туркменистане",
+    "en": "Embassy of the Republic of Uzbekistan in Turkmenistan"
+   },
+   "address": {
+    "uz-latn": "213213",
+    "uz-cyrl": "11",
+    "ru": "г. Ашхабод, ул. Героглы, дом 50А",
+    "en": "123455"
+   },
+   "head": {
+    "uz-latn": "Kuchkarov Akmaljon Artikovich",
+    "uz-cyrl": "Кучкаров Акмалжон Артикович",
+    "ru": "Кучкаров Акмалжон Артикович",
+    "en": "Kuchkarov Akmaljon Artikovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 31,
+   "code": "38-044",
+   "phones": [
+    "501-50-00"
+   ],
+   "faxes": [
+    "501-50-01"
+   ],
+   "lat": 50.45503,
+   "lon": 30.51594,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Ukrainadagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Украинадаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Украине",
+    "en": "Embassy of the Republic of Uzbekistan in Ukraine"
+   },
+   "address": {
+    "uz-latn": "21321",
+    "uz-cyrl": "11",
+    "ru": "г.Киев, ул. Владимирская, 16, 01901.",
+    "en": "123455"
+   },
+   "head": {
+    "uz-latn": "Kurmanov Alisher Anvarovich",
+    "uz-cyrl": "Курманов Алишер Анварович",
+    "ru": "Курманов Алишер Анварович",
+    "en": "Kurmanov Alisher Anvarovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 32,
+   "code": "33-1",
+   "phones": [
+    "53-30-03-53"
+   ],
+   "faxes": [
+    "53-30-03-54"
+   ],
+   "lat": 48.87117,
+   "lon": 2.32017,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Fransiya Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Франция Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан во Французской Республике",
+    "en": "Embassy of the Republic of Uzbekistan in the French Republic"
+   },
+   "address": {
+    "uz-latn": "22 rue dʼAguesseau 75008 Paris",
+    "uz-cyrl": "22 rue d’Aguesseau 75008 Paris",
+    "ru": "22 rue d’Aguesseau 75008 Paris",
+    "en": "22 rue d’Aguesseau 75008 Paris"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 33,
+   "code": "49-30",
+   "phones": [
+    "394-09-80"
+   ],
+   "faxes": [
+    "394-098-62"
+   ],
+   "lat": 52.53469,
+   "lon": 13.35641,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Germaniya Federativ Respublikasidagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Германия Федератив Республикасидаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Федеративной Республике Германия",
+    "en": "Embassy of the Republic of Uzbekistan in the Federative Republic of Germany"
+   },
+   "address": {
+    "uz-latn": "Perleberger Strasse 62, Berlin 10559",
+    "uz-cyrl": "Perleberger Strasse 62, Berlin 10559",
+    "ru": "Perleberger Strasse 62, Berlin 10559",
+    "en": "Perleberger Strasse 62, Berlin 10559"
+   },
+   "head": {
+    "uz-latn": "Akhatov Dilshod Khamidovich",
+    "uz-cyrl": "Ахатов Дилшод Хамидович",
+    "ru": "Ахатов Дилшод Хамидович",
+    "en": "Akhatov Dilshod Khamidovich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 34,
+   "code": "81-3",
+   "phones": [
+    "6277-21-66"
+   ],
+   "faxes": [
+    "6277-25-80"
+   ],
+   "lat": 35.63972,
+   "lon": 139.73712,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Yaponiyadagi elchixonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Япониядаги элчихонаси",
+    "ru": "Посольство Республики Узбекистан в Японии",
+    "en": "Embassy of the Republic of Uzbekistan in Japan"
+   },
+   "address": {
+    "uz-latn": "108-0074 Tokyo, Minаto-ku, Takanawa 2-1-52",
+    "uz-cyrl": "108-0074 Tokyo, Мinаtо-ku, Takanawa 2-1-52",
+    "ru": "108-0074 Tokyo, Мinаtо-ku, Takanawa 2-1-52",
+    "en": "108-0074 Tokyo, Minаto-ku, Takanawa 2-1-52"
+   },
+   "head": {
+    "uz-latn": "Abdurahmonov Mukhsinkhuzha Tursunhudzhaevich",
+    "uz-cyrl": "Абдурахмонов Мухсинхужа Турсунхуджаевич",
+    "ru": "Абдурахмонов Мухсинхужа Турсунхуджаевич",
+    "en": "Abdurakhmonov Mukhsinkhuzha Tursunkhudzhaevich"
+   },
+   "position": {
+    "uz-latn": "Favqulodda va Muxtor Elchi",
+    "uz-cyrl": "Фавқулодда ва Мухтор Элчи",
+    "ru": "Чрезвычайный и Полномочный Посол",
+    "en": "Ambassador Extraordinary and Plenipotentiary"
+   }
+  },
+  {
+   "id": 35,
+   "code": "1-212",
+   "phones": [
+    "486-42-42"
+   ],
+   "faxes": [
+    "486-79-98"
+   ],
+   "lat": 40.75059,
+   "lon": 73.97212,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Birlashgan Millatlar Tashkilotidagi Doimiy Vakolatxonasi",
+    "uz-cyrl": "збекистон Республикасининг Бирлашган Миллатлар Ташкилотидаги Доимий Ваколатхонаси",
+    "ru": "Постоянное представительство Республики Узбекистан при Организации Объединённых Наций",
+    "en": "Permanent Mission of the Republic of Uzbekistan to the United Nations"
+   },
+   "address": {
+    "uz-latn": "801 2nd Avenue, 20th Floor, New York, NY 10017, USA.",
+    "uz-cyrl": "801 2nd Avenue, 20th Floor, New York, NY 10017, USA.",
+    "ru": "801 2nd Avenue, 20th Floor, New York, NY 10017, USA.",
+    "en": "801 2nd Avenue, 20th Floor, New York, NY 10017, USA."
+   },
+   "head": {
+    "uz-latn": "Lapasov Ulugbek Xidirovich",
+    "uz-cyrl": "Лапасов Улугбек Хидирович",
+    "ru": "Лапасов Улугбек Хидирович",
+    "en": "Lapasov Ulugbek Xidirovich"
+   },
+   "position": {
+    "uz-latn": "Doimiy Vakil",
+    "uz-cyrl": "Доимий вакил",
+    "ru": "Постоянный представитель",
+    "en": "Permanent representative"
+   }
+  },
+  {
+   "id": 36,
+   "code": "41-22",
+   "phones": [
+    "799-43-00"
+   ],
+   "faxes": [
+    "799-43-02"
+   ],
+   "lat": 46.22509,
+   "lon": 6.09962,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Jeneva shahridagi BMT boʻlinmasi va boshqa xalqaro tashkilotlardagi Doimiy vakolatxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Женева шаҳридаги БМТ бўлинмаси ва бошқа халқаро ташкилотлардаги Доимий ваколатхонаси",
+    "ru": "Постоянное представительство Республики Узбекистан при Отделении ООН и других международных организациях в г.Женеве",
+    "en": "Permanent Mission of the Republic of Uzbekistan to the United Nations Office and other International Organisations in Geneva"
+   },
+   "address": {
+    "uz-latn": "International Centre Cointrin, Bloc D (7e étage), Route de Pré-Bois 20, 1215 Genève 15, Suisse.",
+    "uz-cyrl": "International Centre Cointrin, Bloc D (7e étage), Route de Pré-Bois 20, 1215 Genève 15, Suisse.",
+    "ru": "International Centre Cointrin, Bloc D (7e étage), Route de Pré-Bois 20, 1215 Genève 15, Suisse.",
+    "en": "International Centre Cointrin, Bloc D (7e étage), Route de Pré-Bois 20, 1215 Genève 15, Suisse."
+   },
+   "head": {
+    "uz-latn": "Toshmatov Eldiyor",
+    "uz-cyrl": "Тошматов Элдиёр",
+    "ru": "Тошматов Элдиёр",
+    "en": "Toshmatov Eldiyor"
+   },
+   "position": {
+    "uz-latn": "Doimiy Vakil",
+    "uz-cyrl": "Доимий вакил",
+    "ru": "Постоянный представитель",
+    "en": "Permanent representative"
+   }
+  },
+  {
+   "id": 37,
+   "code": "33-1",
+   "phones": [
+    "4568-2550"
+   ],
+   "faxes": [
+    "53303-054"
+   ],
+   "lat": 48.84532,
+   "lon": 2.30672,
+   "kind": "embassy",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining YUNESKOdagi Doimiy vakolatxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг ЮНЕСКОдаги Доимий ваколатхонаси",
+    "ru": "Постоянное представительство Республики Узбекистан при ЮНЕСКО",
+    "en": "Постоянное представительство Республики Узбекистан при ЮНЕСКО"
+   },
+   "address": {
+    "uz-latn": "1, rue Miollis 75015 Paris. Bonvin batiment, #728",
+    "uz-cyrl": "1, rue Miollis 75015 Paris. Bonvin batiment, #728",
+    "ru": "1, rue Miollis 75015 Paris. Bonvin batiment, #728",
+    "en": "1, rue Miollis 75015 Paris. Bonvin batiment, #728"
+   },
+   "head": {
+    "uz-latn": "Muxtarov Kamol Zafarovich",
+    "uz-cyrl": "Мухтаров Камол",
+    "ru": "Мухтаров Камол",
+    "en": "Muxtarov Kamol Zafarovich"
+   },
+   "position": {
+    "uz-latn": "Doimiy Vakil",
+    "uz-cyrl": "Доимий вакил",
+    "ru": "Постоянный представитель",
+    "en": "Permanent representative"
+   }
+  },
+  {
+   "id": 38,
+   "code": "7",
+   "phones": [
+    "729-277-71-17"
+   ],
+   "faxes": [
+    "11122"
+   ],
+   "lat": 43.65642,
+   "lon": 51.19848,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Aqtau shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Ақтау шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Актау",
+    "en": "Consulate General of the Republic of Uzbekistan in Aktau"
+   },
+   "address": {
+    "uz-latn": "130000, Republic of Kazakhstan, Aktau, 30th microdistrict., cottage 83/1",
+    "uz-cyrl": "130000, Republic of Kazakhstan, Aktau, 30th microdistrict., cottage 83/1",
+    "ru": "130000, Republic of Kazakhstan, Aktau, 30th microdistrict., cottage 83/1",
+    "en": "130000, Republic of Kazakhstan, Aktau, 30th microdistrict., cottage 83/1"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 39,
+   "code": "662",
+   "phones": [
+    "675-39-95"
+   ],
+   "faxes": [
+    "651-56-02"
+   ],
+   "lat": 13.7407,
+   "lon": 100.54777,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Bangkok shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Бангкок шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Бангкок",
+    "en": "Consulate General of the Republic of Uzbekistan in Bangkok"
+   },
+   "address": {
+    "uz-latn": "83/4, Soi Vithayu 1, Wireless Road, Lumpini, Pathumwan District, Bangkok 10330, Thailand",
+    "uz-cyrl": "83/4, Soi Vithayu 1, Wireless Road, Lumpini, Pathumwan District, Bangkok 10330, Thailand",
+    "ru": "83/4, Soi Vithayu 1, Wireless Road, Lumpini, Pathumwan District, Bangkok 10330, Thailand",
+    "en": "83/4, Soi Vithayu 1, Wireless Road, Lumpini, Pathumwan District, Bangkok 10330, Thailand"
+   },
+   "head": {
+    "uz-latn": "Sultanov Fakhriddin Hayritdinovich",
+    "uz-cyrl": "Султанов Фаҳриддин Ҳайритдинович",
+    "ru": "Султанов Фаҳриддин Ҳайритдинович",
+    "en": "Sultanov Fakhriddin Hayritdinovich"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 40,
+   "code": "9714",
+   "phones": [
+    "370-60-60"
+   ],
+   "faxes": [
+    "370-60-63"
+   ],
+   "lat": 25.24363,
+   "lon": 55.31051,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Dubaydagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Дубайдаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в Дубае",
+    "en": "Consulate General of the Republic of Uzbekistan in Dubai"
+   },
+   "address": {
+    "uz-latn": "P.O.Box:50478, Office building-13, Street №3, Umm Hurair First",
+    "uz-cyrl": "P.O.Box:50478, Office building-13, Street №3, Umm Hurair First",
+    "ru": "P.O.Box:50478, Office building-13, Street №3, Umm Hurair First",
+    "en": "P.O.Box:50478, Office building-13, Street №3, Umm Hurair First"
+   },
+   "head": {
+    "uz-latn": "Salomov Alisher Samandarovich",
+    "uz-cyrl": "Саломов Алишер Самандарович",
+    "ru": "Саломов Алишер Самандарович",
+    "en": "Salomov Alisher Samandarovich"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 41,
+   "code": "49-69",
+   "phones": [
+    "915-01-11-14"
+   ],
+   "faxes": [
+    "915-01-11-15"
+   ],
+   "lat": 50.12313,
+   "lon": 8.65293,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Frankfurt-Mayn shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Франкфурт-Майн шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Франкфурт-на-Майне",
+    "en": "Consulate General of the Republic of Uzbekistan in Frankfurt am Main"
+   },
+   "address": {
+    "uz-latn": "Bur Dubai, Dubai.",
+    "uz-cyrl": "Bur Dubai, Dubai.",
+    "ru": "Bur Dubai, Dubai.",
+    "en": "Bur Dubai, Dubai."
+   },
+   "head": {
+    "uz-latn": "Abdullaev Olimjon Suyunovich",
+    "uz-cyrl": "Абдуллаев Олимжон Суюнович",
+    "ru": "Абдуллаев Олимжон Суюнович",
+    "en": "Abdullaev Olimjon Suyunovich"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 42,
+   "code": "90",
+   "phones": [
+    "212-323-20-37"
+   ],
+   "faxes": [
+    "212323-20-40"
+   ],
+   "lat": 41.07753,
+   "lon": 29.01744,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Istanbul shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Истанбул шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Стамбул",
+    "en": "Consulate General of the Republic of Uzbekistan in Istanbul"
+   },
+   "address": {
+    "uz-latn": "Levent Mah. Levent Cad. Lale Sk. 8 Beşiktaş-İstanbul",
+    "uz-cyrl": "Levent Mah. Levent Cad. Lale Sk. 8 Beşiktaş-İstanbul",
+    "ru": "Levent Mah. Levent Cad. Lale Sk. 8 Beşiktaş-İstanbul",
+    "en": "Levent Mah. Levent Cad. Lale Sk. 8 Beşiktaş-İstanbul"
+   },
+   "head": {
+    "uz-latn": "Abdunazarov Sherzod",
+    "uz-cyrl": "Абдуназаров Шерзод",
+    "ru": "Абдуназаров Шерзод",
+    "en": "Abdunazarov Sherzod"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 43,
+   "code": "966",
+   "phones": [
+    "12-607-72-50"
+   ],
+   "faxes": [
+    "607-72-60"
+   ],
+   "lat": 41.07814,
+   "lon": 29.01691,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Jidda shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Жидда шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Джидда",
+    "en": "Consulate General of the Republic of Uzbekistan in Jeddah"
+   },
+   "address": {
+    "uz-latn": "Al-Naeem/4 District, Abu Al-Hajjaj Al-Mosali Street",
+    "uz-cyrl": "Al-Naeem/4 District, Abu Al-Hajjaj Al-Mosali Street",
+    "ru": "Al-Naeem/4 District, Abu Al-Hajjaj Al-Mosali Street",
+    "en": "Al-Naeem/4 District, Abu Al-Hajjaj Al-Mosali Street"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 44,
+   "code": "9350",
+   "phones": [
+    "200-27-13"
+   ],
+   "faxes": [
+    "112212"
+   ],
+   "lat": 36.71174,
+   "lon": 67.1105,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Mozori-Sharif shahridagi Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Мозори-Шариф шаҳридаги Консулхонаси",
+    "ru": "Консульство Республики Узбекистан в городе Мазари-Шариф",
+    "en": "Консульство Республики Узбекистан в городе Мазари-Шариф"
+   },
+   "address": {
+    "uz-latn": "Afghanistan, Mazori Sharif, 3-nohiya, Guzari Khoja Hayroniya 44",
+    "uz-cyrl": "Afghanistan, Mazori Sharif, 3-nohiya, Guzari Khoja Hayroniya 44",
+    "ru": "Afghanistan, Mazori Sharif, 3-nohiya, Guzari Khoja Hayroniya 44",
+    "en": "Afghanistan, Mazori Sharif, 3-nohiya, Guzari Khoja Hayroniya 44"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Konsul",
+    "uz-cyrl": "Консул",
+    "ru": "Консул",
+    "en": "Consul"
+   }
+  },
+  {
+   "id": 45,
+   "code": "7843",
+   "phones": [
+    "526-55-64"
+   ],
+   "faxes": [
+    "526-55-63"
+   ],
+   "lat": 55.78668,
+   "lon": 49.10897,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Qozon shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Қозон шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Казань",
+    "en": "Consulate General of the Republic of Uzbekistan in Kazan"
+   },
+   "address": {
+    "uz-latn": "Russia, Republic of Tataristan. Kazan city, Spartak street, 6",
+    "uz-cyrl": "Russia, Republic of Tataristan. Kazan city, Spartak street, 6",
+    "ru": "Russia, Republic of Tataristan. Kazan city, Spartak street, 6",
+    "en": "Russia, Republic of Tataristan. Kazan city, Spartak street, 6"
+   },
+   "head": {
+    "uz-latn": "Kasimov Nodirjon Validjanovich",
+    "uz-cyrl": "Касимов Нодиржон",
+    "ru": "Касимов Нодиржон",
+    "en": "Kasimov Nodirjon Validjanovich"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 46,
+   "code": "1-212",
+   "phones": [
+    "859-04-40"
+   ],
+   "faxes": [
+    "838-98-12"
+   ],
+   "lat": 40.75063,
+   "lon": 73.97196,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Nyu-York shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Нью-Йорк шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Нью-Йорк",
+    "en": "Consulate General of the Republic of Uzbekistan in New York"
+   },
+   "address": {
+    "uz-latn": "801, Second Ave, Floor 20, New York NY 10017 USA",
+    "uz-cyrl": "801, Second Ave, Floor 20, New York NY 10017 USA",
+    "ru": "801, Second Ave, Floor 20, New York NY 10017 USA",
+    "en": "801, Second Ave, Floor 20, New York NY 10017 USA"
+   },
+   "head": {
+    "uz-latn": "Ikramov Kamol Ravshanbekovich",
+    "uz-cyrl": "Икрамов Камол Равшанбекович",
+    "ru": "Икрамов Камол Равшанбекович",
+    "en": "Ikramov Kamol Ravshanbekovich"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 47,
+   "code": "7-383",
+   "phones": [
+    "246-04-85"
+   ],
+   "faxes": [
+    "246-04-62"
+   ],
+   "lat": 55.04934,
+   "lon": 82.9535,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Novosibirsk shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Новосибирск шаҳридаги Бош Консулхонаси",
+    "ru": "Ўзбекистон Республикасининг Новосибирск шаҳридаги Бош Консулхонаси",
+    "en": "Consulate General of the Republic of Uzbekistan in Novosibirsk"
+   },
+   "address": {
+    "uz-latn": "55 B, Lomonosova Str., Central area, Novosibirsk",
+    "uz-cyrl": "55 B, Lomonosova Str., Central area, Novosibirsk",
+    "ru": "55 B, Lomonosova Str., Central area, Novosibirsk",
+    "en": "55 B, Lomonosova Str., Central area, Novosibirsk"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 48,
+   "code": "727",
+   "phones": [
+    "390-26-16"
+   ],
+   "faxes": [
+    "122210"
+   ],
+   "lat": 43.22534,
+   "lon": 76.90131,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Olmaota shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Олмаота шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Алматы",
+    "en": "Consulate General of the Republic of Uzbekistan in Almaty"
+   },
+   "address": {
+    "uz-latn": "05000, Almaty c., 360 Jarokova str. (Al-Farabi avenue)",
+    "uz-cyrl": "05000, Almaty c., 360 Jarokova str. (Al-Farabi avenue)",
+    "ru": "05000, Almaty c., 360 Jarokova str. (Al-Farabi avenue)",
+    "en": "05000, Almaty c., 360 Jarokova str. (Al-Farabi avenue)"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 49,
+   "code": "7-863",
+   "phones": [
+    "285-50-57"
+   ],
+   "faxes": [
+    "21121"
+   ],
+   "lat": 47.22484,
+   "lon": 39.72478,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Rostov-Don shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Ростов-Дон шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Ростов-на-Дону",
+    "en": "Consulate General of the Republic of Uzbekistan in Rostov-on-Don"
+   },
+   "address": {
+    "uz-latn": "344006, 28g Suvorova str., Rostov-on-Don city",
+    "uz-cyrl": "344006, 28g Suvorova str., Rostov-on-Don city",
+    "ru": "344006, 28g Suvorova str., Rostov-on-Don city",
+    "en": "344006, 28g Suvorova str., Rostov-on-Don city"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 50,
+   "code": "7-965",
+   "phones": [
+    "029-41-49"
+   ],
+   "faxes": [
+    "122212"
+   ],
+   "lat": 59.91395,
+   "lon": 30.31128,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Sankt-Peterburg shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Санкт-Петербург шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Санкт-Петербург",
+    "en": "Consulate General of the Republic of Uzbekistan in Saint Petersburg"
+   },
+   "address": {
+    "uz-latn": "4a, 4th Krasnoarmeyskaya street, Saint Petersburg.",
+    "uz-cyrl": "4a, 4th Krasnoarmeyskaya street, Saint Petersburg.",
+    "ru": "4a, 4th Krasnoarmeyskaya street, Saint Petersburg.",
+    "en": "4a, 4th Krasnoarmeyskaya street, Saint Petersburg."
+   },
+   "head": {
+    "uz-latn": "Babayev Alisher Mamajonovich",
+    "uz-cyrl": "Бабайев Алишер Мамажонович",
+    "ru": "Бабайев Алишер Мамажонович",
+    "en": "Babayev Alisher Mamajonovich"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 51,
+   "code": "7-423",
+   "phones": [
+    "260-48-00"
+   ],
+   "faxes": [
+    "260-48-28"
+   ],
+   "lat": 43.10341,
+   "lon": 131.86943,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Vladivostok shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Владивосток шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Владивосток",
+    "en": "Consulate General of the Republic of Uzbekistan in Vladivostok"
+   },
+   "address": {
+    "uz-latn": "46, Verhneportovaya street, Vladivostok, 69003",
+    "uz-cyrl": "46, Verhneportovaya street, Vladivostok, 69003",
+    "ru": "46, Verhneportovaya street, Vladivostok, 69003",
+    "en": "46, Verhneportovaya street, Vladivostok, 69003"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 52,
+   "code": "7-343",
+   "phones": [
+    "272-31-66"
+   ],
+   "faxes": [
+    "272-31-66"
+   ],
+   "lat": 58.84151,
+   "lon": 60.62256,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Yekaterinburg shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Екатеринбург шаҳридаги бош консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Екатеринбург",
+    "en": "Генеральное консульство Республики Узбекистан в городе Екатеринбург"
+   },
+   "address": {
+    "uz-latn": "620075, Office #415, 22, Karl Liebknecht st., Yekaterinburg, Russia",
+    "uz-cyrl": "620075, Office #415, 22, Karl Liebknecht st., Yekaterinburg, Russia",
+    "ru": "620075, Office #415, 22, Karl Liebknecht st., Yekaterinburg, Russia",
+    "en": "620075, Office #415, 22, Karl Liebknecht st., Yekaterinburg, Russia"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  },
+  {
+   "id": 53,
+   "code": "86-21",
+   "phones": [
+    "630-718-96"
+   ],
+   "faxes": [
+    "632-460-99"
+   ],
+   "lat": 31.25054,
+   "lon": 121.49064,
+   "kind": "consulate",
+   "name": {
+    "uz-latn": "Oʻzbekiston Respublikasining Shanxay shahridagi Bosh Konsulxonasi",
+    "uz-cyrl": "Ўзбекистон Республикасининг Шанхай шаҳридаги Бош Консулхонаси",
+    "ru": "Генеральное консульство Республики Узбекистан в городе Шанхай",
+    "en": "Consulate General of the Republic of Uzbekistan in Shanghai"
+   },
+   "address": {
+    "uz-latn": "Room 801, Yao Jiang Development Centre, 308 Wusong Road, Hong Kou District, 200080, Shanghai",
+    "uz-cyrl": "Room 801, Yao Jiang Development Centre, 308 Wusong Road, Hong Kou District, 200080, Shanghai",
+    "ru": "Room 801, Yao Jiang Development Centre, 308 Wusong Road, Hong Kou District, 200080, Shanghai",
+    "en": "Room 801, Yao Jiang Development Centre, 308 Wusong Road, Hong Kou District, 200080, Shanghai"
+   },
+   "head": {
+    "uz-latn": "Вакант",
+    "uz-cyrl": "Вакант",
+    "ru": "Вакант",
+    "en": "Вакант"
+   },
+   "position": {
+    "uz-latn": "Bosh Konsul",
+    "uz-cyrl": "Бош консул",
+    "ru": "Генеральный консул",
+    "en": "Consul General"
+   }
+  }
+ ]
+}

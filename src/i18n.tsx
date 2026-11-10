@@ -16,7 +16,6 @@ interface I18nFile {
 }
 
 // data.egov.uz dagi til raqamlari
-export const EGOV_LANG: Record<Lang, number> = { 'uz-latn': 1, 'uz-yangi': 1, 'uz-cyrl': 2, ru: 3, en: 4 };
 
 export interface I18n {
   lang: Lang;

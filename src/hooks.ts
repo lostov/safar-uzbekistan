@@ -2,7 +2,7 @@ import { createContext } from 'preact';
 import { useCallback, useContext, useEffect, useState } from 'preact/hooks';
 import { loadDataFile, type Resources } from './lib/data';
 import { load } from './lib/store';
-import { useI18n, EGOV_LANG } from './i18n';
+import { useI18n } from './i18n';
 import { cachedEmbassies, fetchEmbassies, cachedWeather, fetchWeather, cachedPrayer, fetchPrayer,
   type Embassy, type WeatherData, type PrayerDay } from './lib/api';
 import { getPosition, lastPos, type Pos } from './lib/geo';
@@ -28,17 +28,17 @@ interface Async<T> { data: T | null; savedAt: number | null; loading: boolean; e
 
 export function useEmbassies(): Async<Embassy[]> {
   const { lang } = useI18n();
-  const id = EGOV_LANG[lang];
+  const id = lang;
   const init = cachedEmbassies(id);
   const [state, set] = useState({ data: init?.data ?? null, savedAt: init?.t ?? null, loading: !init, error: null as string | null });
-  const run = useCallback((force = false) => {
+  const run = useCallback(() => {
     set((s) => ({ ...s, loading: true, error: null }));
-    fetchEmbassies(id, force)
+    fetchEmbassies(id)
       .then((c) => set({ data: c.data, savedAt: c.t, loading: false, error: null }))
       .catch((e) => set((s) => ({ ...s, loading: false, error: String(e?.message || e) })));
   }, [id]);
   useEffect(() => { const c = cachedEmbassies(id); set({ data: c?.data ?? null, savedAt: c?.t ?? null, loading: !c, error: null }); run(); }, [id]);
-  return { ...state, reload: () => run(true) };
+  return { ...state, reload: () => run() };
 }
 
 export function usePosition(auto: boolean) {
