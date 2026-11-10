@@ -1,0 +1,506 @@
+{
+  "version": "2026.11.10",
+  "officialSources": [
+    {
+      "id": "g1",
+      "title": "src.g1",
+      "icon": "bank",
+      "tone": "blue",
+      "links": [
+        {
+          "label": "src.l1",
+          "url": "https://taplink.cc/dinqumita"
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "src.g2",
+      "icon": "globe",
+      "tone": "blue",
+      "links": [
+        {
+          "label": "src.l2",
+          "url": "https://taplink.cc/kanallar"
+        },
+        {
+          "label": "src.l3",
+          "url": "https://taplink.cc/muslimuz"
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "title": "src.g3",
+      "icon": "info",
+      "tone": "blue",
+      "links": [
+        {
+          "label": "src.l4",
+          "url": "https://taplink.cc/diniysavollar"
+        },
+        {
+          "label": "src.l12",
+          "url": "https://t.me/fatvouz_musofir_bot"
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "title": "src.g4",
+      "icon": "grad",
+      "tone": "green",
+      "links": [
+        {
+          "label": "src.l5",
+          "url": "https://t.me/iiau_official"
+        },
+        {
+          "label": "src.l6",
+          "url": "https://t.me/oliymahad"
+        },
+        {
+          "label": "src.l7",
+          "url": "https://t.me/Mirarabuz"
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "title": "src.g5",
+      "icon": "globe",
+      "tone": "green",
+      "links": [
+        {
+          "label": "src.l8",
+          "url": "https://t.me/bukhariuz"
+        },
+        {
+          "label": "src.l9",
+          "url": "https://t.me/moturidiyuz"
+        },
+        {
+          "label": "src.l10",
+          "url": "https://t.me/termiziylar_uz"
+        },
+        {
+          "label": "src.l11",
+          "url": "https://t.me/islommarkazi"
+        }
+      ]
+    }
+  ],
+  "banned": {
+    "asOf": "2026-11-03",
+    "list": [
+      {
+        "label": "banned.pdf",
+        "icon": "pdf",
+        "url": "https://sud.uz/wp-content/uploads/2026/11/restricted-links-and-materials.pdf"
+      },
+      {
+        "label": "banned.telegram",
+        "icon": "tg",
+        "url": "https://t.me/oliysuduz/53292"
+      }
+    ],
+    "law": [
+      {
+        "label": "banned.code",
+        "icon": "doc",
+        "url": "https://lex.uz/docs/111453#2965836"
+      },
+      {
+        "label": "banned.practice",
+        "icon": "tg",
+        "url": "https://t.me/toshkentshaharsudlari/13424"
+      },
+      {
+        "label": "banned.video",
+        "icon": "video",
+        "url": "https://youtu.be/IYnjzmPvTvo"
+      }
+    ]
+  },
+  "vaqf": {
+    "url": "https://vaqf.uz/uz/payment-qr"
+  },
+  "qibla": "https://qiblafinder.withgoogle.com",
+  "work": {
+    "xorijdaish": "https://xorijdaish.uz",
+    "android": "https://play.google.com/store/apps/details?id=uz.mehnat.migration",
+    "ios": "https://apps.apple.com/app/xorijdaish/id6557126962",
+    "mahalla": "https://www.online-mahalla.uz/"
+  },
+  "emergency": {
+    "_izoh": "Manba: Wikipedia «List of emergency telephone numbers» (16.10.2026) + mahalliy rasmiy maʼlumotlar bilan solishtirilgan. \"check\": true — rasmiy manbadan qayta tekshirish kerak. police/ambulance/fire bo‘lmasa — barcha xizmatlar asosiy raqam orqali.",
+    "_checked": "2026-11-09",
+    "default": {
+      "main": "112"
+    },
+    "RU": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
+    },
+    "KZ": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
+    },
+    "KG": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
+    },
+    "TJ": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
+    },
+    "TM": {
+      "main": "03",
+      "police": "02",
+      "ambulance": "03",
+      "fire": "01",
+      "check": true
+    },
+    "AZ": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
+    },
+    "AM": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101",
+      "other": [
+        "911"
+      ]
+    },
+    "GE": {
+      "main": "112"
+    },
+    "BY": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101",
+      "check": true
+    },
+    "UA": {
+      "main": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
+    },
+    "MD": {
+      "main": "112"
+    },
+    "TR": {
+      "main": "112",
+      "other": [
+        "155"
+      ]
+    },
+    "AE": {
+      "main": "999",
+      "police": "999",
+      "ambulance": "998",
+      "fire": "997"
+    },
+    "SA": {
+      "main": "911",
+      "police": "999",
+      "ambulance": "997",
+      "fire": "998"
+    },
+    "QA": {
+      "main": "999"
+    },
+    "KW": {
+      "main": "112"
+    },
+    "BH": {
+      "main": "999"
+    },
+    "OM": {
+      "main": "9999"
+    },
+    "IL": {
+      "main": "100",
+      "police": "100",
+      "ambulance": "101",
+      "fire": "102"
+    },
+    "JO": {
+      "main": "911"
+    },
+    "IR": {
+      "main": "110",
+      "police": "110",
+      "ambulance": "115",
+      "fire": "125"
+    },
+    "CN": {
+      "main": "110",
+      "police": "110",
+      "ambulance": "120",
+      "fire": "119"
+    },
+    "JP": {
+      "main": "110",
+      "police": "110",
+      "ambulance": "119",
+      "fire": "119"
+    },
+    "KR": {
+      "main": "112",
+      "police": "112",
+      "ambulance": "119",
+      "fire": "119"
+    },
+    "IN": {
+      "main": "112",
+      "police": "100",
+      "ambulance": "108",
+      "fire": "101"
+    },
+    "PK": {
+      "main": "15",
+      "police": "15",
+      "ambulance": "1122",
+      "fire": "16"
+    },
+    "MY": {
+      "main": "999",
+      "other": [
+        "112"
+      ]
+    },
+    "TH": {
+      "main": "191",
+      "police": "191",
+      "ambulance": "1669",
+      "fire": "199",
+      "other": [
+        "1155"
+      ]
+    },
+    "ID": {
+      "main": "112",
+      "police": "110",
+      "ambulance": "118",
+      "fire": "113"
+    },
+    "VN": {
+      "main": "113",
+      "police": "113",
+      "ambulance": "115",
+      "fire": "114"
+    },
+    "PH": {
+      "main": "911"
+    },
+    "SG": {
+      "main": "999",
+      "police": "999",
+      "ambulance": "995",
+      "fire": "995"
+    },
+    "MN": {
+      "main": "102",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101",
+      "other": [
+        "105"
+      ],
+      "check": true
+    },
+    "HK": {
+      "main": "999"
+    },
+    "DE": {
+      "main": "112",
+      "police": "110",
+      "ambulance": "112",
+      "fire": "112"
+    },
+    "GB": {
+      "main": "999",
+      "other": [
+        "112"
+      ]
+    },
+    "IE": {
+      "main": "112",
+      "other": [
+        "999"
+      ]
+    },
+    "PL": {
+      "main": "112",
+      "police": "997",
+      "ambulance": "999",
+      "fire": "998"
+    },
+    "CZ": {
+      "main": "112",
+      "police": "158",
+      "ambulance": "155",
+      "fire": "150"
+    },
+    "SK": {
+      "main": "112",
+      "police": "158",
+      "ambulance": "155",
+      "fire": "150"
+    },
+    "HU": {
+      "main": "112",
+      "police": "107",
+      "ambulance": "104",
+      "fire": "105"
+    },
+    "AT": {
+      "main": "112",
+      "police": "133",
+      "ambulance": "144",
+      "fire": "122"
+    },
+    "CH": {
+      "main": "112",
+      "police": "117",
+      "ambulance": "144",
+      "fire": "118"
+    },
+    "IT": {
+      "main": "112",
+      "police": "113",
+      "ambulance": "118",
+      "fire": "115"
+    },
+    "FR": {
+      "main": "112",
+      "police": "17",
+      "ambulance": "15",
+      "fire": "18"
+    },
+    "ES": {
+      "main": "112",
+      "police": "091",
+      "ambulance": "061",
+      "fire": "080"
+    },
+    "PT": {
+      "main": "112"
+    },
+    "NL": {
+      "main": "112"
+    },
+    "BE": {
+      "main": "112",
+      "police": "101",
+      "ambulance": "112",
+      "fire": "112"
+    },
+    "LU": {
+      "main": "112",
+      "police": "113",
+      "ambulance": "112",
+      "fire": "112"
+    },
+    "SE": {
+      "main": "112"
+    },
+    "NO": {
+      "main": "112",
+      "police": "112",
+      "ambulance": "113",
+      "fire": "110"
+    },
+    "FI": {
+      "main": "112"
+    },
+    "DK": {
+      "main": "112"
+    },
+    "LT": {
+      "main": "112"
+    },
+    "LV": {
+      "main": "112",
+      "police": "110",
+      "ambulance": "113",
+      "fire": "112"
+    },
+    "EE": {
+      "main": "112"
+    },
+    "RO": {
+      "main": "112"
+    },
+    "BG": {
+      "main": "112",
+      "police": "166",
+      "ambulance": "150",
+      "fire": "160"
+    },
+    "GR": {
+      "main": "112",
+      "police": "100",
+      "ambulance": "166",
+      "fire": "199"
+    },
+    "HR": {
+      "main": "112",
+      "police": "192",
+      "ambulance": "194",
+      "fire": "193"
+    },
+    "RS": {
+      "main": "192",
+      "police": "192",
+      "ambulance": "194",
+      "fire": "193",
+      "other": [
+        "112"
+      ],
+      "check": true
+    },
+    "SI": {
+      "main": "112",
+      "police": "113",
+      "ambulance": "112",
+      "fire": "112"
+    },
+    "CY": {
+      "main": "112",
+      "other": [
+        "199"
+      ]
+    },
+    "US": {
+      "main": "911"
+    },
+    "CA": {
+      "main": "911"
+    },
+    "AU": {
+      "main": "000",
+      "other": [
+        "112"
+      ]
+    },
+    "NZ": {
+      "main": "111"
+    }
+  }
+}

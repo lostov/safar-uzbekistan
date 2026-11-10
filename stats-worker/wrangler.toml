@@ -1,0 +1,11 @@
+name = "safar-stats"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[[kv_namespaces]]
+binding = "STATS"
+id = "<wrangler kv namespace create STATS buyrug‘i bergan id>"
+
+[vars]
+# /stats sahifasini ko‘rish uchun maxfiy kalit — o‘zingiznikiga almashtiring
+STATS_KEY = "o-zgartiring-maxfiy-kalit"

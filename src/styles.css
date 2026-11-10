@@ -1,0 +1,227 @@
+/* Safar Uzbekistan 2.0 — dizayn tokenlari (kanvasdagi dizayn bilan bir xil) */
+:root {
+  --ivory: #FAF6EE; --card: #FFFDF8; --sand: #F1EBDD; --line: #E6DCC8;
+  --navy: #16324F; --ink: #3D4A5C; --muted: #5E6A7A;
+  --blue: #0B6E9E; --blue-t: #E3EEF5; --green: #1F7A44; --green-t: #E2F0E6;
+  --red: #B32A26; --red-t: #F6E3E0; --gold: #C9972B; --gold-t: #F6ECD6; --gold-l: #E9C46A; --gold-d: #8A6414;
+  --hf: Montserrat, Arial, sans-serif; --bf: 'Nunito Sans', Arial, sans-serif; --qf: Lora, Georgia, serif;
+  --r: 20px; --nav-h: 76px;
+  --safe-b: env(safe-area-inset-bottom, 0px);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--ivory); color: var(--ink); font-family: var(--bf); -webkit-text-size-adjust: 100%; }
+body { min-height: 100vh; }
+a { color: var(--blue); }
+button { font: inherit; color: inherit; cursor: pointer; }
+h1, h2, h3, p { margin: 0; }
+img { max-width: 100%; }
+:focus-visible { outline: 3px solid var(--gold-l); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- qobiq ---------- */
+.shell { min-height: 100vh; }
+.layout { max-width: 1360px; margin: 0 auto; }
+.main { padding: 0 18px calc(var(--nav-h) + 40px + var(--safe-b)) 18px; display: flex; flex-direction: column; gap: 14px; }
+ @media (max-width: 1023.98px) { .d-only { display: none !important; } }
+@media (min-width: 1024px) {
+  .m-only { display: none !important; }
+  .layout { display: flex; gap: 28px; padding: 28px 32px 48px; align-items: flex-start; }
+  .main { flex: 1; min-width: 0; padding: 0; gap: 20px; }
+}
+
+/* ---------- desktop yuqori panel ---------- */
+.topbar { position: relative; overflow: hidden; background: var(--navy); }
+.topbar-in { max-width: 1360px; margin: 0 auto; padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ivory); }
+.brand img { width: 40px; height: 40px; }
+.brand b { display: block; font-family: var(--hf); font-weight: 800; font-size: 19px; }
+.brand small { display: block; font-size: 13px; color: #C9D6E3; }
+.topbar-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.ikat { display: block; width: 100%; height: 16px; background-repeat: repeat-x; background-size: auto 100%; background-position: left center; }
+
+/* til tugmasi: fondagi so‘zana doirasi markazi tugma markaziga to‘g‘ri keladi */
+.lang-wrap { position: relative; width: 44px; height: 44px; flex: none; }
+.lang-wrap::before { content: ''; position: absolute; left: 50%; top: 50%; width: 230px; height: 230px; transform: translate(-50%, -50%);
+  background: url('/img/rosette.svg') center / contain no-repeat; opacity: .15; pointer-events: none; }
+.lang-btn { position: relative; width: 44px; height: 44px; border-radius: 22px; border: 1.5px solid rgba(250,246,238,.45); background: rgba(250,246,238,.1);
+  color: var(--ivory); font-family: var(--hf); font-weight: 800; font-size: 14px; display: flex; align-items: center; justify-content: center; }
+
+/* ---------- desktop yon menyu ---------- */
+.sidebar { width: 260px; flex: none; display: flex; flex-direction: column; gap: 14px; }
+.side-nav { display: flex; flex-direction: column; gap: 4px; padding: 10px; border-radius: var(--r); background: var(--card); border: 1px solid var(--line); }
+.side-nav a { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 14px; text-decoration: none; font-weight: 800; font-size: 15px; color: var(--navy); }
+.side-nav a:hover { background: var(--sand); }
+.side-nav a[aria-current="page"] { background: var(--navy); color: var(--ivory); }
+.side-nav a[aria-current="page"] svg { stroke: var(--gold-l); }
+.side-note { font-size: 12px; line-height: 1.5; color: var(--muted); padding: 0 6px; }
+
+/* ---------- mobil pastki menyu ---------- */
+.bottom-nav { position: fixed; left: 12px; right: 12px; bottom: calc(14px + var(--safe-b)); height: var(--nav-h); z-index: 50; max-width: 560px; margin: 0 auto;
+  background: var(--navy); border-radius: 26px; display: flex; align-items: center; justify-content: space-around; padding: 0 6px; box-shadow: 0 10px 24px rgba(22,50,79,.28); }
+.bottom-nav a { width: 74px; height: 56px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none;
+  color: #E4EAF1; font-size: 11px; font-weight: 600; }
+.bottom-nav a svg { stroke: #E4EAF1; }
+.bottom-nav a[aria-current="page"] { color: var(--gold-l); font-weight: 800; }
+.bottom-nav a[aria-current="page"] svg { stroke: var(--gold-l); }
+.bottom-nav .sos { width: 68px; height: 68px; margin-top: -34px; border-radius: 34px; background: var(--red); border: 5px solid var(--ivory); color: var(--ivory);
+  font-family: var(--hf); font-weight: 800; font-size: 16px; letter-spacing: 1px; box-shadow: 0 6px 16px rgba(179,42,38,.35); }
+
+/* ---------- mobil sarlavhalar ---------- */
+.m-hero { position: relative; overflow: hidden; background: var(--navy); padding: calc(18px + env(safe-area-inset-top, 0px)) 20px 24px; }
+.m-hero-row { position: relative; display: flex; align-items: center; justify-content: space-between; }
+.m-hero h1 { position: relative; margin-top: 14px; font-family: var(--hf); font-size: 23px; font-weight: 800; line-height: 1.25; color: var(--ivory); }
+.m-hero .chips { position: relative; margin-top: 14px; }
+.sub-head { padding: calc(14px + env(safe-area-inset-top, 0px)) 0 4px; display: flex; flex-direction: column; gap: 10px; }
+.sub-head-row { display: flex; align-items: center; justify-content: space-between; }
+.back { width: 44px; height: 44px; border-radius: 22px; background: var(--card); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; }
+.page-title { font-family: var(--hf); font-size: 25px; font-weight: 800; line-height: 1.2; color: var(--navy); }
+.page-sub { margin-top: 4px; font-size: 14px; color: var(--muted); }
+@media (min-width: 1024px) {
+  .page-head { display: flex; flex-direction: row; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 0; }
+  .page-title { font-size: 32px; }
+  .page-sub { font-size: 16px; margin-top: 6px; }
+}
+
+/* ---------- komponentlar ---------- */
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: 700; white-space: nowrap; }
+.chip svg { width: 14px; height: 14px; }
+.t-blue { color: var(--blue); background: var(--blue-t); } .t-green { color: var(--green); background: var(--green-t); }
+.t-red { color: var(--red); background: var(--red-t); } .t-gold { color: var(--gold-d); background: var(--gold-t); }
+.t-navy { color: var(--navy); background: #DCE8F2; } .t-sand { color: var(--navy); background: var(--sand); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; }
+.card-pad-s { padding: 2px 16px; }
+.tile { width: 44px; height: 44px; min-width: 44px; border-radius: 14px; display: flex; align-items: center; justify-content: center; }
+.tile.s { width: 40px; height: 40px; min-width: 40px; border-radius: 12px; }
+.tile.l { width: 52px; height: 52px; min-width: 52px; border-radius: 16px; }
+.row { display: flex; align-items: center; gap: 12px; padding: 12px 0; text-decoration: none; color: inherit; background: none; border: 0; width: 100%; text-align: left; }
+.row + .row, .rows > * + * { border-top: 1px solid var(--line); }
+.row-main { flex: 1; min-width: 0; }
+.row-title { font-size: 15px; font-weight: 800; color: var(--navy); }
+.row-sub { margin-top: 2px; font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
+.h2 { font-family: var(--hf); font-size: 17px; font-weight: 800; color: var(--navy); }
+.note { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+.btn { height: 46px; padding: 0 18px; border-radius: 14px; border: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  text-decoration: none; font-weight: 800; font-size: 14px; white-space: nowrap; }
+.btn.navy { background: var(--navy); color: var(--ivory); } .btn.navy svg { stroke: var(--ivory); }
+.btn.green { background: var(--green); color: var(--ivory); } .btn.green svg { stroke: var(--ivory); }
+.btn.gold { background: var(--gold); color: var(--navy); } .btn.gold svg { stroke: var(--navy); }
+.btn.light { background: var(--card); color: var(--navy); border: 1px solid var(--line); }
+.btn.soft { background: var(--blue-t); color: var(--blue); } .btn.soft svg { stroke: var(--blue); }
+.btn.block { width: 100%; }
+.icon-btn { width: 40px; height: 40px; min-width: 40px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); display: inline-flex; align-items: center; justify-content: center; }
+.icon-btn.ok { background: var(--green-t); border-color: #C6E0CE; }
+.grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.wrap { display: flex; flex-wrap: wrap; gap: 16px; }
+.wrap > * { flex: 1 1 340px; min-width: 0; }
+.banner { display: flex; gap: 10px; align-items: center; padding: 10px 14px; border-radius: 14px; font-size: 13px; color: var(--navy); }
+.empty { padding: 28px 16px; text-align: center; color: var(--muted); font-size: 14px; }
+.spinner { width: 28px; height: 28px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--navy); animation: spin .8s linear infinite; margin: 24px auto; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* SOS kartasi */
+.sos-card { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border-radius: var(--r); background: var(--red); text-decoration: none; box-shadow: 0 8px 18px rgba(179,42,38,.2); }
+.sos-card .ico { width: 46px; height: 46px; min-width: 46px; border-radius: 23px; background: rgba(250,246,238,.18); display: flex; align-items: center; justify-content: center; }
+.sos-card b { display: block; font-family: var(--hf); font-size: 16px; color: var(--ivory); }
+.sos-card small { display: block; margin-top: 2px; font-size: 13px; color: #F8DCD8; }
+
+/* o‘rnatish paneli */
+.install { display: flex; align-items: center; gap: 12px; padding: 12px 12px 12px 14px; border-radius: 18px; background: var(--card); border: 1.5px dashed var(--gold); }
+.install b { display: block; font-size: 15px; color: var(--navy); }
+.install small { display: block; margin-top: 2px; font-size: 12px; color: var(--muted); }
+.install-top { height: 44px; padding: 0 18px; border-radius: 22px; border: 1.5px dashed var(--gold-l); background: transparent; color: var(--ivory); font-weight: 800; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; }
+
+/* iqtibos */
+.quote { position: relative; overflow: hidden; margin: 0; padding: 14px 18px 14px 58px; border-radius: 18px; background: var(--sand); border: 1px solid var(--line); }
+.quote::before { content: '\201C'; position: absolute; left: 14px; top: 2px; font-family: var(--qf); font-size: 64px; font-weight: 700; line-height: 1; color: var(--gold); }
+.quote::after { content: ''; position: absolute; right: -34px; bottom: -40px; width: 110px; height: 110px; background: url('/img/rosette.svg') center / contain no-repeat; opacity: .12; }
+.quote blockquote { position: relative; margin: 0; font-family: var(--qf); font-style: italic; font-size: 16px; line-height: 1.45; color: var(--navy); white-space: pre-line; }
+.quote figcaption { position: relative; margin-top: 8px; display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 800; color: var(--gold-d); }
+.quote figcaption::before { content: ''; width: 18px; height: 2px; background: var(--gold); }
+@media (min-width: 1024px) {
+  .quote { padding: 24px 26px 22px 76px; border-radius: 22px; }
+  .quote::before { font-size: 84px; left: 20px; top: 6px; }
+  .quote blockquote { font-size: 21px; }
+}
+
+/* navy kartalar (ob-havo, namoz) */
+.navy-card { position: relative; overflow: hidden; padding: 18px; border-radius: 22px; background: var(--navy); color: var(--ivory); }
+.navy-card::after { content: ''; position: absolute; right: -60px; top: -60px; width: 200px; height: 200px; background: url('/img/rosette.svg') center / contain no-repeat; opacity: .14; pointer-events: none; }
+.navy-card > * { position: relative; }
+
+/* modal */
+.overlay { position: fixed; inset: 0; z-index: 100; background: rgba(22,50,79,.55); display: flex; align-items: flex-end; justify-content: center; }
+.sheet { width: 100%; max-width: 480px; background: var(--card); border-radius: 28px 28px 0 0; padding: 14px 22px calc(28px + var(--safe-b)); display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.sheet .grip { width: 44px; height: 5px; border-radius: 3px; background: var(--line); }
+@media (min-width: 640px) { .overlay { align-items: center; } .sheet { border-radius: 28px; } }
+.lang-list { width: 100%; display: flex; flex-direction: column; gap: 8px; }
+.lang-opt { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--card); font-weight: 800; font-size: 16px; color: var(--navy); }
+.lang-opt[aria-pressed="true"] { background: var(--navy); color: var(--ivory); border-color: var(--navy); }
+.lang-opt small { font-family: var(--hf); font-size: 13px; opacity: .8; }
+
+/* toast */
+.toast { position: fixed; left: 50%; bottom: calc(var(--nav-h) + 30px + var(--safe-b)); transform: translateX(-50%); z-index: 120; background: var(--navy); color: var(--ivory);
+  padding: 10px 16px; border-radius: 14px; font-size: 14px; font-weight: 700; box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+@media (min-width: 1024px) { .toast { bottom: 32px; } }
+
+/* jadval (namoz, desktop) */
+.ptable { width: 100%; min-width: 620px; border-collapse: collapse; }
+.ptable th, .ptable td { padding: 12px 10px; text-align: center; border-top: 1px solid var(--line); }
+.ptable thead th { border-top: 0; font-size: 13px; color: var(--muted); }
+.ptable tbody th { text-align: left; font-size: 14px; color: var(--navy); white-space: nowrap; }
+.ptable td { font-family: var(--hf); font-weight: 800; font-size: 15px; color: var(--navy); }
+.ptable tr.today { background: var(--green-t); }
+
+/* qidiruv / tanlash maydonlari, filtr tugmalari */
+.field { display: flex; align-items: center; gap: 10px; padding: 0 14px; height: 46px; border-radius: 14px; background: var(--card); border: 1px solid var(--line); min-width: 0; }
+.filters .field { flex: 1 1 220px; }
+.field input, .field select { flex: 1; min-width: 0; height: 100%; border: 0; outline: none; background: transparent; font: inherit; font-size: 15px; color: var(--navy); }
+.field:focus-within { border-color: var(--blue); }
+.filters { display: flex; flex-wrap: wrap; gap: 10px; }
+.seg { height: 36px; padding: 0 14px; border-radius: 12px; font-size: 13px; font-weight: 700; background: var(--card); color: var(--navy); border: 1px solid var(--line); }
+.seg[aria-pressed="true"] { background: var(--navy); color: var(--ivory); border-color: var(--navy); }
+
+/* ochiladigan maʼlumot bloki (agentliklar) */
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; padding: 4px 0 14px 52px; font-size: 14px; line-height: 1.45; }
+.kv dt { color: var(--muted); font-weight: 700; }
+.kv dd { margin: 0; color: var(--navy); overflow-wrap: anywhere; }
+.kv a { color: var(--blue); font-weight: 700; text-decoration: none; }
+@media (max-width: 420px) { .kv { grid-template-columns: 1fr; padding-left: 4px; } .kv dt { margin-top: 4px; } }
+
+/* davlatlar ro‘yxati (viza) */
+.country-list { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 10px; }
+.country { padding: 7px 12px; border-radius: 12px; background: var(--sand); color: var(--navy); font-size: 14px; font-weight: 700; }
+.country.here { background: var(--navy); color: var(--ivory); }
+
+/* do‘kon tugmalari */
+.store-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.store-row .btn { flex: 1 1 180px; }
+
+/* SOS: xizmatlar bo‘yicha raqamlar */
+.sos-services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; flex: 1 1 100%; }
+.sos-services a { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 12px 6px; text-decoration: none; text-align: center; }
+.sos-services b { font-family: var(--hf); font-size: 22px; font-weight: 800; color: var(--navy); line-height: 1.1; }
+.sos-services small { font-size: 12px; font-weight: 700; color: var(--muted); }
+
+/* qo‘llanma maqolasi (manbadagi tozalangan HTML) */
+.guide-body { font-size: 15px; line-height: 1.6; color: var(--ink); overflow-wrap: anywhere; }
+.guide-body h3, .guide-body h4, .guide-body h5 { margin: 18px 0 6px; font-family: var(--hf); font-size: 16px; font-weight: 800; color: var(--navy); line-height: 1.3; }
+.guide-body > :first-child { margin-top: 0; }
+.guide-body p { margin: 0 0 10px; }
+.guide-body ul, .guide-body ol { margin: 0 0 10px; padding-left: 22px; }
+.guide-body li { margin-bottom: 4px; }
+.guide-body b, .guide-body strong { color: var(--navy); }
+.guide-body a { color: var(--blue); font-weight: 700; }
+.guide-body table { width: 100%; border-collapse: collapse; margin: 6px 0 12px; font-size: 14px; display: block; overflow-x: auto; }
+.guide-body td, .guide-body th { border: 1px solid var(--line); padding: 8px; vertical-align: top; }
+
+/* ikonkalar flex ichida qisqarmasin (uzun matnli kartalarda nuqtaga aylanib qolardi) */
+svg { flex-shrink: 0; }
+
+/* filtr qatorida segment tugmalari qidiruv/tanlash maydoni bilan bir xil balandlikda */
+.filters { align-items: stretch; }
+.filters .chips { flex-wrap: nowrap; }
+.filters .seg { height: 46px; padding: 0 16px; border-radius: 14px; font-size: 14px; }
+
+/* bosh sahifa (desktop): ob-havo/namoz kartalari iqtibos bloki bilan bir xil kenglik va balandlikda */
+.d-only > .home-widgets { flex: 1; }
