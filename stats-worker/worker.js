@@ -10,9 +10,10 @@
  * O‘rnatish:
  *   1) npm i -g wrangler && wrangler login
  *   2) wrangler kv namespace create STATS   → chiqqan id’ni wrangler.toml ga yozing
- *   3) wrangler deploy
- *   4) Ilovada .env: VITE_STATS_URL=https://safar-stats.<akkaunt>.workers.dev/hit
- *   5) Statistika: https://safar-stats.<akkaunt>.workers.dev/stats?key=<STATS_KEY>
+ *   3) wrangler secret put STATS_KEY   → /stats sahifasi uchun maxfiy kalit
+ *   4) wrangler deploy
+ *   5) Ilovada .env (va GitHub secret): VITE_STATS_URL=https://safar-stats.<akkaunt>.workers.dev/hit
+ *   6) Statistika: https://safar-stats.<akkaunt>.workers.dev/stats?key=<STATS_KEY>
  */
 const EVENTS = ['install', 'first_standalone', 'open', 'open_standalone'];
 const PLATFORMS = ['android', 'ios', 'desktop'];

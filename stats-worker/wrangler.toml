@@ -4,8 +4,7 @@ compatibility_date = "2026-11-01"
 
 [[kv_namespaces]]
 binding = "STATS"
-id = "<wrangler kv namespace create STATS buyrug‘i bergan id>"
+id = "e5171f1f3996445e88942ec1a405fcad"
 
-[vars]
-# /stats sahifasini ko‘rish uchun maxfiy kalit — o‘zingiznikiga almashtiring
-STATS_KEY = "o-zgartiring-maxfiy-kalit"
+# /stats sahifasining maxfiy kaliti bu yerga YOZILMAYDI (repo ochiq).
+# Uni bir marta secret sifatida kiriting:  wrangler secret put STATS_KEY
